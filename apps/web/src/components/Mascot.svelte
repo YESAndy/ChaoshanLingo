@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	export let shadow = true;
 	export let glow = false;
 
 	let imageURL =
-		shadow === true ? '/images/mascot-jetpack.svg' : '/images/mascot-jetpack-noshadow.svg';
+		shadow === true ? `${base}/images/mascot-jetpack.svg` : `${base}/images/mascot-jetpack-noshadow.svg`;
 </script>
 
 <img

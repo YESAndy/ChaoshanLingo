@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import { base } from '$app/paths';
   import Logo from 'components/Logo.svelte';
   import LinkOrButton from 'components/primitives/LinkOrButton.svelte';
 
@@ -7,12 +8,12 @@
   export let repositoryURL: string | null = null;
 
   const courseName = page.params?.courseName || '';
-  const homepageLink = `/course/${courseName}`;
+  const homepageLink = `${base}/course/${courseName}`;
 </script>
 
 <nav class="navbar" aria-label="main navigation">
   <div class="navbar__left">
-    <Logo src="/images/logo.svg" alt="LibreLingo" link={homepageLink} />
+    <Logo src="{base}/images/logo.svg" alt="LibreLingo" link={homepageLink} />
   </div>
 
   <div class="navbar__middle" />
@@ -21,8 +22,8 @@
     {#if repositoryURL}
       <LinkOrButton href={repositoryURL} target="_blank">Course Feedback</LinkOrButton>
     {/if}
-    <LinkOrButton href="/imprint">Imprint</LinkOrButton>
-    <LinkOrButton href="/privacy">Privacy</LinkOrButton>
+    <LinkOrButton href="{base}/imprint">Imprint</LinkOrButton>
+    <LinkOrButton href="{base}/privacy">Privacy</LinkOrButton>
   </div>
 </nav>
 

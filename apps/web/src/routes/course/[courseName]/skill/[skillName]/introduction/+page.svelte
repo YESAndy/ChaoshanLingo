@@ -5,6 +5,7 @@
 	import MarkDownPage from 'components/MarkDownPage.svelte';
 	import isBrowser from 'utils/isBrowser';
 	import { page } from '$app/state';
+	import { base } from '$app/paths';
 
 	export let preview = page.data.preview;
 	export let loading = page.data.loading;
@@ -12,7 +13,7 @@
 	export let title: string = page.data.title;
 	export let practiceHref: string = page.data.practiceHref;
 	export let courseName: string = page.data.courseName;
-	let homepageLink = `/course/${courseName}/`;
+	let homepageLink = `${base}/course/${courseName}/`;
 
 	// Fetching preview data
 	if (preview !== null) {
@@ -43,7 +44,7 @@
   >
     <div class="intro-actions">
       <Button style="secondary" href={homepageLink}>Go back to course</Button>
-      <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}`}>
+      <Button style="primary" href={`${base}/course/${courseName}/skill/${practiceHref}`}>
         Practice {title}
       </Button>
     </div>

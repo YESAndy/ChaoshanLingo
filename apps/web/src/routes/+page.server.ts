@@ -1,3 +1,6 @@
+// Prerender this page: the fs scan below runs at build time (required for static hosting like GitHub Pages)
+export const prerender = true;
+
 import fs from "node:fs"; import { readdir } from 'fs/promises';
 import path from 'path';
 import { readFile } from 'fs/promises';

@@ -1,14 +1,18 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <div class="backdrop">
   <div>
     <img
-      src="/images/home-background-shape-back.svg"
+      src="{base}/images/home-background-shape-back.svg"
       alt=""
       aria-hidden="true"
     />
   </div>
   <div class="backdrop-front">
     <img
-      src="/images/home-background-shape-front.svg"
+      src="{base}/images/home-background-shape-front.svg"
       alt=""
       aria-hidden="true"
     />

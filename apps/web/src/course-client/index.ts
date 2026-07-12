@@ -1,4 +1,5 @@
 import parseMarkdown from '../utils/parseMarkdown';
+import { base } from '$app/paths';
 
 export type SkillDataType = {
 	id: string;
@@ -151,7 +152,7 @@ const formatSkilldata = async (skillData, { courseName, skillName }) => {
 		skillName,
 		skillId,
 		challengesPerLevel,
-		courseURL: `/course/${courseName}`
+		courseURL: `${base}/course/${courseName}`
 	};
 };
 
