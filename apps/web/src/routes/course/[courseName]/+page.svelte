@@ -9,6 +9,7 @@
 	import Footer from 'components/Footer.svelte';
 	import type { ModulesType } from 'types/ModulesType';
 	import { page } from '$app/state';
+	import { base } from '$app/paths';
 
 	export const courseName = page.data.course.courseName;
 	export let modules: ModulesType = page.data.course.modules;
@@ -37,7 +38,7 @@
 						<Column sizeDesktop="1/3" sizeTablet="1/2">
 							<SkillCard
 								{...{ ...skill }}
-								practiceHref={`/course/${courseName}/skill/${skill.practiceHref}`}
+								practiceHref={`${base}/course/${courseName}/skill/${skill.practiceHref}`}
 							/>
 						</Column>
 					{/each}
