@@ -1,4 +1,5 @@
-import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-vercel';
 //mport adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
@@ -23,7 +24,14 @@ const config = {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter(),
+		adapter: adapter({
+			// SPA mode: unknown routes fall back to 404.html (GitHub Pages serves it for any path)
+			fallback: '404.html'
+		}),
+		paths: {
+			// Set BASE_PATH=/<repo-name> when deploying to https://<user>.github.io/<repo-name>/
+			base: process.env.BASE_PATH || ''
+		},
 		alias: {
 			components: 'src/components',
 			types: 'src/types',

@@ -4,8 +4,12 @@ node_modules
 /static/sound
 /static/voice/**
 static/course/**
+# ... but keep Teochew course audio
+!/static/voice/*.mp3
 
 /src/courses/*
+!/src/courses/tc-from-en/
+!/src/courses/test-2/
 
 # Output
 .output

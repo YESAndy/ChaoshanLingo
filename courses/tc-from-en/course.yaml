@@ -1,0 +1,27 @@
+Course:
+  Language:
+    Name: Teochew
+    IETF BCP 47: nan
+
+  For speakers of:
+    Name: English
+    IETF BCP 47: en
+
+  License:
+    Name: Attribution-ShareAlike 4.0 International
+    Short name: CC BY-SA 4.0
+    Link: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+  Repository: https://codeberg.org/LibreLingoRelive/LibreLingoRelive
+
+  Special characters:
+    - "ê"
+    - "Ê"
+
+Modules:
+  - basics
+
+Settings:
+    Audio:
+      Enabled: True
+      TTS: []

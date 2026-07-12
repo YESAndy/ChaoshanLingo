@@ -91,9 +91,15 @@ function main() {
         mkdirSync(webCoursesDir, { recursive: true });
     }
 
+    const coursesToExport = courseDirectories.filter(shouldExportCourse);
+    if (coursesToExport.length === 0) {
+        console.log('All web courses are already prepared.');
+        return;
+    }
+
     const pythonCommand = findPython();
     if (!pythonCommand) {
-        console.error('Python is required to export YAML courses into the web app. Install python3 or python and try again.');
+        console.error('Python 3.8-3.10 is required to export YAML courses into the web app (found none, or only unsupported versions). Install python3.10 and try again.');
         process.exit(1);
     }
 

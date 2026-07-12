@@ -1,0 +1,525 @@
+{
+  "id": "569673478a3d",
+  "levels": 3,
+  "challenges": [
+    {
+      "type": "options",
+      "formInTargetLanguage": "Zi2zung5 gui2 diam2?",
+      "meaningInSourceLanguage": "What time is it?",
+      "id": "1f54663810ba",
+      "priority": 0,
+      "group": "bbfdb8369180"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "Zi2zung5 gui2 diam2?",
+      "meaning": "What time is it?",
+      "audio": "7f8beced953cae0c648877fedb06c3005a60abaad49814a81b18f58b15f31689",
+      "id": "d886bd8ea211",
+      "priority": 1,
+      "group": "bbfdb8369180"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "What",
+          "definition": "gui2 (in this phrase)"
+        },
+        {
+          "word": "time",
+          "definition": "diam2"
+        },
+        {
+          "word": "is",
+          "definition": "si6"
+        },
+        {
+          "word": "it?",
+          "definition": "(implied)\ni1"
+        }
+      ],
+      "chips": [
+        "Zi2zung5",
+        "gui2",
+        "diam2",
+        "gai5",
+        "si6"
+      ],
+      "solutions": [
+        [
+          "Zi2zung5",
+          "gui2",
+          "diam2"
+        ]
+      ],
+      "formattedSolution": "Zi2zung5 gui2 diam2?",
+      "id": "40e462152fdd",
+      "priority": 2,
+      "group": "bbfdb8369180"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "Zi2zung5",
+          "definition": "now (只陣)"
+        },
+        {
+          "word": "gui2",
+          "definition": "how many (幾)"
+        },
+        {
+          "word": "diam2?",
+          "definition": "o'clock, hour (點)"
+        }
+      ],
+      "chips": [
+        "What",
+        "time",
+        "is",
+        "it",
+        "He",
+        "our",
+        "three"
+      ],
+      "solutions": [
+        [
+          "What",
+          "time",
+          "is",
+          "it"
+        ]
+      ],
+      "formattedSolution": "What time is it?",
+      "id": "9151c1161025",
+      "priority": 2,
+      "group": "bbfdb8369180"
+    },
+    {
+      "type": "options",
+      "formInTargetLanguage": "san1 diam2 buan3",
+      "meaningInSourceLanguage": "half-past three",
+      "id": "60d8c7ebe585",
+      "priority": 0,
+      "group": "5bf273900b71"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "san1 diam2 buan3",
+      "meaning": "half-past three",
+      "audio": "4b4bb4bd913a662e6ec0f6035dc842c301729e745731c31a5994f8678ef4f6aa",
+      "id": "bdc9366d2b38",
+      "priority": 1,
+      "group": "5bf273900b71"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "half-past",
+          "definition": "buan3"
+        },
+        {
+          "word": "three",
+          "definition": "san1\nsan1 三"
+        }
+      ],
+      "chips": [
+        "san1",
+        "diam2",
+        "buan3",
+        "uang2",
+        "gai5"
+      ],
+      "solutions": [
+        [
+          "san1",
+          "diam2",
+          "buan3"
+        ]
+      ],
+      "formattedSolution": "san1 diam2 buan3",
+      "id": "9f592e075715",
+      "priority": 2,
+      "group": "5bf273900b71"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "san1",
+          "definition": "three (三)"
+        },
+        {
+          "word": "diam2",
+          "definition": "o'clock, hour (點)"
+        },
+        {
+          "word": "buan3",
+          "definition": "half (半)"
+        }
+      ],
+      "chips": [
+        "half-past",
+        "three",
+        "What",
+        "time"
+      ],
+      "solutions": [
+        [
+          "half-past",
+          "three"
+        ]
+      ],
+      "formattedSolution": "half-past three",
+      "id": "681f54ded3e5",
+      "priority": 2,
+      "group": "5bf273900b71"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "zêg8 一",
+      "meaningInSourceLanguage": "one",
+      "id": "f48d420bdcca",
+      "priority": 0,
+      "group": "0abe906c9ed2"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "zêg8 一"
+      ],
+      "phrase": [
+        {
+          "word": "one",
+          "definition": "zêg8 一"
+        }
+      ],
+      "id": "de47fab5f9ab",
+      "priority": 1,
+      "group": "0abe906c9ed2"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "zêg8 一",
+      "meaning": "one",
+      "audio": "f99ee78f72cb0c3abf498cf5ceb29d59fc761958e015e1c2857c61ecfb02a754",
+      "id": "d41bca0acbe7",
+      "priority": 1,
+      "group": "0abe906c9ed2"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "no6 兩",
+      "meaningInSourceLanguage": "two",
+      "id": "e3d59b18b0d4",
+      "priority": 0,
+      "group": "26d997a59cc9"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "no6 兩"
+      ],
+      "phrase": [
+        {
+          "word": "two",
+          "definition": "no6 兩"
+        }
+      ],
+      "id": "a49a2c2a5444",
+      "priority": 1,
+      "group": "26d997a59cc9"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "no6 兩",
+      "meaning": "two",
+      "audio": "3fc867e627e571596be49d4ac900444257ee9004d9ff718db8afb8c36f885896",
+      "id": "7331d362bee7",
+      "priority": 1,
+      "group": "26d997a59cc9"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "san1 三",
+      "meaningInSourceLanguage": "three",
+      "id": "b88f6907adae",
+      "priority": 0,
+      "group": "82be4a8d837c"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "san1 三"
+      ],
+      "phrase": [
+        {
+          "word": "three",
+          "definition": "san1\nsan1 三"
+        }
+      ],
+      "id": "32ab2e9659c2",
+      "priority": 1,
+      "group": "82be4a8d837c"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "san1 三",
+      "meaning": "three",
+      "audio": "22db976ad6094f0ea70bfccb2dff7400c81572946e9dd64abdbbe2de47bffcf7",
+      "id": "1972208b8d77",
+      "priority": 1,
+      "group": "82be4a8d837c"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "si3 四",
+      "meaningInSourceLanguage": "four",
+      "id": "2f7d811637a0",
+      "priority": 0,
+      "group": "6dfa6a5d813a"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "si3 四"
+      ],
+      "phrase": [
+        {
+          "word": "four",
+          "definition": "si3 四"
+        }
+      ],
+      "id": "fa1551d73086",
+      "priority": 1,
+      "group": "6dfa6a5d813a"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "si3 四",
+      "meaning": "four",
+      "audio": "506cf92c5048dbb355dd232ca3f0a2b6cca13e31b5122d6a67464a57c4977e5f",
+      "id": "4910d4894da0",
+      "priority": 1,
+      "group": "6dfa6a5d813a"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ngou6 五",
+      "meaningInSourceLanguage": "five",
+      "id": "2f80365f16d2",
+      "priority": 0,
+      "group": "71c01c6f6d0f"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ngou6 五"
+      ],
+      "phrase": [
+        {
+          "word": "five",
+          "definition": "ngou6 五"
+        }
+      ],
+      "id": "3595de7d5915",
+      "priority": 1,
+      "group": "71c01c6f6d0f"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ngou6 五",
+      "meaning": "five",
+      "audio": "883cb88d2fe749718dbc5fb5cd4834fd80def7d9556015a83e764b1aae3ab58f",
+      "id": "57c28665431d",
+      "priority": 1,
+      "group": "71c01c6f6d0f"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "lag8 六",
+      "meaningInSourceLanguage": "six",
+      "id": "985613fc183e",
+      "priority": 0,
+      "group": "3a954032aba3"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "lag8 六"
+      ],
+      "phrase": [
+        {
+          "word": "six",
+          "definition": "lag8 六"
+        }
+      ],
+      "id": "c249be3a2768",
+      "priority": 1,
+      "group": "3a954032aba3"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "lag8 六",
+      "meaning": "six",
+      "audio": "4b273e0a1858849ad486b447cd73eeed7771f40980e1c06354cb385363f216d1",
+      "id": "aa1f4479a178",
+      "priority": 1,
+      "group": "3a954032aba3"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "cig4 七",
+      "meaningInSourceLanguage": "seven",
+      "id": "0172b879e92a",
+      "priority": 0,
+      "group": "f08583993890"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "cig4 七"
+      ],
+      "phrase": [
+        {
+          "word": "seven",
+          "definition": "cig4 七"
+        }
+      ],
+      "id": "351193c94d42",
+      "priority": 1,
+      "group": "f08583993890"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "cig4 七",
+      "meaning": "seven",
+      "audio": "45503589560d807c7f47122d0a6edf1c27fd85b6b439d081c76c0b2f1732dc51",
+      "id": "d3429e0f968f",
+      "priority": 1,
+      "group": "f08583993890"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "boih4 八",
+      "meaningInSourceLanguage": "eight",
+      "id": "c8efe75c4e9c",
+      "priority": 0,
+      "group": "38e11529126b"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "boih4 八"
+      ],
+      "phrase": [
+        {
+          "word": "eight",
+          "definition": "boih4 八"
+        }
+      ],
+      "id": "f01cd738992f",
+      "priority": 1,
+      "group": "38e11529126b"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "boih4 八",
+      "meaning": "eight",
+      "audio": "bc7f31ed01b2e4588b7de63915e6b0375a9fbfb7551429dcce6c190218514178",
+      "id": "3c421a8faaf3",
+      "priority": 1,
+      "group": "38e11529126b"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "gao2 九",
+      "meaningInSourceLanguage": "nine",
+      "id": "a53662840d1f",
+      "priority": 0,
+      "group": "b7f54c4e0303"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "gao2 九"
+      ],
+      "phrase": [
+        {
+          "word": "nine",
+          "definition": "gao2 九"
+        }
+      ],
+      "id": "09580ab4e11c",
+      "priority": 1,
+      "group": "b7f54c4e0303"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "gao2 九",
+      "meaning": "nine",
+      "audio": "6fe8cd3174e390920220b1255a2d38e1f97266ee51ad0b9f9bc30fe64515981c",
+      "id": "7671d21ab626",
+      "priority": 1,
+      "group": "b7f54c4e0303"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "zab8 十",
+      "meaningInSourceLanguage": "ten",
+      "id": "efe87aca60d1",
+      "priority": 0,
+      "group": "34582d7feabd"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "zab8 十"
+      ],
+      "phrase": [
+        {
+          "word": "ten",
+          "definition": "zab8 十"
+        }
+      ],
+      "id": "ee131ba3e930",
+      "priority": 1,
+      "group": "34582d7feabd"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "zab8 十",
+      "meaning": "ten",
+      "audio": "7f0db625ce1356abe96d6b90f12b95bd4c146a2e958622cd472112b80298a547",
+      "id": "d0d4ca2eab7a",
+      "priority": 1,
+      "group": "34582d7feabd"
+    }
+  ]
+}

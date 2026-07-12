@@ -1,0 +1,81 @@
+# Source: https://learnteochew.com/pages/personal_pronouns.html (content by Brandon Seah)
+# Note: Teochew distinguishes inclusive we (nang2 俺) vs exclusive we (uang2 阮).
+Skill:
+  Name: Pronouns
+  Id: 2
+
+New words:
+  - Word: ua2 我
+    Translation: I
+    Also accepted:
+      - ua2
+      - 我
+
+  - Word: le2 汝
+    Translation: you (singular)
+    Also accepted:
+      - le2
+      - lu2
+      - 汝
+
+  - Word: i1 伊
+    Translation: he, she, it
+    Also accepted:
+      - i1
+      - 伊
+
+  - Word: nang2 俺
+    Translation: we (inclusive)
+    Also accepted:
+      - nang2
+      - 俺
+
+  - Word: uang2 阮
+    Translation: we (exclusive)
+    Also accepted:
+      - uang2
+      - ung2
+      - 阮
+
+  - Word: ning2 恁
+    Translation: you (plural)
+    Also accepted:
+      - ning2
+      - 恁
+
+  - Word: i1nang7 伊儂
+    Translation: they
+    Also accepted:
+      - i1nang7
+      - 伊儂
+
+Mini-dictionary:
+  Teochew:
+    - I1: he, she, it (伊)
+    - si6: is (是)
+    - uang2: we, our (exclusive) (阮)
+    - gai5: possessive marker (個)
+    - pêng5iu2: friend (朋友)
+
+  English:
+    - He: I1
+    - is: si6
+    - our: uang2 gai5
+    - friend: pêng5iu2
+    - I: ua2
+    - you: le2 (sg.) / ning2 (pl.)
+    - he: i1
+    - she: i1
+    - it: i1
+    - we: nang2 (incl.) / uang2 (excl.)
+    - they: i1nang7
+    - singular: le2
+    - plural: ning2
+    - inclusive: nang2
+    - exclusive: uang2
+
+Phrases:
+  - Phrase: I1 si6 uang2 gai5 pêng5iu2.
+    Translation: He is our friend.
+    Also accepted:
+      - 伊是阮個朋友。

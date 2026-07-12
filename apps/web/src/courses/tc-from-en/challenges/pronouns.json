@@ -1,0 +1,378 @@
+{
+  "id": "38c2ea1c36d2",
+  "levels": 2,
+  "challenges": [
+    {
+      "type": "options",
+      "formInTargetLanguage": "I1 si6 uang2 gai5 pêng5iu2.",
+      "meaningInSourceLanguage": "He is our friend.",
+      "id": "6e80a9ceb412",
+      "priority": 0,
+      "group": "7888cf713c38"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "I1 si6 uang2 gai5 pêng5iu2.",
+      "meaning": "He is our friend.",
+      "audio": "67f6d905f8843279f88786a57cdd05b143d6358d3544f19c0a0f395b78035342",
+      "id": "4bcf410fe98c",
+      "priority": 1,
+      "group": "7888cf713c38"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "He",
+          "definition": "I1"
+        },
+        {
+          "word": "is",
+          "definition": "si6"
+        },
+        {
+          "word": "our",
+          "definition": "uang2 gai5"
+        },
+        {
+          "word": "friend.",
+          "definition": "pêng5iu2"
+        }
+      ],
+      "chips": [
+        "I1",
+        "si6",
+        "uang2",
+        "gai5",
+        "pêng5iu2",
+        "gui2",
+        "san1",
+        "diam2",
+        "buan3"
+      ],
+      "solutions": [
+        [
+          "I1",
+          "si6",
+          "uang2",
+          "gai5",
+          "pêng5iu2"
+        ]
+      ],
+      "formattedSolution": "I1 si6 uang2 gai5 pêng5iu2.",
+      "id": "cd063f198cf6",
+      "priority": 2,
+      "group": "7888cf713c38"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "I1",
+          "definition": "he, she, it (伊)"
+        },
+        {
+          "word": "si6",
+          "definition": "is (是)"
+        },
+        {
+          "word": "uang2",
+          "definition": "we, our (exclusive) (阮)"
+        },
+        {
+          "word": "gai5",
+          "definition": "possessive marker (個)"
+        },
+        {
+          "word": "pêng5iu2.",
+          "definition": "friend (朋友)"
+        }
+      ],
+      "chips": [
+        "He",
+        "is",
+        "our",
+        "friend",
+        "it",
+        "time",
+        "What"
+      ],
+      "solutions": [
+        [
+          "He",
+          "is",
+          "our",
+          "friend"
+        ]
+      ],
+      "formattedSolution": "He is our friend.",
+      "id": "2ff870d7b670",
+      "priority": 2,
+      "group": "7888cf713c38"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ua2 我",
+      "meaningInSourceLanguage": "I",
+      "id": "f38a76403274",
+      "priority": 0,
+      "group": "304f7181b216"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ua2 我"
+      ],
+      "phrase": [
+        {
+          "word": "I",
+          "definition": "ua2\nua2 我"
+        }
+      ],
+      "id": "8d4139d98d49",
+      "priority": 1,
+      "group": "304f7181b216"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ua2 我",
+      "meaning": "I",
+      "audio": "d1336240f2dddff4a93fa68ea5c14912e8abc71b0cb1bfc4b1ddb9ae644b6f4a",
+      "id": "a40b8f219965",
+      "priority": 1,
+      "group": "304f7181b216"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "le2 汝",
+      "meaningInSourceLanguage": "you (singular)",
+      "id": "25a886250d28",
+      "priority": 0,
+      "group": "3b9d8e8573a2"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "le2 汝"
+      ],
+      "phrase": [
+        {
+          "word": "you",
+          "definition": "le2 (sg.) / ning2 (pl.)"
+        },
+        {
+          "word": "(singular)",
+          "definition": "le2"
+        }
+      ],
+      "id": "e1ab01184bb6",
+      "priority": 1,
+      "group": "3b9d8e8573a2"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "le2 汝",
+      "meaning": "you (singular)",
+      "audio": "2a04365895d986c5c3e55d8493fc844c801abc5c039a3574d4626042dcf42b36",
+      "id": "05698d259ed0",
+      "priority": 1,
+      "group": "3b9d8e8573a2"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "i1 伊",
+      "meaningInSourceLanguage": "he, she, it",
+      "id": "068dc78a67ed",
+      "priority": 0,
+      "group": "a664d95a7bf2"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "i1 伊"
+      ],
+      "phrase": [
+        {
+          "word": "he,",
+          "definition": "I1"
+        },
+        {
+          "word": "she,",
+          "definition": "i1"
+        },
+        {
+          "word": "it",
+          "definition": "(implied)\ni1"
+        }
+      ],
+      "id": "4d553755c28c",
+      "priority": 1,
+      "group": "a664d95a7bf2"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "i1 伊",
+      "meaning": "he, she, it",
+      "audio": "ead3a9948c05eac9eb228ddcc78441e3306a5fa400df33c07a512d50eec66567",
+      "id": "0a37dc4ff4a1",
+      "priority": 1,
+      "group": "a664d95a7bf2"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "nang2 俺",
+      "meaningInSourceLanguage": "we (inclusive)",
+      "id": "5409b5ab6dcc",
+      "priority": 0,
+      "group": "3de2bd4f3e4a"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "nang2 俺"
+      ],
+      "phrase": [
+        {
+          "word": "we",
+          "definition": "nang2 (incl.) / uang2 (excl.)"
+        },
+        {
+          "word": "(inclusive)",
+          "definition": "nang2"
+        }
+      ],
+      "id": "ca5765d5f8aa",
+      "priority": 1,
+      "group": "3de2bd4f3e4a"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "nang2 俺",
+      "meaning": "we (inclusive)",
+      "audio": "2345ce66b2a42caaac1a3cbe6fa81e11a47f2d06e69785c0f9f522b154c435aa",
+      "id": "b39d92398076",
+      "priority": 1,
+      "group": "3de2bd4f3e4a"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "uang2 阮",
+      "meaningInSourceLanguage": "we (exclusive)",
+      "id": "860ee27c2758",
+      "priority": 0,
+      "group": "203c808ff0a9"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "uang2 阮"
+      ],
+      "phrase": [
+        {
+          "word": "we",
+          "definition": "nang2 (incl.) / uang2 (excl.)"
+        },
+        {
+          "word": "(exclusive)",
+          "definition": "uang2"
+        }
+      ],
+      "id": "b4a9d305e6a6",
+      "priority": 1,
+      "group": "203c808ff0a9"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "uang2 阮",
+      "meaning": "we (exclusive)",
+      "audio": "1707e131dfcbe840cc465d9918b63e303bc324003740887ec27cb40430e2c726",
+      "id": "a283e86e1f29",
+      "priority": 1,
+      "group": "203c808ff0a9"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ning2 恁",
+      "meaningInSourceLanguage": "you (plural)",
+      "id": "5e4fb6008a22",
+      "priority": 0,
+      "group": "6e7068d1cc27"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ning2 恁"
+      ],
+      "phrase": [
+        {
+          "word": "you",
+          "definition": "le2 (sg.) / ning2 (pl.)"
+        },
+        {
+          "word": "(plural)",
+          "definition": "ning2"
+        }
+      ],
+      "id": "4684beb244e2",
+      "priority": 1,
+      "group": "6e7068d1cc27"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ning2 恁",
+      "meaning": "you (plural)",
+      "audio": "b980550905b5256fce00ee92197b5765cd307354cbaca76da3d2a7ff8263a633",
+      "id": "f47c4ed7b7ef",
+      "priority": 1,
+      "group": "6e7068d1cc27"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "i1nang7 伊儂",
+      "meaningInSourceLanguage": "they",
+      "id": "a7b8a388288e",
+      "priority": 0,
+      "group": "321a7f5d09a6"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "i1nang7 伊儂"
+      ],
+      "phrase": [
+        {
+          "word": "they",
+          "definition": "i1nang7\ni1nang7 伊儂"
+        }
+      ],
+      "id": "022e169b0408",
+      "priority": 1,
+      "group": "321a7f5d09a6"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "i1nang7 伊儂",
+      "meaning": "they",
+      "audio": "7cf085d5b638cfe37b9850c05bb85bb457af3718257ddb2383fdbe293bea7c2c",
+      "id": "38eba984a0fb",
+      "priority": 1,
+      "group": "321a7f5d09a6"
+    }
+  ]
+}

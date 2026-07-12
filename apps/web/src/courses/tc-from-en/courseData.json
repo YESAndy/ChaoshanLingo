@@ -1,0 +1,60 @@
+{
+  "languageName": "Teochew",
+  "languageCode": "nan",
+  "uiLanguage": "en",
+  "specialCharacters": [
+    "ê",
+    "Ê"
+  ],
+  "repositoryURL": "https://codeberg.org/LibreLingoRelive/LibreLingoRelive",
+  "license": {
+    "name": {
+      "short": "CC BY-SA 4.0",
+      "full": "Attribution-ShareAlike 4.0 International"
+    },
+    "link": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "modules": [
+    {
+      "title": "Basics",
+      "skills": [
+        {
+          "summary": [
+            "zêg8 一",
+            "no6 兩",
+            "san1 三",
+            "si3 四",
+            "ngou6 五",
+            "lag8 六",
+            "cig4 七",
+            "boih4 八",
+            "gao2 九",
+            "zab8 十",
+            "Zi2zung5 gui2 diam2?",
+            "san1 diam2 buan3"
+          ],
+          "practiceHref": "numbers",
+          "id": "569673478a3d",
+          "title": "Numbers",
+          "levels": 3
+        },
+        {
+          "summary": [
+            "ua2 我",
+            "le2 汝",
+            "i1 伊",
+            "nang2 俺",
+            "uang2 阮",
+            "ning2 恁",
+            "i1nang7 伊儂",
+            "I1 si6 uang2 gai5 pêng5iu2."
+          ],
+          "practiceHref": "pronouns",
+          "id": "38c2ea1c36d2",
+          "title": "Pronouns",
+          "levels": 2
+        }
+      ]
+    }
+  ]
+}
