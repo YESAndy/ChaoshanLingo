@@ -88,14 +88,28 @@ const getCoursePath = async (courseName: string, relativePath: string) => {
 	);
 };
 
+// Statically register all course files so Vite bundles them for the browser.
+// A fully-dynamic import(path) cannot be resolved at build time, which breaks
+// static deployments (e.g. GitHub Pages).
+const courseDataModules = import.meta.glob('../courses/*/courseData.json');
+const challengeModules = import.meta.glob('../courses/*/challenges/*.json');
+const introductionModules = import.meta.glob('../courses/*/introduction/*', {
+	query: '?raw',
+	import: 'default'
+});
+
 const importMaybeDefault = async (path: string) => {
-	const module = await import(path);
-	const result = (module as any).default ?? module;
-	console.log('importMaybeDefault result for', path);
-	console.log('module keys:', Object.keys(module));
-	console.log('module:', module);
-	console.log('result:', result);
-	return result;
+	const loaders: Record<string, () => Promise<unknown>> = {
+		...courseDataModules,
+		...challengeModules,
+		...introductionModules
+	};
+	const loader = loaders[path];
+	if (!loader) {
+		throw new Error(`No bundled module found for "${path}". Known modules: ${Object.keys(loaders).join(', ')}`);
+	}
+	const module = await loader();
+	return (module as any)?.default ?? module;
 };
 
 export const get_course = async ({
