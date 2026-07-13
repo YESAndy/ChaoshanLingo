@@ -53,6 +53,87 @@
           "id": "38c2ea1c36d2",
           "title": "Pronouns",
           "levels": 2
+        },
+        {
+          "summary": [
+            "zi2gai5 只個",
+            "he2gai5 許個",
+            "zi2coh4 只撮",
+            "he2coh4 許撮",
+            "zi2go3 只塊",
+            "he2go3 許塊",
+            "ziê2sên1 照生",
+            "Kiêg8 he2bung2 ze1 guê3lai7."
+          ],
+          "practiceHref": "this-and-that",
+          "id": "d7279e4777cd",
+          "title": "This and That",
+          "levels": 2
+        }
+      ]
+    },
+    {
+      "title": "Conversation",
+      "skills": [
+        {
+          "summary": [
+            "cia2mung7 請問",
+            "sia7sia7 謝謝",
+            "zoi7sia7 濟謝",
+            "gam2sia7 感謝",
+            "miang2kêh4ki3 免客氣",
+            "mo2i3se3 孬意思",
+            "dui3m6zu6 對唔住",
+            "Cia2mung7 sing1sên1 gui3sên3?"
+          ],
+          "practiceHref": "being-polite",
+          "id": "379dca1c8ae9",
+          "title": "Being Polite",
+          "levels": 2
+        },
+        {
+          "summary": [
+            "di7diang1 哋㐱",
+            "mih4gai5 乜個",
+            "di7zêg8gai5 哋一個",
+            "di7go3 哋塊",
+            "diang1si5 珍時",
+            "zo3ni5 做呢",
+            "gui2 幾",
+            "riêh8zoi7 若濟",
+            "Lao1gung1cu3 do6 di7go3?",
+            "Le2 ziah8ba2 lou7 bhuê7?"
+          ],
+          "practiceHref": "question-words",
+          "id": "e859eeaa5871",
+          "title": "Question Words",
+          "levels": 3
+        }
+      ]
+    },
+    {
+      "title": "Daily Life",
+      "skills": [
+        {
+          "summary": [
+            "mêng5ki2 眠起",
+            "rig8dao3 日晝",
+            "ê6gua3 下旰",
+            "mên5hng1 暝昏",
+            "buan3mên5 半暝",
+            "ging1rig8 經日",
+            "za2rig8 昨日",
+            "muan3rig8 明日",
+            "ni5 年",
+            "ghuêh8 月",
+            "loi6bai3 禮拜",
+            "mêng5ki2 cig4diam2",
+            "mên5hng1 cig4diam2"
+          ],
+          "practiceHref": "time-and-days",
+          "id": "e7c150774a40",
+          "title": "Time and Days",
+          "levels": 3
         }
       ]
     }

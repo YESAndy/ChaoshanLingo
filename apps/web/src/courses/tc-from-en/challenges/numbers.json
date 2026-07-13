@@ -82,8 +82,8 @@
         "is",
         "it",
         "He",
-        "our",
-        "three"
+        "that",
+        "the"
       ],
       "solutions": [
         [
@@ -167,8 +167,8 @@
       "chips": [
         "half-past",
         "three",
-        "What",
-        "time"
+        "that",
+        "What"
       ],
       "solutions": [
         [
@@ -199,7 +199,7 @@
       "phrase": [
         {
           "word": "one",
-          "definition": "zêg8 一"
+          "definition": "gai5\nzêg8\nzêg8 一"
         }
       ],
       "id": "de47fab5f9ab",
@@ -403,7 +403,7 @@
       "phrase": [
         {
           "word": "seven",
-          "definition": "cig4 七"
+          "definition": "cig4\ncig4 七"
         }
       ],
       "id": "351193c94d42",

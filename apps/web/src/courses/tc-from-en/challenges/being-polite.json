@@ -1,0 +1,397 @@
+{
+  "id": "379dca1c8ae9",
+  "levels": 2,
+  "challenges": [
+    {
+      "type": "options",
+      "formInTargetLanguage": "Cia2mung7 sing1sên1 gui3sên3?",
+      "meaningInSourceLanguage": "May I ask what is your name?",
+      "id": "b814dafd24d3",
+      "priority": 0,
+      "group": "cce1d1f0ba38"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "Cia2mung7 sing1sên1 gui3sên3?",
+      "meaning": "May I ask what is your name?",
+      "audio": "f2b34a44ea763d1b6292cf728a9f5efa6f5a49e214f7afee28e3ceb6ac3c97b4",
+      "id": "9e903934e481",
+      "priority": 1,
+      "group": "cce1d1f0ba38"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "May",
+          "definition": "cia2"
+        },
+        {
+          "word": "I",
+          "definition": "ua2\nua2 我"
+        },
+        {
+          "word": "ask",
+          "definition": "mung7"
+        },
+        {
+          "word": "what",
+          "definition": "gui2 (in this phrase)"
+        },
+        {
+          "word": "is",
+          "definition": "si6"
+        },
+        {
+          "word": "your",
+          "definition": "gui3 (honorific)"
+        },
+        {
+          "word": "name?",
+          "definition": "sên3 (surname)"
+        }
+      ],
+      "chips": [
+        "Cia2mung7",
+        "sing1sên1",
+        "gui3sên3",
+        "Zi2zung5",
+        "san1"
+      ],
+      "solutions": [
+        [
+          "Cia2mung7",
+          "sing1sên1",
+          "gui3sên3"
+        ]
+      ],
+      "formattedSolution": "Cia2mung7 sing1sên1 gui3sên3?",
+      "id": "8462c433550f",
+      "priority": 2,
+      "group": "cce1d1f0ba38"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "Cia2mung7",
+          "definition": "may I ask (請問)"
+        },
+        {
+          "word": "sing1sên1",
+          "definition": "mister, sir (先生)"
+        },
+        {
+          "word": "gui3sên3?",
+          "definition": "your honored surname (貴姓)"
+        }
+      ],
+      "chips": [
+        "May",
+        "I",
+        "ask",
+        "what",
+        "is",
+        "your",
+        "name",
+        "it",
+        "He",
+        "our",
+        "you",
+        "the",
+        "yet"
+      ],
+      "solutions": [
+        [
+          "May",
+          "I",
+          "ask",
+          "what",
+          "is",
+          "your",
+          "name"
+        ]
+      ],
+      "formattedSolution": "May I ask what is your name?",
+      "id": "c928659d499e",
+      "priority": 2,
+      "group": "cce1d1f0ba38"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "cia2mung7 請問",
+      "meaningInSourceLanguage": "may I ask",
+      "id": "f72f531dfa8d",
+      "priority": 0,
+      "group": "a7caaee48c8a"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "cia2mung7 請問"
+      ],
+      "phrase": [
+        {
+          "word": "may",
+          "definition": "cia2"
+        },
+        {
+          "word": "I",
+          "definition": "ua2\nua2 我"
+        },
+        {
+          "word": "ask",
+          "definition": "mung7"
+        }
+      ],
+      "id": "584cc6d04d92",
+      "priority": 1,
+      "group": "a7caaee48c8a"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "cia2mung7 請問",
+      "meaning": "may I ask",
+      "audio": "480098b7f9ca526f9e09a6d35cb92dfa41412dc7dce8f254889a3653d6e8e835",
+      "id": "7a30a0e12d4a",
+      "priority": 1,
+      "group": "a7caaee48c8a"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "sia7sia7 謝謝",
+      "meaningInSourceLanguage": "thanks",
+      "id": "72130888b5e6",
+      "priority": 0,
+      "group": "5f9744f8f5c0"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "sia7sia7 謝謝"
+      ],
+      "phrase": [
+        {
+          "word": "thanks",
+          "definition": "sia7sia7\nsia7sia7 謝謝"
+        }
+      ],
+      "id": "8834726fa64c",
+      "priority": 1,
+      "group": "5f9744f8f5c0"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "sia7sia7 謝謝",
+      "meaning": "thanks",
+      "audio": "5163748af95389b7127325a0222873367d78a36301b6cd793169d22397c266a4",
+      "id": "fbfb836692b4",
+      "priority": 1,
+      "group": "5f9744f8f5c0"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "zoi7sia7 濟謝",
+      "meaningInSourceLanguage": "many thanks",
+      "id": "2a2cb3da275e",
+      "priority": 0,
+      "group": "5033c7166dfb"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "zoi7sia7 濟謝"
+      ],
+      "phrase": [
+        {
+          "word": "many",
+          "definition": "zoi7"
+        },
+        {
+          "word": "thanks",
+          "definition": "sia7sia7\nsia7sia7 謝謝"
+        }
+      ],
+      "id": "09f2ef4d64e5",
+      "priority": 1,
+      "group": "5033c7166dfb"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "zoi7sia7 濟謝",
+      "meaning": "many thanks",
+      "audio": "edd8def600683a2f40b211eb1fcbd2f2179a9eb5f9254d7c4ef9f173bcaa077b",
+      "id": "77f4a09b0377",
+      "priority": 1,
+      "group": "5033c7166dfb"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "gam2sia7 感謝",
+      "meaningInSourceLanguage": "heartfelt thanks",
+      "id": "045b9ba3b778",
+      "priority": 0,
+      "group": "a31aa441edc7"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "gam2sia7 感謝"
+      ],
+      "phrase": [
+        {
+          "word": "heartfelt",
+          "definition": "gam2"
+        },
+        {
+          "word": "thanks",
+          "definition": "sia7sia7\nsia7sia7 謝謝"
+        }
+      ],
+      "id": "607d5c34a668",
+      "priority": 1,
+      "group": "a31aa441edc7"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "gam2sia7 感謝",
+      "meaning": "heartfelt thanks",
+      "audio": "b69c2f540059f37904a05e1122164978043f114d161e3a826b73c5f7a925eaf6",
+      "id": "df3203935047",
+      "priority": 1,
+      "group": "a31aa441edc7"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "miang2kêh4ki3 免客氣",
+      "meaningInSourceLanguage": "you are welcome",
+      "id": "9978b37bf345",
+      "priority": 0,
+      "group": "59058c877760"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "miang2kêh4ki3 免客氣"
+      ],
+      "phrase": [
+        {
+          "word": "you",
+          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
+        },
+        {
+          "word": "are",
+          "definition": "si6"
+        },
+        {
+          "word": "welcome",
+          "definition": "miang2kêh4ki3"
+        }
+      ],
+      "id": "fe6135ea5dd8",
+      "priority": 1,
+      "group": "59058c877760"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "miang2kêh4ki3 免客氣",
+      "meaning": "you are welcome",
+      "audio": "6903b73c64584cfbb0d68ddb1e9f8b87883f99dd8fd339bc8a5447b33766ad61",
+      "id": "290640066fda",
+      "priority": 1,
+      "group": "59058c877760"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "mo2i3se3 孬意思",
+      "meaningInSourceLanguage": "excuse me",
+      "id": "4b1f7a1de097",
+      "priority": 0,
+      "group": "2e20286d8dc5"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "mo2i3se3 孬意思"
+      ],
+      "phrase": [
+        {
+          "word": "excuse",
+          "definition": "mo2i3se3"
+        },
+        {
+          "word": "me",
+          "definition": "ua2"
+        }
+      ],
+      "id": "83d27b155f75",
+      "priority": 1,
+      "group": "2e20286d8dc5"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mo2i3se3 孬意思",
+      "meaning": "excuse me",
+      "audio": "ccda10d1d0933974f5111d6dbf8bf54ea39ac684f97f0678cb174930ea0151e0",
+      "id": "e9ecd59415ad",
+      "priority": 1,
+      "group": "2e20286d8dc5"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "dui3m6zu6 對唔住",
+      "meaningInSourceLanguage": "I am sorry",
+      "id": "71caab7c5e9b",
+      "priority": 0,
+      "group": "c29cde4fe477"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "dui3m6zu6 對唔住"
+      ],
+      "phrase": [
+        {
+          "word": "I",
+          "definition": "ua2\nua2 我"
+        },
+        {
+          "word": "am",
+          "definition": "si6"
+        },
+        {
+          "word": "sorry",
+          "definition": "dui3m6zu6"
+        }
+      ],
+      "id": "724d0f8054f4",
+      "priority": 1,
+      "group": "c29cde4fe477"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "dui3m6zu6 對唔住",
+      "meaning": "I am sorry",
+      "audio": "eae533fee1f76b829cc8ecbe346467ea828d3dcfb2234b3cfc0818dacfdb96f3",
+      "id": "7488a930e14e",
+      "priority": 1,
+      "group": "c29cde4fe477"
+    }
+  ]
+}

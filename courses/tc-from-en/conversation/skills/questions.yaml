@@ -1,0 +1,94 @@
+# Source: https://learnteochew.com/pages/questions.html (content by Brandon Seah)
+Skill:
+  Name: Question Words
+  Id: 5
+
+New words:
+  - Word: di7diang1 哋㐱
+    Translation: who
+    Also accepted:
+      - di7diang1
+      - 哋㐱
+
+  - Word: mih4gai5 乜個
+    Translation: what thing
+    Also accepted:
+      - mih4gai5
+      - 乜個
+
+  - Word: di7zêg8gai5 哋一個
+    Translation: which one
+    Also accepted:
+      - di7zêg8gai5
+      - 哋一個
+
+  - Word: di7go3 哋塊
+    Translation: where
+    Also accepted:
+      - di7go3
+      - 哋塊
+
+  - Word: diang1si5 珍時
+    Translation: when
+    Also accepted:
+      - diang1si5
+      - 珍時
+
+  - Word: zo3ni5 做呢
+    Translation: how, why
+    Also accepted:
+      - zo3ni5
+      - 做呢
+
+  - Word: gui2 幾
+    Translation: how many
+    Also accepted:
+      - gui2
+      - 幾
+
+  - Word: riêh8zoi7 若濟
+    Translation: how much
+    Also accepted:
+      - riêh8zoi7
+      - 若濟
+
+Mini-dictionary:
+  Teochew:
+    - Lao1gung1cu3: hospital (老君厝)
+    - do6: to be at (在)
+    - di7go3: where (哋塊)
+    - Le2: you (汝)
+    - ziah8ba2: eaten (one's) fill (食飽)
+    - lou7: already (perfective) (𡀔)
+    - bhuê7: yet (not yet) (未)
+
+  English:
+    - Where: di7go3
+    - is: si6
+    - the: (no article in Teochew)
+    - hospital: Lao1gung1cu3
+    - Have: u6
+    - you: le2
+    - eaten: ziah8ba2
+    - yet: bhuê7
+    - who: di7diang1
+    - what: mih4
+    - thing: gai5
+    - which: di7
+    - one: zêg8
+    - when: diang1si5
+    - how: zo3ni5
+    - why: zo3ni5
+    - many: zoi7
+    - much: zoi7
+
+Phrases:
+  - Phrase: Lao1gung1cu3 do6 di7go3?
+    Translation: Where is the hospital?
+    Also accepted:
+      - 老君厝在哋塊？
+
+  - Phrase: Le2 ziah8ba2 lou7 bhuê7?
+    Translation: Have you eaten yet?
+    Also accepted:
+      - 汝食飽𡀔未？

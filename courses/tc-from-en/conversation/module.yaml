@@ -1,0 +1,6 @@
+Module:
+  Name: "Conversation"
+
+Skills:
+  - politeness.yaml
+  - questions.yaml

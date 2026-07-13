@@ -1,0 +1,497 @@
+{
+  "id": "e859eeaa5871",
+  "levels": 3,
+  "challenges": [
+    {
+      "type": "options",
+      "formInTargetLanguage": "Lao1gung1cu3 do6 di7go3?",
+      "meaningInSourceLanguage": "Where is the hospital?",
+      "id": "2ce843b37921",
+      "priority": 0,
+      "group": "012f0f6b4234"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "Lao1gung1cu3 do6 di7go3?",
+      "meaning": "Where is the hospital?",
+      "audio": "f0732b23c6750025e12c75689fb8ea2ab255e6ca4b72da675a61bc50f30d2590",
+      "id": "deb579df0a36",
+      "priority": 1,
+      "group": "012f0f6b4234"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "Where",
+          "definition": "di7go3 哋塊"
+        },
+        {
+          "word": "is",
+          "definition": "si6"
+        },
+        {
+          "word": "the",
+          "definition": "(no article in Teochew)"
+        },
+        {
+          "word": "hospital?",
+          "definition": "Lao1gung1cu3"
+        }
+      ],
+      "chips": [
+        "Lao1gung1cu3",
+        "do6",
+        "di7go3",
+        "san1",
+        "si6"
+      ],
+      "solutions": [
+        [
+          "Lao1gung1cu3",
+          "do6",
+          "di7go3"
+        ]
+      ],
+      "formattedSolution": "Lao1gung1cu3 do6 di7go3?",
+      "id": "9590f6f53096",
+      "priority": 2,
+      "group": "012f0f6b4234"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "Lao1gung1cu3",
+          "definition": "hospital (老君厝)"
+        },
+        {
+          "word": "do6",
+          "definition": "to be at (在)"
+        },
+        {
+          "word": "di7go3?",
+          "definition": "where (哋塊)"
+        }
+      ],
+      "chips": [
+        "Where",
+        "is",
+        "the",
+        "hospital",
+        "it",
+        "here",
+        "time"
+      ],
+      "solutions": [
+        [
+          "Where",
+          "is",
+          "the",
+          "hospital"
+        ]
+      ],
+      "formattedSolution": "Where is the hospital?",
+      "id": "9e7daeba8e26",
+      "priority": 2,
+      "group": "012f0f6b4234"
+    },
+    {
+      "type": "options",
+      "formInTargetLanguage": "Le2 ziah8ba2 lou7 bhuê7?",
+      "meaningInSourceLanguage": "Have you eaten yet?",
+      "id": "8ece99c55c57",
+      "priority": 0,
+      "group": "d7903f16c716"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "Le2 ziah8ba2 lou7 bhuê7?",
+      "meaning": "Have you eaten yet?",
+      "audio": "c344847aa70c85c5f9811a0eb669b154ea9108d0f4f18785fa7a2fb1ec7eac42",
+      "id": "230c1ac1de81",
+      "priority": 1,
+      "group": "d7903f16c716"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "Have",
+          "definition": "u6"
+        },
+        {
+          "word": "you",
+          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
+        },
+        {
+          "word": "eaten",
+          "definition": "ziah8ba2"
+        },
+        {
+          "word": "yet?",
+          "definition": "bhuê7"
+        }
+      ],
+      "chips": [
+        "Le2",
+        "ziah8ba2",
+        "lou7",
+        "bhuê7",
+        "gui2",
+        "ze1",
+        "diam2"
+      ],
+      "solutions": [
+        [
+          "Le2",
+          "ziah8ba2",
+          "lou7",
+          "bhuê7"
+        ]
+      ],
+      "formattedSolution": "Le2 ziah8ba2 lou7 bhuê7?",
+      "id": "4631cc6956d7",
+      "priority": 2,
+      "group": "d7903f16c716"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "Le2",
+          "definition": "you (汝)"
+        },
+        {
+          "word": "ziah8ba2",
+          "definition": "eaten (one's) fill (食飽)"
+        },
+        {
+          "word": "lou7",
+          "definition": "already (perfective) (𡀔)"
+        },
+        {
+          "word": "bhuê7?",
+          "definition": "yet (not yet) (未)"
+        }
+      ],
+      "chips": [
+        "Have",
+        "you",
+        "eaten",
+        "yet",
+        "He",
+        "it",
+        "May"
+      ],
+      "solutions": [
+        [
+          "Have",
+          "you",
+          "eaten",
+          "yet"
+        ]
+      ],
+      "formattedSolution": "Have you eaten yet?",
+      "id": "b5b921a05161",
+      "priority": 2,
+      "group": "d7903f16c716"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "di7diang1 哋㐱",
+      "meaningInSourceLanguage": "who",
+      "id": "50d6508f38a2",
+      "priority": 0,
+      "group": "a864d4904bdb"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "di7diang1 哋㐱"
+      ],
+      "phrase": [
+        {
+          "word": "who",
+          "definition": "di7diang1\ndi7diang1 哋㐱"
+        }
+      ],
+      "id": "d17e03b5a50b",
+      "priority": 1,
+      "group": "a864d4904bdb"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "di7diang1 哋㐱",
+      "meaning": "who",
+      "audio": "2e365945775b559c5e9693ae80f356205925f959a45edbcd3b659e1c37621811",
+      "id": "564b80ff08d7",
+      "priority": 1,
+      "group": "a864d4904bdb"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "mih4gai5 乜個",
+      "meaningInSourceLanguage": "what thing",
+      "id": "f19b19703b56",
+      "priority": 0,
+      "group": "e1f666d12582"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "mih4gai5 乜個"
+      ],
+      "phrase": [
+        {
+          "word": "what",
+          "definition": "gui2 (in this phrase)"
+        },
+        {
+          "word": "thing",
+          "definition": "gai5"
+        }
+      ],
+      "id": "3ee11a45601b",
+      "priority": 1,
+      "group": "e1f666d12582"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mih4gai5 乜個",
+      "meaning": "what thing",
+      "audio": "010bd00ec816280194167c7399b3edea9c8e67174818f84e227461ef8c4b3e6b",
+      "id": "485a549c585a",
+      "priority": 1,
+      "group": "e1f666d12582"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "di7zêg8gai5 哋一個",
+      "meaningInSourceLanguage": "which one",
+      "id": "58b3c5f65250",
+      "priority": 0,
+      "group": "9200d3dae887"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "di7zêg8gai5 哋一個"
+      ],
+      "phrase": [
+        {
+          "word": "which",
+          "definition": "di7"
+        },
+        {
+          "word": "one",
+          "definition": "gai5\nzêg8\nzêg8 一"
+        }
+      ],
+      "id": "b8957eca99b2",
+      "priority": 1,
+      "group": "9200d3dae887"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "di7zêg8gai5 哋一個",
+      "meaning": "which one",
+      "audio": "59278e750c495391eba6f698369e61a600be6c15d01fc30200deb60722e90189",
+      "id": "2e11c775bf02",
+      "priority": 1,
+      "group": "9200d3dae887"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "di7go3 哋塊",
+      "meaningInSourceLanguage": "where",
+      "id": "88e905f261fd",
+      "priority": 0,
+      "group": "3a1a5778175c"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "di7go3 哋塊"
+      ],
+      "phrase": [
+        {
+          "word": "where",
+          "definition": "di7go3 哋塊"
+        }
+      ],
+      "id": "8970a7b2c654",
+      "priority": 1,
+      "group": "3a1a5778175c"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "di7go3 哋塊",
+      "meaning": "where",
+      "audio": "fc66cc5b962d17f9604abcdf1f94133730a3a6f7e2bd00a219cde4cd7133dd01",
+      "id": "24cb26484ca1",
+      "priority": 1,
+      "group": "3a1a5778175c"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "diang1si5 珍時",
+      "meaningInSourceLanguage": "when",
+      "id": "edc4e74c519c",
+      "priority": 0,
+      "group": "66fc555af740"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "diang1si5 珍時"
+      ],
+      "phrase": [
+        {
+          "word": "when",
+          "definition": "diang1si5\ndiang1si5 珍時"
+        }
+      ],
+      "id": "bfdb9a68884e",
+      "priority": 1,
+      "group": "66fc555af740"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "diang1si5 珍時",
+      "meaning": "when",
+      "audio": "410a35e77a42b7c22608da9f1788eadbc0431899bdbae1a48ecd5e479601de6a",
+      "id": "9e28baf023f9",
+      "priority": 1,
+      "group": "66fc555af740"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "zo3ni5 做呢",
+      "meaningInSourceLanguage": "how, why",
+      "id": "4367eaf39669",
+      "priority": 0,
+      "group": "d489370be60a"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "zo3ni5 做呢"
+      ],
+      "phrase": [
+        {
+          "word": "how,",
+          "definition": "zo3ni5"
+        },
+        {
+          "word": "why",
+          "definition": "zo3ni5"
+        }
+      ],
+      "id": "ccb3c69b6f36",
+      "priority": 1,
+      "group": "d489370be60a"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "zo3ni5 做呢",
+      "meaning": "how, why",
+      "audio": "bebf215ebefc625e054c4d1e1839a19e136b84042c4852586f628238997dace0",
+      "id": "cdadf2b2048f",
+      "priority": 1,
+      "group": "d489370be60a"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "gui2 幾",
+      "meaningInSourceLanguage": "how many",
+      "id": "96635a2167ee",
+      "priority": 0,
+      "group": "c141fd7b5393"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "gui2 幾"
+      ],
+      "phrase": [
+        {
+          "word": "how",
+          "definition": "zo3ni5"
+        },
+        {
+          "word": "many",
+          "definition": "zoi7"
+        }
+      ],
+      "id": "572e3492ffad",
+      "priority": 1,
+      "group": "c141fd7b5393"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "gui2 幾",
+      "meaning": "how many",
+      "audio": "9a431e0dad2db231611e783cf1e5717ec1e9e0b334d7acb54309c3081f1da4f5",
+      "id": "f55d9792ed98",
+      "priority": 1,
+      "group": "c141fd7b5393"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "riêh8zoi7 若濟",
+      "meaningInSourceLanguage": "how much",
+      "id": "4d73804ed0ae",
+      "priority": 0,
+      "group": "463b884fb41e"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "riêh8zoi7 若濟"
+      ],
+      "phrase": [
+        {
+          "word": "how",
+          "definition": "zo3ni5"
+        },
+        {
+          "word": "much",
+          "definition": "zoi7"
+        }
+      ],
+      "id": "0421db454934",
+      "priority": 1,
+      "group": "463b884fb41e"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "riêh8zoi7 若濟",
+      "meaning": "how much",
+      "audio": "131a5d3832b8e62986f31064895a7883555533f0933f94deb7430dcb94fe0ed5",
+      "id": "957f19f6ae55",
+      "priority": 1,
+      "group": "463b884fb41e"
+    }
+  ]
+}

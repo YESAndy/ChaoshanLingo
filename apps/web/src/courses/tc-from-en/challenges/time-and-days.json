@@ -1,0 +1,538 @@
+{
+  "id": "e7c150774a40",
+  "levels": 3,
+  "challenges": [
+    {
+      "type": "options",
+      "formInTargetLanguage": "mêng5ki2 cig4diam2",
+      "meaningInSourceLanguage": "seven a.m.",
+      "id": "1655b2f5e698",
+      "priority": 0,
+      "group": "280d7034bb32"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mêng5ki2 cig4diam2",
+      "meaning": "seven a.m.",
+      "audio": "0f6571a67f4dc325820019385398eab517307724f4d0bf1fd625cc8c672df846",
+      "id": "3a9c85015ca1",
+      "priority": 1,
+      "group": "280d7034bb32"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "seven",
+          "definition": "cig4\ncig4 七"
+        },
+        {
+          "word": "a.m.",
+          "definition": "mêng5ki2 cig4diam2"
+        }
+      ],
+      "chips": [
+        "mêng5ki2",
+        "cig4diam2",
+        "pêng5iu2",
+        "gui2"
+      ],
+      "solutions": [
+        [
+          "mêng5ki2",
+          "cig4diam2"
+        ]
+      ],
+      "formattedSolution": "mêng5ki2 cig4diam2",
+      "id": "97e11f48a6a4",
+      "priority": 2,
+      "group": "280d7034bb32"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "mêng5ki2",
+          "definition": "morning (眠起)"
+        },
+        {
+          "word": "cig4diam2",
+          "definition": "seven o'clock (七點)"
+        }
+      ],
+      "chips": [
+        "seven",
+        "a.m",
+        "Have",
+        "p.m"
+      ],
+      "solutions": [
+        [
+          "seven",
+          "a.m"
+        ]
+      ],
+      "formattedSolution": "seven a.m.",
+      "id": "447adaa2e497",
+      "priority": 2,
+      "group": "280d7034bb32"
+    },
+    {
+      "type": "options",
+      "formInTargetLanguage": "mên5hng1 cig4diam2",
+      "meaningInSourceLanguage": "seven p.m.",
+      "id": "2a938b64e49f",
+      "priority": 0,
+      "group": "a969ca333c36"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mên5hng1 cig4diam2",
+      "meaning": "seven p.m.",
+      "audio": "51264404b4679db1b01eef26d3993cc4b2c93f8136f8276ee4f63b4d3e358860",
+      "id": "447786448980",
+      "priority": 1,
+      "group": "a969ca333c36"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": false,
+      "phrase": [
+        {
+          "word": "seven",
+          "definition": "cig4\ncig4 七"
+        },
+        {
+          "word": "p.m.",
+          "definition": "mên5hng1 cig4diam2"
+        }
+      ],
+      "chips": [
+        "mên5hng1",
+        "cig4diam2",
+        "diam2",
+        "mêng5ki2"
+      ],
+      "solutions": [
+        [
+          "mên5hng1",
+          "cig4diam2"
+        ]
+      ],
+      "formattedSolution": "mên5hng1 cig4diam2",
+      "id": "77f52a7c3e68",
+      "priority": 2,
+      "group": "a969ca333c36"
+    },
+    {
+      "type": "chips",
+      "translatesToSourceLanguage": true,
+      "phrase": [
+        {
+          "word": "mên5hng1",
+          "definition": "evening (暝昏)"
+        },
+        {
+          "word": "cig4diam2",
+          "definition": "seven o'clock (七點)"
+        }
+      ],
+      "chips": [
+        "seven",
+        "p.m",
+        "a.m",
+        "time"
+      ],
+      "solutions": [
+        [
+          "seven",
+          "p.m"
+        ]
+      ],
+      "formattedSolution": "seven p.m.",
+      "id": "21b033c4a4de",
+      "priority": 2,
+      "group": "a969ca333c36"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "mêng5ki2 眠起",
+      "meaningInSourceLanguage": "morning",
+      "id": "f8c17d0e7b84",
+      "priority": 0,
+      "group": "bbf583efe930"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "mêng5ki2 眠起"
+      ],
+      "phrase": [
+        {
+          "word": "morning",
+          "definition": "mêng5ki2\nmêng5ki2 眠起"
+        }
+      ],
+      "id": "9d53e2abbf6b",
+      "priority": 1,
+      "group": "bbf583efe930"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mêng5ki2 眠起",
+      "meaning": "morning",
+      "audio": "12b1f2be42f9aff06d5a2b517f6f6f660ffd0d8789e989dbdd5978369c7a3180",
+      "id": "c444a9745bcd",
+      "priority": 1,
+      "group": "bbf583efe930"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "rig8dao3 日晝",
+      "meaningInSourceLanguage": "noon",
+      "id": "a49477a253d9",
+      "priority": 0,
+      "group": "ae3225118545"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "rig8dao3 日晝"
+      ],
+      "phrase": [
+        {
+          "word": "noon",
+          "definition": "rig8dao3\nrig8dao3 日晝"
+        }
+      ],
+      "id": "dbec6ca4539c",
+      "priority": 1,
+      "group": "ae3225118545"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "rig8dao3 日晝",
+      "meaning": "noon",
+      "audio": "910710babc813efdd3f8277489b5dfc90bdf3fc8a4d435dbfb16dae0af1f7f03",
+      "id": "a2b4923ab4b0",
+      "priority": 1,
+      "group": "ae3225118545"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ê6gua3 下旰",
+      "meaningInSourceLanguage": "afternoon",
+      "id": "2419fd3961c5",
+      "priority": 0,
+      "group": "effaa9579f28"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ê6gua3 下旰"
+      ],
+      "phrase": [
+        {
+          "word": "afternoon",
+          "definition": "ê6gua3\nê6gua3 下旰"
+        }
+      ],
+      "id": "4cc4771ddebd",
+      "priority": 1,
+      "group": "effaa9579f28"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ê6gua3 下旰",
+      "meaning": "afternoon",
+      "audio": "b4f7609fcbcc4d635e2fe419077a3bcf47338b26c02b2392580ddf957aabaa43",
+      "id": "f9a3da26d34b",
+      "priority": 1,
+      "group": "effaa9579f28"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "mên5hng1 暝昏",
+      "meaningInSourceLanguage": "dusk, evening",
+      "id": "6d4db2a1ed19",
+      "priority": 0,
+      "group": "b85ad0ae0c85"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "mên5hng1 暝昏"
+      ],
+      "phrase": [
+        {
+          "word": "dusk,",
+          "definition": "mên5hng1"
+        },
+        {
+          "word": "evening",
+          "definition": "mên5hng1"
+        }
+      ],
+      "id": "b23fc9ed6da0",
+      "priority": 1,
+      "group": "b85ad0ae0c85"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "mên5hng1 暝昏",
+      "meaning": "dusk, evening",
+      "audio": "f200e9644e1067d4db580a716f37ec3eb6918fcb606b247427ad431b2ebc80c6",
+      "id": "6610f23a8974",
+      "priority": 1,
+      "group": "b85ad0ae0c85"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "buan3mên5 半暝",
+      "meaningInSourceLanguage": "midnight",
+      "id": "79a9c6ec992b",
+      "priority": 0,
+      "group": "11c255069603"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "buan3mên5 半暝"
+      ],
+      "phrase": [
+        {
+          "word": "midnight",
+          "definition": "buan3mên5\nbuan3mên5 半暝"
+        }
+      ],
+      "id": "57bbd9d69400",
+      "priority": 1,
+      "group": "11c255069603"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "buan3mên5 半暝",
+      "meaning": "midnight",
+      "audio": "bf477373a44d99ca863bc617250fe920bc674f08e960be0749a25eaa92cddddb",
+      "id": "0a9bfef15425",
+      "priority": 1,
+      "group": "11c255069603"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ging1rig8 經日",
+      "meaningInSourceLanguage": "today",
+      "id": "bd6bac8cbb09",
+      "priority": 0,
+      "group": "ad7e30a992de"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ging1rig8 經日"
+      ],
+      "phrase": [
+        {
+          "word": "today",
+          "definition": "ging1rig8\nging1rig8 經日"
+        }
+      ],
+      "id": "13b68462bf2c",
+      "priority": 1,
+      "group": "ad7e30a992de"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ging1rig8 經日",
+      "meaning": "today",
+      "audio": "f391c99d86e180da634a76fa06f0f2cf4e0cd6b039988f6914a8c63797f6e10f",
+      "id": "cdb789f16bce",
+      "priority": 1,
+      "group": "ad7e30a992de"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "za2rig8 昨日",
+      "meaningInSourceLanguage": "yesterday",
+      "id": "142bb482f39a",
+      "priority": 0,
+      "group": "00856f17e6df"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "za2rig8 昨日"
+      ],
+      "phrase": [
+        {
+          "word": "yesterday",
+          "definition": "za2rig8\nza2rig8 昨日"
+        }
+      ],
+      "id": "4a54a46c083a",
+      "priority": 1,
+      "group": "00856f17e6df"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "za2rig8 昨日",
+      "meaning": "yesterday",
+      "audio": "2f09a262e2d5cf23c056d5768da0e6f6a15defa8b4e9fcf752854b5ad49485b0",
+      "id": "113a52eab82a",
+      "priority": 1,
+      "group": "00856f17e6df"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "muan3rig8 明日",
+      "meaningInSourceLanguage": "tomorrow",
+      "id": "99784cb55760",
+      "priority": 0,
+      "group": "523865e5df5d"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "muan3rig8 明日"
+      ],
+      "phrase": [
+        {
+          "word": "tomorrow",
+          "definition": "muan3rig8\nmuan3rig8 明日"
+        }
+      ],
+      "id": "a77a97e02429",
+      "priority": 1,
+      "group": "523865e5df5d"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "muan3rig8 明日",
+      "meaning": "tomorrow",
+      "audio": "2988ddcd3dc4b653fd60e1f04cc602f898258d5834ff1e8bba24cd29369e5ad3",
+      "id": "abe5a9a63f6d",
+      "priority": 1,
+      "group": "523865e5df5d"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ni5 年",
+      "meaningInSourceLanguage": "year",
+      "id": "760117d347be",
+      "priority": 0,
+      "group": "b6fc32b6a313"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ni5 年"
+      ],
+      "phrase": [
+        {
+          "word": "year",
+          "definition": "ni5\nni5 年"
+        }
+      ],
+      "id": "4c4ca4bb56d8",
+      "priority": 1,
+      "group": "b6fc32b6a313"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ni5 年",
+      "meaning": "year",
+      "audio": "61a167d47b250628162853c5df76a1911d2ac243c0c6aa1b1bd716821b9f3b58",
+      "id": "d9b3bedb24a3",
+      "priority": 1,
+      "group": "b6fc32b6a313"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "ghuêh8 月",
+      "meaningInSourceLanguage": "month",
+      "id": "f49f352c720b",
+      "priority": 0,
+      "group": "31e4e8809365"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "ghuêh8 月"
+      ],
+      "phrase": [
+        {
+          "word": "month",
+          "definition": "ghuêh8\nghuêh8 月"
+        }
+      ],
+      "id": "38e7a6209134",
+      "priority": 1,
+      "group": "31e4e8809365"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "ghuêh8 月",
+      "meaning": "month",
+      "audio": "37d4e63cd828742acf0b5b6134c0d2a09e4145a7a766acd93a74595ce637f564",
+      "id": "3763c8a1ca63",
+      "priority": 1,
+      "group": "31e4e8809365"
+    },
+    {
+      "type": "cards",
+      "pictures": null,
+      "formInTargetLanguage": "loi6bai3 禮拜",
+      "meaningInSourceLanguage": "week",
+      "id": "0d6c7a572afc",
+      "priority": 0,
+      "group": "6e45c79002a4"
+    },
+    {
+      "type": "shortInput",
+      "pictures": null,
+      "formInTargetLanguage": [
+        "loi6bai3 禮拜"
+      ],
+      "phrase": [
+        {
+          "word": "week",
+          "definition": "loi6bai3\nloi6bai3 禮拜"
+        }
+      ],
+      "id": "cbce5e7c194e",
+      "priority": 1,
+      "group": "6e45c79002a4"
+    },
+    {
+      "type": "listeningExercise",
+      "answer": "loi6bai3 禮拜",
+      "meaning": "week",
+      "audio": "e70b12e2ed47812a047443320c13aa19b897697defca7fd0a3de45f5103a5f01",
+      "id": "b0d7d39aa31f",
+      "priority": 1,
+      "group": "6e45c79002a4"
+    }
+  ]
+}
