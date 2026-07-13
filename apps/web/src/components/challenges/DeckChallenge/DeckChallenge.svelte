@@ -47,7 +47,9 @@
 
 <p class="is-size-1 is-size-2-tablet is-size-4-mobile has-text-centered">
 	다음 중
-	<strong data-test="meaning-in-source-language">{currentChallenge.meaningInSourceLanguage}</strong>
+	<strong data-test="meaning-in-source-language"
+		>{currentChallenge.meaningInSourceLanguage.replace(/\s*[（(][^（()）]*[一-鿿][^（()）]*[）)]/g, '')}</strong
+	>
 	?
 </p>
 
