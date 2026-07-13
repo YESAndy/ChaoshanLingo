@@ -5,39 +5,39 @@
     {
       "type": "options",
       "formInTargetLanguage": "I1 si6 uang2 gai5 pêng5iu2.",
-      "meaningInSourceLanguage": "He is our friend.",
-      "id": "6e80a9ceb412",
+      "meaningInSourceLanguage": "그는 우리의 친구예요. (他是我们的朋友。)",
+      "id": "9b5f02c4c4fd",
       "priority": 0,
-      "group": "7888cf713c38"
+      "group": "d531a57e4a4b"
     },
     {
       "type": "listeningExercise",
       "answer": "I1 si6 uang2 gai5 pêng5iu2.",
-      "meaning": "He is our friend.",
+      "meaning": "그는 우리의 친구예요. (他是我们的朋友。)",
       "audio": "67f6d905f8843279f88786a57cdd05b143d6358d3544f19c0a0f395b78035342",
-      "id": "4bcf410fe98c",
+      "id": "a68faa1a1dd6",
       "priority": 1,
-      "group": "7888cf713c38"
+      "group": "d531a57e4a4b"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "He",
-          "definition": "I1"
+          "word": "그는",
+          "definition": "I1 si6"
         },
         {
-          "word": "is",
-          "definition": "si6"
-        },
-        {
-          "word": "our",
+          "word": "우리의",
           "definition": "uang2 gai5"
         },
         {
-          "word": "friend.",
+          "word": "친구예요.",
           "definition": "pêng5iu2"
+        },
+        {
+          "word": "(他是我们的朋友。)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -61,9 +61,9 @@
         ]
       ],
       "formattedSolution": "I1 si6 uang2 gai5 pêng5iu2.",
-      "id": "cd063f198cf6",
+      "id": "8e0f1c1a7774",
       "priority": 2,
-      "group": "7888cf713c38"
+      "group": "d531a57e4a4b"
     },
     {
       "type": "chips",
@@ -71,55 +71,55 @@
       "phrase": [
         {
           "word": "I1",
-          "definition": "he, she, it (伊)"
+          "definition": "그, 그녀 (伊)"
         },
         {
           "word": "si6",
-          "definition": "is (是)"
+          "definition": "이다 (是)"
         },
         {
           "word": "uang2",
-          "definition": "we, our (exclusive) (阮)"
+          "definition": "우리 (청자 제외) (阮)"
         },
         {
           "word": "gai5",
-          "definition": "possessive marker (個)"
+          "definition": "소유격 조사 (個)"
         },
         {
           "word": "pêng5iu2.",
-          "definition": "friend (朋友)"
+          "definition": "친구 (朋友)"
         }
       ],
       "chips": [
-        "He",
-        "is",
-        "our",
-        "friend",
-        "it",
-        "I",
-        "the"
+        "그는",
+        "우리의",
+        "친구예요",
+        "他是我们的朋友",
+        "시예요",
+        "이리",
+        "지금"
       ],
       "solutions": [
         [
-          "He",
-          "is",
-          "our",
-          "friend"
+          "그는",
+          "우리의",
+          "친구예요",
+          "他是我们的朋友"
         ]
       ],
-      "formattedSolution": "He is our friend.",
-      "id": "2ff870d7b670",
+      "formattedSolution": "그는 우리의 친구예요. (他是我们的朋友。)",
+      "id": "06e558458afa",
       "priority": 2,
-      "group": "7888cf713c38"
+      "group": "d531a57e4a4b"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ua2 我",
-      "meaningInSourceLanguage": "I",
-      "id": "f38a76403274",
+      "meaningInSourceLanguage": "나 (我)",
+      "id": "7638b00b5c8d",
       "priority": 0,
-      "group": "304f7181b216"
+      "group": "37ddb92ecde8"
     },
     {
       "type": "shortInput",
@@ -129,31 +129,35 @@
       ],
       "phrase": [
         {
-          "word": "I",
-          "definition": "ua2\nua2 我"
+          "word": "나",
+          "definition": "ua2"
+        },
+        {
+          "word": "(我)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "8d4139d98d49",
+      "id": "8f502faa2010",
       "priority": 1,
-      "group": "304f7181b216"
+      "group": "37ddb92ecde8"
     },
     {
       "type": "listeningExercise",
       "answer": "ua2 我",
-      "meaning": "I",
+      "meaning": "나 (我)",
       "audio": "d1336240f2dddff4a93fa68ea5c14912e8abc71b0cb1bfc4b1ddb9ae644b6f4a",
-      "id": "a40b8f219965",
+      "id": "a1d1e1bd775f",
       "priority": 1,
-      "group": "304f7181b216"
+      "group": "37ddb92ecde8"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "le2 汝",
-      "meaningInSourceLanguage": "you (singular)",
-      "id": "25a886250d28",
+      "meaningInSourceLanguage": "너 (你)",
+      "id": "e78bee6917fd",
       "priority": 0,
-      "group": "3b9d8e8573a2"
+      "group": "9f3b9b90a250"
     },
     {
       "type": "shortInput",
@@ -163,35 +167,35 @@
       ],
       "phrase": [
         {
-          "word": "you",
-          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
+          "word": "너",
+          "definition": "le2"
         },
         {
-          "word": "(singular)",
-          "definition": "le2"
+          "word": "(你)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "e1ab01184bb6",
+      "id": "440b5416e489",
       "priority": 1,
-      "group": "3b9d8e8573a2"
+      "group": "9f3b9b90a250"
     },
     {
       "type": "listeningExercise",
       "answer": "le2 汝",
-      "meaning": "you (singular)",
+      "meaning": "너 (你)",
       "audio": "2a04365895d986c5c3e55d8493fc844c801abc5c039a3574d4626042dcf42b36",
-      "id": "05698d259ed0",
+      "id": "e317f393bda0",
       "priority": 1,
-      "group": "3b9d8e8573a2"
+      "group": "9f3b9b90a250"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "i1 伊",
-      "meaningInSourceLanguage": "he, she, it",
-      "id": "068dc78a67ed",
+      "meaningInSourceLanguage": "그, 그녀 (他/她)",
+      "id": "ae7e7eb7d7d2",
       "priority": 0,
-      "group": "a664d95a7bf2"
+      "group": "3b90f33f7a3f"
     },
     {
       "type": "shortInput",
@@ -201,39 +205,39 @@
       ],
       "phrase": [
         {
-          "word": "he,",
-          "definition": "I1"
-        },
-        {
-          "word": "she,",
+          "word": "그,",
           "definition": "i1"
         },
         {
-          "word": "it",
-          "definition": "(implied)\ni1"
+          "word": "그녀",
+          "definition": "i1"
+        },
+        {
+          "word": "(他/她)",
+          "definition": "i1 伊"
         }
       ],
-      "id": "4d553755c28c",
+      "id": "704fbe826f86",
       "priority": 1,
-      "group": "a664d95a7bf2"
+      "group": "3b90f33f7a3f"
     },
     {
       "type": "listeningExercise",
       "answer": "i1 伊",
-      "meaning": "he, she, it",
+      "meaning": "그, 그녀 (他/她)",
       "audio": "ead3a9948c05eac9eb228ddcc78441e3306a5fa400df33c07a512d50eec66567",
-      "id": "0a37dc4ff4a1",
+      "id": "675280e6a9ae",
       "priority": 1,
-      "group": "a664d95a7bf2"
+      "group": "3b90f33f7a3f"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "nang2 俺",
-      "meaningInSourceLanguage": "we (inclusive)",
-      "id": "5409b5ab6dcc",
+      "meaningInSourceLanguage": "우리 (청자 포함) (咱们)",
+      "id": "ac62cef5aba1",
       "priority": 0,
-      "group": "3de2bd4f3e4a"
+      "group": "c53f070f7370"
     },
     {
       "type": "shortInput",
@@ -243,35 +247,43 @@
       ],
       "phrase": [
         {
-          "word": "we",
-          "definition": "nang2 (incl.) / uang2 (excl.)"
+          "word": "우리",
+          "definition": "nang2 / uang2"
         },
         {
-          "word": "(inclusive)",
+          "word": "(청자",
+          "definition": "(설명)"
+        },
+        {
+          "word": "포함)",
           "definition": "nang2"
+        },
+        {
+          "word": "(咱们)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "ca5765d5f8aa",
+      "id": "e8de82026ddc",
       "priority": 1,
-      "group": "3de2bd4f3e4a"
+      "group": "c53f070f7370"
     },
     {
       "type": "listeningExercise",
       "answer": "nang2 俺",
-      "meaning": "we (inclusive)",
+      "meaning": "우리 (청자 포함) (咱们)",
       "audio": "2345ce66b2a42caaac1a3cbe6fa81e11a47f2d06e69785c0f9f522b154c435aa",
-      "id": "b39d92398076",
+      "id": "b4712db2945e",
       "priority": 1,
-      "group": "3de2bd4f3e4a"
+      "group": "c53f070f7370"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "uang2 阮",
-      "meaningInSourceLanguage": "we (exclusive)",
-      "id": "860ee27c2758",
+      "meaningInSourceLanguage": "우리 (청자 제외) (我们)",
+      "id": "34e30f00a514",
       "priority": 0,
-      "group": "203c808ff0a9"
+      "group": "f2102806fa06"
     },
     {
       "type": "shortInput",
@@ -281,35 +293,43 @@
       ],
       "phrase": [
         {
-          "word": "we",
-          "definition": "nang2 (incl.) / uang2 (excl.)"
+          "word": "우리",
+          "definition": "nang2 / uang2"
         },
         {
-          "word": "(exclusive)",
+          "word": "(청자",
+          "definition": "(설명)"
+        },
+        {
+          "word": "제외)",
           "definition": "uang2"
+        },
+        {
+          "word": "(我们)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "b4a9d305e6a6",
+      "id": "384e72ae56d5",
       "priority": 1,
-      "group": "203c808ff0a9"
+      "group": "f2102806fa06"
     },
     {
       "type": "listeningExercise",
       "answer": "uang2 阮",
-      "meaning": "we (exclusive)",
+      "meaning": "우리 (청자 제외) (我们)",
       "audio": "1707e131dfcbe840cc465d9918b63e303bc324003740887ec27cb40430e2c726",
-      "id": "a283e86e1f29",
+      "id": "25e21d5fc7d9",
       "priority": 1,
-      "group": "203c808ff0a9"
+      "group": "f2102806fa06"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ning2 恁",
-      "meaningInSourceLanguage": "you (plural)",
-      "id": "5e4fb6008a22",
+      "meaningInSourceLanguage": "너희 (你们)",
+      "id": "fd760ee9399e",
       "priority": 0,
-      "group": "6e7068d1cc27"
+      "group": "9d48d8f762dc"
     },
     {
       "type": "shortInput",
@@ -319,35 +339,35 @@
       ],
       "phrase": [
         {
-          "word": "you",
-          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
+          "word": "너희",
+          "definition": "ning2"
         },
         {
-          "word": "(plural)",
-          "definition": "ning2"
+          "word": "(你们)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "4684beb244e2",
+      "id": "2e5e8b94a324",
       "priority": 1,
-      "group": "6e7068d1cc27"
+      "group": "9d48d8f762dc"
     },
     {
       "type": "listeningExercise",
       "answer": "ning2 恁",
-      "meaning": "you (plural)",
+      "meaning": "너희 (你们)",
       "audio": "b980550905b5256fce00ee92197b5765cd307354cbaca76da3d2a7ff8263a633",
-      "id": "f47c4ed7b7ef",
+      "id": "ae8905dc332f",
       "priority": 1,
-      "group": "6e7068d1cc27"
+      "group": "9d48d8f762dc"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "i1nang7 伊儂",
-      "meaningInSourceLanguage": "they",
-      "id": "a7b8a388288e",
+      "meaningInSourceLanguage": "그들 (他们)",
+      "id": "3d0acec878c2",
       "priority": 0,
-      "group": "321a7f5d09a6"
+      "group": "0d224720e17d"
     },
     {
       "type": "shortInput",
@@ -357,22 +377,26 @@
       ],
       "phrase": [
         {
-          "word": "they",
-          "definition": "i1nang7\ni1nang7 伊儂"
+          "word": "그들",
+          "definition": "i1nang7"
+        },
+        {
+          "word": "(他们)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "022e169b0408",
+      "id": "fb89185b199d",
       "priority": 1,
-      "group": "321a7f5d09a6"
+      "group": "0d224720e17d"
     },
     {
       "type": "listeningExercise",
       "answer": "i1nang7 伊儂",
-      "meaning": "they",
+      "meaning": "그들 (他们)",
       "audio": "7cf085d5b638cfe37b9850c05bb85bb457af3718257ddb2383fdbe293bea7c2c",
-      "id": "38eba984a0fb",
+      "id": "132f6205c072",
       "priority": 1,
-      "group": "321a7f5d09a6"
+      "group": "0d224720e17d"
     }
   ]
 }

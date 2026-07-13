@@ -5,31 +5,39 @@
     {
       "type": "options",
       "formInTargetLanguage": "mêng5ki2 cig4diam2",
-      "meaningInSourceLanguage": "seven a.m.",
-      "id": "1655b2f5e698",
+      "meaningInSourceLanguage": "아침 일곱 시 (早上七点)",
+      "id": "eb431badc4e1",
       "priority": 0,
-      "group": "280d7034bb32"
+      "group": "f203a88fbabb"
     },
     {
       "type": "listeningExercise",
       "answer": "mêng5ki2 cig4diam2",
-      "meaning": "seven a.m.",
+      "meaning": "아침 일곱 시 (早上七点)",
       "audio": "0f6571a67f4dc325820019385398eab517307724f4d0bf1fd625cc8c672df846",
-      "id": "3a9c85015ca1",
+      "id": "3dceb816ee97",
       "priority": 1,
-      "group": "280d7034bb32"
+      "group": "f203a88fbabb"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "seven",
+          "word": "아침",
+          "definition": "mêng5ki2"
+        },
+        {
+          "word": "일곱",
           "definition": "cig4\ncig4 七"
         },
         {
-          "word": "a.m.",
-          "definition": "mêng5ki2 cig4diam2"
+          "word": "시",
+          "definition": "diam2"
+        },
+        {
+          "word": "(早上七点)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -45,9 +53,9 @@
         ]
       ],
       "formattedSolution": "mêng5ki2 cig4diam2",
-      "id": "97e11f48a6a4",
+      "id": "6a6c7d297f9d",
       "priority": 2,
-      "group": "280d7034bb32"
+      "group": "f203a88fbabb"
     },
     {
       "type": "chips",
@@ -55,58 +63,71 @@
       "phrase": [
         {
           "word": "mêng5ki2",
-          "definition": "morning (眠起)"
+          "definition": "아침 (眠起)"
         },
         {
           "word": "cig4diam2",
-          "definition": "seven o'clock (七點)"
+          "definition": "일곱 시 (七點)"
         }
       ],
       "chips": [
-        "seven",
-        "a.m",
-        "Have",
-        "p.m"
+        "아침",
+        "일곱",
+        "시",
+        "早上七点",
+        "몇",
+        "세",
+        "반"
       ],
       "solutions": [
         [
-          "seven",
-          "a.m"
+          "아침",
+          "일곱",
+          "시",
+          "早上七点"
         ]
       ],
-      "formattedSolution": "seven a.m.",
-      "id": "447adaa2e497",
+      "formattedSolution": "아침 일곱 시 (早上七点)",
+      "id": "975e77b29e63",
       "priority": 2,
-      "group": "280d7034bb32"
+      "group": "f203a88fbabb"
     },
     {
       "type": "options",
       "formInTargetLanguage": "mên5hng1 cig4diam2",
-      "meaningInSourceLanguage": "seven p.m.",
-      "id": "2a938b64e49f",
+      "meaningInSourceLanguage": "저녁 일곱 시 (晚上七点)",
+      "id": "999d310216f4",
       "priority": 0,
-      "group": "a969ca333c36"
+      "group": "6327b16b53a6"
     },
     {
       "type": "listeningExercise",
       "answer": "mên5hng1 cig4diam2",
-      "meaning": "seven p.m.",
+      "meaning": "저녁 일곱 시 (晚上七点)",
       "audio": "51264404b4679db1b01eef26d3993cc4b2c93f8136f8276ee4f63b4d3e358860",
-      "id": "447786448980",
+      "id": "0753ce9924e6",
       "priority": 1,
-      "group": "a969ca333c36"
+      "group": "6327b16b53a6"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "seven",
+          "word": "저녁",
+          "definition": "mên5hng1"
+        },
+        {
+          "word": "일곱",
           "definition": "cig4\ncig4 七"
         },
         {
-          "word": "p.m.",
-          "definition": "mên5hng1 cig4diam2"
+          "word": "시",
+          "definition": "diam2"
+        },
+        {
+          "word": "(晚上七点)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -122,9 +143,9 @@
         ]
       ],
       "formattedSolution": "mên5hng1 cig4diam2",
-      "id": "77f52a7c3e68",
+      "id": "a4de6267fcc2",
       "priority": 2,
-      "group": "a969ca333c36"
+      "group": "6327b16b53a6"
     },
     {
       "type": "chips",
@@ -132,38 +153,43 @@
       "phrase": [
         {
           "word": "mên5hng1",
-          "definition": "evening (暝昏)"
+          "definition": "저녁 (暝昏)"
         },
         {
           "word": "cig4diam2",
-          "definition": "seven o'clock (七點)"
+          "definition": "일곱 시 (七點)"
         }
       ],
       "chips": [
-        "seven",
-        "p.m",
-        "a.m",
-        "time"
+        "저녁",
+        "일곱",
+        "시",
+        "晚上七点",
+        "저",
+        "몇",
+        "세"
       ],
       "solutions": [
         [
-          "seven",
-          "p.m"
+          "저녁",
+          "일곱",
+          "시",
+          "晚上七点"
         ]
       ],
-      "formattedSolution": "seven p.m.",
-      "id": "21b033c4a4de",
+      "formattedSolution": "저녁 일곱 시 (晚上七点)",
+      "id": "5d8b228bcad7",
       "priority": 2,
-      "group": "a969ca333c36"
+      "group": "6327b16b53a6"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "mêng5ki2 眠起",
-      "meaningInSourceLanguage": "morning",
-      "id": "f8c17d0e7b84",
+      "meaningInSourceLanguage": "아침 (早上)",
+      "id": "d6682f05f257",
       "priority": 0,
-      "group": "bbf583efe930"
+      "group": "1eaa13034bfd"
     },
     {
       "type": "shortInput",
@@ -173,31 +199,35 @@
       ],
       "phrase": [
         {
-          "word": "morning",
-          "definition": "mêng5ki2\nmêng5ki2 眠起"
+          "word": "아침",
+          "definition": "mêng5ki2"
+        },
+        {
+          "word": "(早上)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "9d53e2abbf6b",
+      "id": "c6b6482b0a20",
       "priority": 1,
-      "group": "bbf583efe930"
+      "group": "1eaa13034bfd"
     },
     {
       "type": "listeningExercise",
       "answer": "mêng5ki2 眠起",
-      "meaning": "morning",
+      "meaning": "아침 (早上)",
       "audio": "12b1f2be42f9aff06d5a2b517f6f6f660ffd0d8789e989dbdd5978369c7a3180",
-      "id": "c444a9745bcd",
+      "id": "e1022ddc0eaf",
       "priority": 1,
-      "group": "bbf583efe930"
+      "group": "1eaa13034bfd"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "rig8dao3 日晝",
-      "meaningInSourceLanguage": "noon",
-      "id": "a49477a253d9",
+      "meaningInSourceLanguage": "정오 (中午)",
+      "id": "852f8fde89a7",
       "priority": 0,
-      "group": "ae3225118545"
+      "group": "e1d8fd4db8b3"
     },
     {
       "type": "shortInput",
@@ -207,31 +237,35 @@
       ],
       "phrase": [
         {
-          "word": "noon",
-          "definition": "rig8dao3\nrig8dao3 日晝"
+          "word": "정오",
+          "definition": "rig8dao3"
+        },
+        {
+          "word": "(中午)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "dbec6ca4539c",
+      "id": "80a160a35981",
       "priority": 1,
-      "group": "ae3225118545"
+      "group": "e1d8fd4db8b3"
     },
     {
       "type": "listeningExercise",
       "answer": "rig8dao3 日晝",
-      "meaning": "noon",
+      "meaning": "정오 (中午)",
       "audio": "910710babc813efdd3f8277489b5dfc90bdf3fc8a4d435dbfb16dae0af1f7f03",
-      "id": "a2b4923ab4b0",
+      "id": "fd5c3e354c78",
       "priority": 1,
-      "group": "ae3225118545"
+      "group": "e1d8fd4db8b3"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ê6gua3 下旰",
-      "meaningInSourceLanguage": "afternoon",
-      "id": "2419fd3961c5",
+      "meaningInSourceLanguage": "오후 (下午)",
+      "id": "16c36a529e52",
       "priority": 0,
-      "group": "effaa9579f28"
+      "group": "b0237505504f"
     },
     {
       "type": "shortInput",
@@ -241,31 +275,35 @@
       ],
       "phrase": [
         {
-          "word": "afternoon",
-          "definition": "ê6gua3\nê6gua3 下旰"
+          "word": "오후",
+          "definition": "ê6gua3"
+        },
+        {
+          "word": "(下午)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "4cc4771ddebd",
+      "id": "2307a6d014fc",
       "priority": 1,
-      "group": "effaa9579f28"
+      "group": "b0237505504f"
     },
     {
       "type": "listeningExercise",
       "answer": "ê6gua3 下旰",
-      "meaning": "afternoon",
+      "meaning": "오후 (下午)",
       "audio": "b4f7609fcbcc4d635e2fe419077a3bcf47338b26c02b2392580ddf957aabaa43",
-      "id": "f9a3da26d34b",
+      "id": "3dcf10e74f95",
       "priority": 1,
-      "group": "effaa9579f28"
+      "group": "b0237505504f"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "mên5hng1 暝昏",
-      "meaningInSourceLanguage": "dusk, evening",
-      "id": "6d4db2a1ed19",
+      "meaningInSourceLanguage": "저녁 (傍晚)",
+      "id": "9e7cdb6a19ce",
       "priority": 0,
-      "group": "b85ad0ae0c85"
+      "group": "017811b53fc4"
     },
     {
       "type": "shortInput",
@@ -275,35 +313,35 @@
       ],
       "phrase": [
         {
-          "word": "dusk,",
+          "word": "저녁",
           "definition": "mên5hng1"
         },
         {
-          "word": "evening",
-          "definition": "mên5hng1"
+          "word": "(傍晚)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "b23fc9ed6da0",
+      "id": "ba1f77107b1d",
       "priority": 1,
-      "group": "b85ad0ae0c85"
+      "group": "017811b53fc4"
     },
     {
       "type": "listeningExercise",
       "answer": "mên5hng1 暝昏",
-      "meaning": "dusk, evening",
+      "meaning": "저녁 (傍晚)",
       "audio": "f200e9644e1067d4db580a716f37ec3eb6918fcb606b247427ad431b2ebc80c6",
-      "id": "6610f23a8974",
+      "id": "6ac207cb1878",
       "priority": 1,
-      "group": "b85ad0ae0c85"
+      "group": "017811b53fc4"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "buan3mên5 半暝",
-      "meaningInSourceLanguage": "midnight",
-      "id": "79a9c6ec992b",
+      "meaningInSourceLanguage": "자정 (半夜)",
+      "id": "fab51f20ec67",
       "priority": 0,
-      "group": "11c255069603"
+      "group": "cc447f93fa8c"
     },
     {
       "type": "shortInput",
@@ -313,31 +351,35 @@
       ],
       "phrase": [
         {
-          "word": "midnight",
-          "definition": "buan3mên5\nbuan3mên5 半暝"
+          "word": "자정",
+          "definition": "buan3mên5"
+        },
+        {
+          "word": "(半夜)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "57bbd9d69400",
+      "id": "24b28834126b",
       "priority": 1,
-      "group": "11c255069603"
+      "group": "cc447f93fa8c"
     },
     {
       "type": "listeningExercise",
       "answer": "buan3mên5 半暝",
-      "meaning": "midnight",
+      "meaning": "자정 (半夜)",
       "audio": "bf477373a44d99ca863bc617250fe920bc674f08e960be0749a25eaa92cddddb",
-      "id": "0a9bfef15425",
+      "id": "bd6d8a2b478c",
       "priority": 1,
-      "group": "11c255069603"
+      "group": "cc447f93fa8c"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ging1rig8 經日",
-      "meaningInSourceLanguage": "today",
-      "id": "bd6bac8cbb09",
+      "meaningInSourceLanguage": "오늘 (今天)",
+      "id": "9eecaac80cd6",
       "priority": 0,
-      "group": "ad7e30a992de"
+      "group": "b68e40d678af"
     },
     {
       "type": "shortInput",
@@ -347,31 +389,35 @@
       ],
       "phrase": [
         {
-          "word": "today",
-          "definition": "ging1rig8\nging1rig8 經日"
+          "word": "오늘",
+          "definition": "ging1rig8"
+        },
+        {
+          "word": "(今天)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "13b68462bf2c",
+      "id": "d138872bc52e",
       "priority": 1,
-      "group": "ad7e30a992de"
+      "group": "b68e40d678af"
     },
     {
       "type": "listeningExercise",
       "answer": "ging1rig8 經日",
-      "meaning": "today",
+      "meaning": "오늘 (今天)",
       "audio": "f391c99d86e180da634a76fa06f0f2cf4e0cd6b039988f6914a8c63797f6e10f",
-      "id": "cdb789f16bce",
+      "id": "d25365d739f6",
       "priority": 1,
-      "group": "ad7e30a992de"
+      "group": "b68e40d678af"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "za2rig8 昨日",
-      "meaningInSourceLanguage": "yesterday",
-      "id": "142bb482f39a",
+      "meaningInSourceLanguage": "어제 (昨天)",
+      "id": "87415837dbd4",
       "priority": 0,
-      "group": "00856f17e6df"
+      "group": "7ab8455dc342"
     },
     {
       "type": "shortInput",
@@ -381,31 +427,35 @@
       ],
       "phrase": [
         {
-          "word": "yesterday",
-          "definition": "za2rig8\nza2rig8 昨日"
+          "word": "어제",
+          "definition": "za2rig8"
+        },
+        {
+          "word": "(昨天)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "4a54a46c083a",
+      "id": "f6bf89d655ad",
       "priority": 1,
-      "group": "00856f17e6df"
+      "group": "7ab8455dc342"
     },
     {
       "type": "listeningExercise",
       "answer": "za2rig8 昨日",
-      "meaning": "yesterday",
+      "meaning": "어제 (昨天)",
       "audio": "2f09a262e2d5cf23c056d5768da0e6f6a15defa8b4e9fcf752854b5ad49485b0",
-      "id": "113a52eab82a",
+      "id": "d3266633e574",
       "priority": 1,
-      "group": "00856f17e6df"
+      "group": "7ab8455dc342"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "muan3rig8 明日",
-      "meaningInSourceLanguage": "tomorrow",
-      "id": "99784cb55760",
+      "meaningInSourceLanguage": "내일 (明天)",
+      "id": "be7f602d967e",
       "priority": 0,
-      "group": "523865e5df5d"
+      "group": "063df7130b30"
     },
     {
       "type": "shortInput",
@@ -415,31 +465,35 @@
       ],
       "phrase": [
         {
-          "word": "tomorrow",
-          "definition": "muan3rig8\nmuan3rig8 明日"
+          "word": "내일",
+          "definition": "muan3rig8"
+        },
+        {
+          "word": "(明天)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "a77a97e02429",
+      "id": "64e8879fea05",
       "priority": 1,
-      "group": "523865e5df5d"
+      "group": "063df7130b30"
     },
     {
       "type": "listeningExercise",
       "answer": "muan3rig8 明日",
-      "meaning": "tomorrow",
+      "meaning": "내일 (明天)",
       "audio": "2988ddcd3dc4b653fd60e1f04cc602f898258d5834ff1e8bba24cd29369e5ad3",
-      "id": "abe5a9a63f6d",
+      "id": "f0fd0e982202",
       "priority": 1,
-      "group": "523865e5df5d"
+      "group": "063df7130b30"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ni5 年",
-      "meaningInSourceLanguage": "year",
-      "id": "760117d347be",
+      "meaningInSourceLanguage": "년 (年)",
+      "id": "3a38dd635950",
       "priority": 0,
-      "group": "b6fc32b6a313"
+      "group": "bffffb4e2cc1"
     },
     {
       "type": "shortInput",
@@ -449,31 +503,35 @@
       ],
       "phrase": [
         {
-          "word": "year",
-          "definition": "ni5\nni5 年"
+          "word": "년",
+          "definition": "ni5"
+        },
+        {
+          "word": "(年)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "4c4ca4bb56d8",
+      "id": "54a493c86fc8",
       "priority": 1,
-      "group": "b6fc32b6a313"
+      "group": "bffffb4e2cc1"
     },
     {
       "type": "listeningExercise",
       "answer": "ni5 年",
-      "meaning": "year",
+      "meaning": "년 (年)",
       "audio": "61a167d47b250628162853c5df76a1911d2ac243c0c6aa1b1bd716821b9f3b58",
-      "id": "d9b3bedb24a3",
+      "id": "f55b7f207b9b",
       "priority": 1,
-      "group": "b6fc32b6a313"
+      "group": "bffffb4e2cc1"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ghuêh8 月",
-      "meaningInSourceLanguage": "month",
-      "id": "f49f352c720b",
+      "meaningInSourceLanguage": "월 (月)",
+      "id": "fa376cc7cca4",
       "priority": 0,
-      "group": "31e4e8809365"
+      "group": "a2fbb1cadd8f"
     },
     {
       "type": "shortInput",
@@ -483,31 +541,35 @@
       ],
       "phrase": [
         {
-          "word": "month",
-          "definition": "ghuêh8\nghuêh8 月"
+          "word": "월",
+          "definition": "ghuêh8"
+        },
+        {
+          "word": "(月)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "38e7a6209134",
+      "id": "fbef45291251",
       "priority": 1,
-      "group": "31e4e8809365"
+      "group": "a2fbb1cadd8f"
     },
     {
       "type": "listeningExercise",
       "answer": "ghuêh8 月",
-      "meaning": "month",
+      "meaning": "월 (月)",
       "audio": "37d4e63cd828742acf0b5b6134c0d2a09e4145a7a766acd93a74595ce637f564",
-      "id": "3763c8a1ca63",
+      "id": "ccde824cedc3",
       "priority": 1,
-      "group": "31e4e8809365"
+      "group": "a2fbb1cadd8f"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "loi6bai3 禮拜",
-      "meaningInSourceLanguage": "week",
-      "id": "0d6c7a572afc",
+      "meaningInSourceLanguage": "주 (星期)",
+      "id": "3af68e951478",
       "priority": 0,
-      "group": "6e45c79002a4"
+      "group": "343efae183b8"
     },
     {
       "type": "shortInput",
@@ -517,22 +579,26 @@
       ],
       "phrase": [
         {
-          "word": "week",
-          "definition": "loi6bai3\nloi6bai3 禮拜"
+          "word": "주",
+          "definition": "loi6bai3"
+        },
+        {
+          "word": "(星期)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "cbce5e7c194e",
+      "id": "6dd1b2298b8f",
       "priority": 1,
-      "group": "6e45c79002a4"
+      "group": "343efae183b8"
     },
     {
       "type": "listeningExercise",
       "answer": "loi6bai3 禮拜",
-      "meaning": "week",
+      "meaning": "주 (星期)",
       "audio": "e70b12e2ed47812a047443320c13aa19b897697defca7fd0a3de45f5103a5f01",
-      "id": "b0d7d39aa31f",
+      "id": "aea8b936cdf6",
       "priority": 1,
-      "group": "6e45c79002a4"
+      "group": "343efae183b8"
     }
   ]
 }

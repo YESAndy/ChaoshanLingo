@@ -46,7 +46,7 @@
 </script>
 
 <p class="is-size-1 is-size-2-tablet is-size-4-mobile has-text-centered">
-	Which of these is
+	다음 중
 	<strong data-test="meaning-in-source-language">{currentChallenge.meaningInSourceLanguage}</strong>
 	?
 </p>
@@ -66,7 +66,7 @@
 	{#if !submitted && selectedOption !== null}
 		<ChallengePanel
 			message=""
-			buttonText="Submit"
+			buttonText="제출"
 			submit
 			skipAction={skipChallenge}
 			skipAllAction={skipAllChallenges}
@@ -76,16 +76,16 @@
 	{#if submitted}
 		{#if options[selectedOption].correct}
 			<ChallengePanel
-				message="Correct solution!"
-				buttonText="Continue"
+				message="정답입니다!"
+				buttonText="계속"
 				correct
 				buttonAction={finishChallenge}
 			/>
 		{/if}
 		{#if !options[selectedOption].correct}
 			<ChallengePanel
-				message="Incorrect solution!"
-				buttonText="Continue"
+				message="틀렸습니다!"
+				buttonText="계속"
 				incorrect
 				buttonAction={finishChallenge}
 			/>

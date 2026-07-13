@@ -8,7 +8,7 @@ static/course/**
 !/static/voice/*.mp3
 
 /src/courses/*
-!/src/courses/tc-from-en/
+!/src/courses/tc-from-ko/
 !/src/courses/test-2/
 
 # Output

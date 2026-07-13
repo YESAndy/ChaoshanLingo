@@ -7,7 +7,7 @@
 </script>
 
 <div class:completed class:stale>
-	<ClampedText text={`Learn: ${summary.join(', ')}`} />
+	<ClampedText text={`학습: ${summary.join(', ')}`} />
 </div>
 
 <style type="text/scss">

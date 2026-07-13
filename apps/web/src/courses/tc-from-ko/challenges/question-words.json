@@ -5,39 +5,35 @@
     {
       "type": "options",
       "formInTargetLanguage": "Lao1gung1cu3 do6 di7go3?",
-      "meaningInSourceLanguage": "Where is the hospital?",
-      "id": "2ce843b37921",
+      "meaningInSourceLanguage": "병원이 어디예요? (医院在哪里？)",
+      "id": "a01699e402cd",
       "priority": 0,
-      "group": "012f0f6b4234"
+      "group": "ff5f7de6fa25"
     },
     {
       "type": "listeningExercise",
       "answer": "Lao1gung1cu3 do6 di7go3?",
-      "meaning": "Where is the hospital?",
+      "meaning": "병원이 어디예요? (医院在哪里？)",
       "audio": "f0732b23c6750025e12c75689fb8ea2ab255e6ca4b72da675a61bc50f30d2590",
-      "id": "deb579df0a36",
+      "id": "265fcded720d",
       "priority": 1,
-      "group": "012f0f6b4234"
+      "group": "ff5f7de6fa25"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "Where",
-          "definition": "di7go3 哋塊"
-        },
-        {
-          "word": "is",
-          "definition": "si6"
-        },
-        {
-          "word": "the",
-          "definition": "(no article in Teochew)"
-        },
-        {
-          "word": "hospital?",
+          "word": "병원이",
           "definition": "Lao1gung1cu3"
+        },
+        {
+          "word": "어디예요?",
+          "definition": "di7go3"
+        },
+        {
+          "word": "(医院在哪里？)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -55,9 +51,9 @@
         ]
       ],
       "formattedSolution": "Lao1gung1cu3 do6 di7go3?",
-      "id": "9590f6f53096",
+      "id": "13835a1e9628",
       "priority": 2,
-      "group": "012f0f6b4234"
+      "group": "ff5f7de6fa25"
     },
     {
       "type": "chips",
@@ -65,75 +61,68 @@
       "phrase": [
         {
           "word": "Lao1gung1cu3",
-          "definition": "hospital (老君厝)"
+          "definition": "병원 (老君厝)"
         },
         {
           "word": "do6",
-          "definition": "to be at (在)"
+          "definition": "~에 있다 (在)"
         },
         {
           "word": "di7go3?",
-          "definition": "where (哋塊)"
+          "definition": "어디 (哋塊)"
         }
       ],
       "chips": [
-        "Where",
-        "is",
-        "the",
-        "hospital",
-        "it",
-        "here",
-        "time"
+        "병원이",
+        "어디예요",
+        "医院在哪里",
+        "시예요",
+        "친구예요"
       ],
       "solutions": [
         [
-          "Where",
-          "is",
-          "the",
-          "hospital"
+          "병원이",
+          "어디예요",
+          "医院在哪里"
         ]
       ],
-      "formattedSolution": "Where is the hospital?",
-      "id": "9e7daeba8e26",
+      "formattedSolution": "병원이 어디예요? (医院在哪里？)",
+      "id": "469585b46a45",
       "priority": 2,
-      "group": "012f0f6b4234"
+      "group": "ff5f7de6fa25"
     },
     {
       "type": "options",
       "formInTargetLanguage": "Le2 ziah8ba2 lou7 bhuê7?",
-      "meaningInSourceLanguage": "Have you eaten yet?",
-      "id": "8ece99c55c57",
+      "meaningInSourceLanguage": "밥 먹었어요? (你吃饱了没有？)",
+      "id": "bcdd15d48324",
       "priority": 0,
-      "group": "d7903f16c716"
+      "group": "41f3f7105321"
     },
     {
       "type": "listeningExercise",
       "answer": "Le2 ziah8ba2 lou7 bhuê7?",
-      "meaning": "Have you eaten yet?",
+      "meaning": "밥 먹었어요? (你吃饱了没有？)",
       "audio": "c344847aa70c85c5f9811a0eb669b154ea9108d0f4f18785fa7a2fb1ec7eac42",
-      "id": "230c1ac1de81",
+      "id": "9117b9aa7f24",
       "priority": 1,
-      "group": "d7903f16c716"
+      "group": "41f3f7105321"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "Have",
-          "definition": "u6"
+          "word": "밥",
+          "definition": "ziah8"
         },
         {
-          "word": "you",
-          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
+          "word": "먹었어요?",
+          "definition": "ziah8ba2 lou7 bhuê7"
         },
         {
-          "word": "eaten",
-          "definition": "ziah8ba2"
-        },
-        {
-          "word": "yet?",
-          "definition": "bhuê7"
+          "word": "(你吃饱了没有？)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -154,9 +143,9 @@
         ]
       ],
       "formattedSolution": "Le2 ziah8ba2 lou7 bhuê7?",
-      "id": "4631cc6956d7",
+      "id": "b2b1f2078bc2",
       "priority": 2,
-      "group": "d7903f16c716"
+      "group": "41f3f7105321"
     },
     {
       "type": "chips",
@@ -164,51 +153,48 @@
       "phrase": [
         {
           "word": "Le2",
-          "definition": "you (汝)"
+          "definition": "너 (汝)"
         },
         {
           "word": "ziah8ba2",
-          "definition": "eaten (one's) fill (食飽)"
+          "definition": "배불리 먹다 (食飽)"
         },
         {
           "word": "lou7",
-          "definition": "already (perfective) (𡀔)"
+          "definition": "완료 조사 (𡀔)"
         },
         {
           "word": "bhuê7?",
-          "definition": "yet (not yet) (未)"
+          "definition": "아직 (~하지 않았니) (未)"
         }
       ],
       "chips": [
-        "Have",
-        "you",
-        "eaten",
-        "yet",
-        "He",
-        "it",
-        "May"
+        "밥",
+        "먹었어요",
+        "你吃饱了没有",
+        "몇",
+        "세"
       ],
       "solutions": [
         [
-          "Have",
-          "you",
-          "eaten",
-          "yet"
+          "밥",
+          "먹었어요",
+          "你吃饱了没有"
         ]
       ],
-      "formattedSolution": "Have you eaten yet?",
-      "id": "b5b921a05161",
+      "formattedSolution": "밥 먹었어요? (你吃饱了没有？)",
+      "id": "88f218981281",
       "priority": 2,
-      "group": "d7903f16c716"
+      "group": "41f3f7105321"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "di7diang1 哋㐱",
-      "meaningInSourceLanguage": "who",
-      "id": "50d6508f38a2",
+      "meaningInSourceLanguage": "누구 (谁)",
+      "id": "9c7bc6240b46",
       "priority": 0,
-      "group": "a864d4904bdb"
+      "group": "b850dfde493d"
     },
     {
       "type": "shortInput",
@@ -218,31 +204,35 @@
       ],
       "phrase": [
         {
-          "word": "who",
-          "definition": "di7diang1\ndi7diang1 哋㐱"
+          "word": "누구",
+          "definition": "di7diang1"
+        },
+        {
+          "word": "(谁)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "d17e03b5a50b",
+      "id": "6cabdd63e310",
       "priority": 1,
-      "group": "a864d4904bdb"
+      "group": "b850dfde493d"
     },
     {
       "type": "listeningExercise",
       "answer": "di7diang1 哋㐱",
-      "meaning": "who",
+      "meaning": "누구 (谁)",
       "audio": "2e365945775b559c5e9693ae80f356205925f959a45edbcd3b659e1c37621811",
-      "id": "564b80ff08d7",
+      "id": "085d792b779d",
       "priority": 1,
-      "group": "a864d4904bdb"
+      "group": "b850dfde493d"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "mih4gai5 乜個",
-      "meaningInSourceLanguage": "what thing",
-      "id": "f19b19703b56",
+      "meaningInSourceLanguage": "무엇 (什么)",
+      "id": "4eeb7b46a32d",
       "priority": 0,
-      "group": "e1f666d12582"
+      "group": "ad68bf817a3a"
     },
     {
       "type": "shortInput",
@@ -252,35 +242,35 @@
       ],
       "phrase": [
         {
-          "word": "what",
-          "definition": "gui2 (in this phrase)"
+          "word": "무엇",
+          "definition": "mih4gai5"
         },
         {
-          "word": "thing",
-          "definition": "gai5"
+          "word": "(什么)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "3ee11a45601b",
+      "id": "53a9499161d4",
       "priority": 1,
-      "group": "e1f666d12582"
+      "group": "ad68bf817a3a"
     },
     {
       "type": "listeningExercise",
       "answer": "mih4gai5 乜個",
-      "meaning": "what thing",
+      "meaning": "무엇 (什么)",
       "audio": "010bd00ec816280194167c7399b3edea9c8e67174818f84e227461ef8c4b3e6b",
-      "id": "485a549c585a",
+      "id": "804ef729b89f",
       "priority": 1,
-      "group": "e1f666d12582"
+      "group": "ad68bf817a3a"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "di7zêg8gai5 哋一個",
-      "meaningInSourceLanguage": "which one",
-      "id": "58b3c5f65250",
+      "meaningInSourceLanguage": "어느 것 (哪一个)",
+      "id": "14de7a20b129",
       "priority": 0,
-      "group": "9200d3dae887"
+      "group": "ba80ba5c0c41"
     },
     {
       "type": "shortInput",
@@ -290,35 +280,39 @@
       ],
       "phrase": [
         {
-          "word": "which",
+          "word": "어느",
           "definition": "di7"
         },
         {
-          "word": "one",
-          "definition": "gai5\nzêg8\nzêg8 一"
+          "word": "것",
+          "definition": "gai5"
+        },
+        {
+          "word": "(哪一个)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "b8957eca99b2",
+      "id": "474ccb45ec37",
       "priority": 1,
-      "group": "9200d3dae887"
+      "group": "ba80ba5c0c41"
     },
     {
       "type": "listeningExercise",
       "answer": "di7zêg8gai5 哋一個",
-      "meaning": "which one",
+      "meaning": "어느 것 (哪一个)",
       "audio": "59278e750c495391eba6f698369e61a600be6c15d01fc30200deb60722e90189",
-      "id": "2e11c775bf02",
+      "id": "c943e96c1a14",
       "priority": 1,
-      "group": "9200d3dae887"
+      "group": "ba80ba5c0c41"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "di7go3 哋塊",
-      "meaningInSourceLanguage": "where",
-      "id": "88e905f261fd",
+      "meaningInSourceLanguage": "어디 (哪里)",
+      "id": "a93361942939",
       "priority": 0,
-      "group": "3a1a5778175c"
+      "group": "113059f61eeb"
     },
     {
       "type": "shortInput",
@@ -328,31 +322,35 @@
       ],
       "phrase": [
         {
-          "word": "where",
-          "definition": "di7go3 哋塊"
+          "word": "어디",
+          "definition": "di7go3"
+        },
+        {
+          "word": "(哪里)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "8970a7b2c654",
+      "id": "7cf2c542843b",
       "priority": 1,
-      "group": "3a1a5778175c"
+      "group": "113059f61eeb"
     },
     {
       "type": "listeningExercise",
       "answer": "di7go3 哋塊",
-      "meaning": "where",
+      "meaning": "어디 (哪里)",
       "audio": "fc66cc5b962d17f9604abcdf1f94133730a3a6f7e2bd00a219cde4cd7133dd01",
-      "id": "24cb26484ca1",
+      "id": "fb44ed6b5883",
       "priority": 1,
-      "group": "3a1a5778175c"
+      "group": "113059f61eeb"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "diang1si5 珍時",
-      "meaningInSourceLanguage": "when",
-      "id": "edc4e74c519c",
+      "meaningInSourceLanguage": "언제 (什么时候)",
+      "id": "dbb6925401a1",
       "priority": 0,
-      "group": "66fc555af740"
+      "group": "b44f7e2a33df"
     },
     {
       "type": "shortInput",
@@ -362,31 +360,35 @@
       ],
       "phrase": [
         {
-          "word": "when",
-          "definition": "diang1si5\ndiang1si5 珍時"
+          "word": "언제",
+          "definition": "diang1si5"
+        },
+        {
+          "word": "(什么时候)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "bfdb9a68884e",
+      "id": "667725eb08e0",
       "priority": 1,
-      "group": "66fc555af740"
+      "group": "b44f7e2a33df"
     },
     {
       "type": "listeningExercise",
       "answer": "diang1si5 珍時",
-      "meaning": "when",
+      "meaning": "언제 (什么时候)",
       "audio": "410a35e77a42b7c22608da9f1788eadbc0431899bdbae1a48ecd5e479601de6a",
-      "id": "9e28baf023f9",
+      "id": "87858cf4eb6e",
       "priority": 1,
-      "group": "66fc555af740"
+      "group": "b44f7e2a33df"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "zo3ni5 做呢",
-      "meaningInSourceLanguage": "how, why",
-      "id": "4367eaf39669",
+      "meaningInSourceLanguage": "어떻게, 왜 (怎么/为什么)",
+      "id": "2a4c296f1aa6",
       "priority": 0,
-      "group": "d489370be60a"
+      "group": "b21de9fc211a"
     },
     {
       "type": "shortInput",
@@ -396,35 +398,39 @@
       ],
       "phrase": [
         {
-          "word": "how,",
+          "word": "어떻게,",
+          "definition": "(의문)\nzo3ni5"
+        },
+        {
+          "word": "왜",
           "definition": "zo3ni5"
         },
         {
-          "word": "why",
-          "definition": "zo3ni5"
+          "word": "(怎么/为什么)",
+          "definition": "zo3ni5 做呢"
         }
       ],
-      "id": "ccb3c69b6f36",
+      "id": "69e56affe986",
       "priority": 1,
-      "group": "d489370be60a"
+      "group": "b21de9fc211a"
     },
     {
       "type": "listeningExercise",
       "answer": "zo3ni5 做呢",
-      "meaning": "how, why",
+      "meaning": "어떻게, 왜 (怎么/为什么)",
       "audio": "bebf215ebefc625e054c4d1e1839a19e136b84042c4852586f628238997dace0",
-      "id": "cdadf2b2048f",
+      "id": "9a5a0adf50aa",
       "priority": 1,
-      "group": "d489370be60a"
+      "group": "b21de9fc211a"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "gui2 幾",
-      "meaningInSourceLanguage": "how many",
-      "id": "96635a2167ee",
+      "meaningInSourceLanguage": "몇 (几)",
+      "id": "832479c3c18d",
       "priority": 0,
-      "group": "c141fd7b5393"
+      "group": "68e3583f0b8e"
     },
     {
       "type": "shortInput",
@@ -434,35 +440,35 @@
       ],
       "phrase": [
         {
-          "word": "how",
-          "definition": "zo3ni5"
+          "word": "몇",
+          "definition": "gui2"
         },
         {
-          "word": "many",
-          "definition": "zoi7"
+          "word": "(几)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "572e3492ffad",
+      "id": "2e376a954920",
       "priority": 1,
-      "group": "c141fd7b5393"
+      "group": "68e3583f0b8e"
     },
     {
       "type": "listeningExercise",
       "answer": "gui2 幾",
-      "meaning": "how many",
+      "meaning": "몇 (几)",
       "audio": "9a431e0dad2db231611e783cf1e5717ec1e9e0b334d7acb54309c3081f1da4f5",
-      "id": "f55d9792ed98",
+      "id": "10c44f53c927",
       "priority": 1,
-      "group": "c141fd7b5393"
+      "group": "68e3583f0b8e"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "riêh8zoi7 若濟",
-      "meaningInSourceLanguage": "how much",
-      "id": "4d73804ed0ae",
+      "meaningInSourceLanguage": "얼마나 (多少)",
+      "id": "0df834b6eb3a",
       "priority": 0,
-      "group": "463b884fb41e"
+      "group": "a04e62909eb7"
     },
     {
       "type": "shortInput",
@@ -472,26 +478,26 @@
       ],
       "phrase": [
         {
-          "word": "how",
-          "definition": "zo3ni5"
+          "word": "얼마나",
+          "definition": "riêh8zoi7"
         },
         {
-          "word": "much",
-          "definition": "zoi7"
+          "word": "(多少)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "0421db454934",
+      "id": "747ba67b3c0f",
       "priority": 1,
-      "group": "463b884fb41e"
+      "group": "a04e62909eb7"
     },
     {
       "type": "listeningExercise",
       "answer": "riêh8zoi7 若濟",
-      "meaning": "how much",
+      "meaning": "얼마나 (多少)",
       "audio": "131a5d3832b8e62986f31064895a7883555533f0933f94deb7430dcb94fe0ed5",
-      "id": "957f19f6ae55",
+      "id": "f22e8eec3cff",
       "priority": 1,
-      "group": "463b884fb41e"
+      "group": "a04e62909eb7"
     }
   ]
 }

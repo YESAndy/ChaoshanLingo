@@ -1,0 +1,98 @@
+# 출처: https://learnteochew.com/pages/personal_pronouns.html (Brandon Seah)
+# 참고: 조주어는 청자를 포함하는 '우리'(nang2 俺)와 제외하는 '우리'(uang2 阮)를 구별함
+Skill:
+  Name: Pronouns
+  Id: 2
+
+New words:
+  - Word: ua2 我
+    Translation: 나 (我)
+    Also accepted:
+      - 저
+      - ua2
+      - 我
+
+  - Word: le2 汝
+    Translation: 너 (你)
+    Also accepted:
+      - 당신
+      - le2
+      - lu2
+      - 汝
+
+  - Word: i1 伊
+    Translation: 그, 그녀 (他/她)
+    Also accepted:
+      - 그
+      - 그녀
+      - i1
+      - 伊
+
+  - Word: nang2 俺
+    Translation: 우리 (청자 포함) (咱们)
+    Also accepted:
+      - 우리
+      - nang2
+      - 俺
+
+  - Word: uang2 阮
+    Translation: 우리 (청자 제외) (我们)
+    Also accepted:
+      - 우리
+      - uang2
+      - ung2
+      - 阮
+
+  - Word: ning2 恁
+    Translation: 너희 (你们)
+    Also accepted:
+      - 너희들
+      - ning2
+      - 恁
+
+  - Word: i1nang7 伊儂
+    Translation: 그들 (他们)
+    Also accepted:
+      - 그분들
+      - i1nang7
+      - 伊儂
+
+Mini-dictionary:
+  Teochew:
+    - I1: 그, 그녀 (伊)
+    - si6: 이다 (是)
+    - uang2: 우리 (청자 제외) (阮)
+    - gai5: 소유격 조사 (個)
+    - pêng5iu2: 친구 (朋友)
+
+  Korean:
+    - 他/她: i1 伊
+    - 我: 중국어(보통화) 표현
+    - 你: 중국어(보통화) 표현
+    - 他她: 중국어(보통화) 표현
+    - 他: 중국어(보통화) 표현
+    - 她: 중국어(보통화) 표현
+    - 咱们: 중국어(보통화) 표현
+    - 我们: 중국어(보통화) 표현
+    - 你们: 중국어(보통화) 표현
+    - 他们: 중국어(보통화) 표현
+    - 他是我们的朋友: 중국어(보통화) 표현
+    - 그는: I1 si6
+    - 우리의: uang2 gai5
+    - 친구예요: pêng5iu2
+    - 나: ua2
+    - 너: le2
+    - 그: i1
+    - 그녀: i1
+    - 우리: nang2 / uang2
+    - 청자: (설명)
+    - 포함: nang2
+    - 제외: uang2
+    - 너희: ning2
+    - 그들: i1nang7
+
+Phrases:
+  - Phrase: I1 si6 uang2 gai5 pêng5iu2.
+    Translation: 그는 우리의 친구예요. (他是我们的朋友。)
+    Also accepted:
+      - 伊是阮個朋友。

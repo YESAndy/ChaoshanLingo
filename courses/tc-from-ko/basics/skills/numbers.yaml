@@ -1,0 +1,125 @@
+# 출처: https://learnteochew.com/pages/numbers.html (Brandon Seah)
+# 로마자 표기: Peng'im (성조 번호 포함), 한자 병기
+Skill:
+  Name: Numbers
+  Id: 1
+
+New words:
+  - Word: zêg8 一
+    Translation: 하나 (一)
+    Also accepted:
+      - 일
+      - zêg8
+      - 一
+
+  - Word: no6 兩
+    Translation: 둘 (两)
+    Also accepted:
+      - 이
+      - no6
+      - 兩
+
+  - Word: san1 三
+    Translation: 셋 (三)
+    Also accepted:
+      - 삼
+      - san1
+      - 三
+
+  - Word: si3 四
+    Translation: 넷 (四)
+    Also accepted:
+      - 사
+      - si3
+      - 四
+
+  - Word: ngou6 五
+    Translation: 다섯 (五)
+    Also accepted:
+      - 오
+      - ngou6
+      - 五
+
+  - Word: lag8 六
+    Translation: 여섯 (六)
+    Also accepted:
+      - 육
+      - lag8
+      - 六
+
+  - Word: cig4 七
+    Translation: 일곱 (七)
+    Also accepted:
+      - 칠
+      - cig4
+      - 七
+
+  - Word: boih4 八
+    Translation: 여덟 (八)
+    Also accepted:
+      - 팔
+      - boih4
+      - 八
+
+  - Word: gao2 九
+    Translation: 아홉 (九)
+    Also accepted:
+      - 구
+      - gao2
+      - 九
+
+  - Word: zab8 十
+    Translation: 열 (十)
+    Also accepted:
+      - 십
+      - zab8
+      - 十
+
+Mini-dictionary:
+  Teochew:
+    - Zi2zung5: 지금 (只陣)
+    - gui2: 몇 (幾)
+    - diam2: 시 (點)
+    - san1: 셋 (三)
+    - buan3: 반 (半)
+
+  Korean:
+    - 하나: zêg8 一
+    - 둘: no6 兩
+    - 셋: san1 三
+    - 넷: si3 四
+    - 다섯: ngou6 五
+    - 여섯: lag8 六
+    - 일곱: cig4 七
+    - 여덟: boih4 八
+    - 아홉: gao2 九
+    - 열: zab8 十
+    - 一: 중국어(보통화) 표현
+    - 两: 중국어(보통화) 표현
+    - 三: 중국어(보통화) 표현
+    - 四: 중국어(보통화) 표현
+    - 五: 중국어(보통화) 표현
+    - 六: 중국어(보통화) 표현
+    - 七: 중국어(보통화) 표현
+    - 八: 중국어(보통화) 표현
+    - 九: 중국어(보통화) 표현
+    - 十: 중국어(보통화) 표현
+    - 现在几点: 중국어(보통화) 표현
+    - 三点半: 중국어(보통화) 표현
+    - 지금: Zi2zung5
+    - 몇: gui2
+    - 시예요: gui2 diam2
+    - 세: san1
+    - 시: diam2
+    - 반: buan3
+
+Phrases:
+  - Phrase: Zi2zung5 gui2 diam2?
+    Translation: 지금 몇 시예요? (现在几点？)
+    Also accepted:
+      - 只陣幾點？
+
+  - Phrase: san1 diam2 buan3
+    Translation: 세 시 반 (三点半)
+    Also accepted:
+      - 三點半

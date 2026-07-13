@@ -61,10 +61,8 @@
 <form on:submit|preventDefault={submitChallenge}>
 	<div class="section">
 		<p class="is-size-1 is-size-2-tablet is-size-4-mobile has-text-centered">
-			Type
 			<Phrase phrase={challenge.phrase} />
-			in
-			{languageName}!
+			을(를) 조주어로 입력하세요!
 		</p>
 	</div>
 	<Columns>
@@ -95,7 +93,7 @@
 	{#if answer && !submitted}
 		<ChallengePanel
 			message=""
-			buttonText="Submit"
+			buttonText="제출"
 			submit
 			skipAction={skipChallenge}
 			skipAllAction={skipAllChallenges}
@@ -114,9 +112,9 @@
 	{#if submitted}
 		{#if !correct}
 			<ChallengePanel
-				message="Incorrect solution!"
-				messageDetail={`Correct answer: ${challenge.formInTargetLanguage[0]}`}
-				buttonText="Continue"
+				message="틀렸습니다!"
+				messageDetail={`정답: ${challenge.formInTargetLanguage[0]}`}
+				buttonText="계속"
 				incorrect
 				buttonAction={finishChallenge}
 			/>
@@ -124,9 +122,9 @@
 		{#if correct}
 			{#if !spellingSuggestion}
 				<ChallengePanel
-					message="Correct solution!"
+					message="정답입니다!"
 					messageDetail=""
-					buttonText="Continue"
+					buttonText="계속"
 					correct
 					buttonAction={finishChallenge}
 				/>
@@ -134,9 +132,9 @@
 
 			{#if spellingSuggestion}
 				<ChallengePanel
-					message="You have a typo!"
+					message="오타가 있어요!"
 					messageDetail={spellingSuggestion}
-					buttonText="Continue"
+					buttonText="계속"
 					typo
 					buttonAction={finishChallenge}
 				/>

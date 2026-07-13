@@ -43,13 +43,13 @@
 				</Column>
 				<Column size="2/5">
 					<div class="is-centered-mobile">
-						<Title size={2} sizeMobile="3" multiline>Lesson completed!</Title>
+						<Title size={2} sizeMobile="3" multiline>레슨 완료!</Title>
 						<Title size={2} isSubtitle={true} multiline>
 							You've completed
 							{stats.correct}
 							challenges
 						</Title>
-						<Button size="medium" href={courseURL} style="primary">Continue to course page</Button>
+						<Button size="medium" href={courseURL} style="primary">코스 페이지로 돌아가기</Button>
 					</div>
 				</Column>
 			</Columns>

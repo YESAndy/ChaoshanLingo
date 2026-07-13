@@ -9,6 +9,7 @@ register('de', () => import('./translation/de.json'));
 register('it', () => import('./translation/it.json'));
 register('eo', () => import('./translation/eo.json'));
 register('pl', () => import('./translation/pl.json'));
+register('ko', () => import('./translation/ko.json'));
 
 init({
 	fallbackLocale: defaultLocale,

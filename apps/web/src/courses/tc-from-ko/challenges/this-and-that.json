@@ -5,39 +5,43 @@
     {
       "type": "options",
       "formInTargetLanguage": "Kiêg8 he2bung2 ze1 guê3lai7.",
-      "meaningInSourceLanguage": "Bring that book here.",
-      "id": "3b9787630be7",
+      "meaningInSourceLanguage": "저 책을 이리 가져오세요. (把那本书拿过来。)",
+      "id": "3dd8d771e7bd",
       "priority": 0,
-      "group": "4a98cb7f7965"
+      "group": "c05b0b686c10"
     },
     {
       "type": "listeningExercise",
       "answer": "Kiêg8 he2bung2 ze1 guê3lai7.",
-      "meaning": "Bring that book here.",
+      "meaning": "저 책을 이리 가져오세요. (把那本书拿过来。)",
       "audio": "5ec8bb2d049c2e7fad7248363b113d63b68a96058875e1b9570393d6a4e12cb7",
-      "id": "7f63819e099b",
+      "id": "103fa8aeb5c6",
       "priority": 1,
-      "group": "4a98cb7f7965"
+      "group": "c05b0b686c10"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "Bring",
-          "definition": "Kiêg8"
-        },
-        {
-          "word": "that",
+          "word": "저",
           "definition": "he2"
         },
         {
-          "word": "book",
+          "word": "책을",
           "definition": "ze1"
         },
         {
-          "word": "here.",
-          "definition": "guê3lai7 (in this phrase)\nzi2go3 只塊"
+          "word": "이리",
+          "definition": "guê3lai7"
+        },
+        {
+          "word": "가져오세요.",
+          "definition": "Kiêg8"
+        },
+        {
+          "word": "(把那本书拿过来。)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -58,9 +62,9 @@
         ]
       ],
       "formattedSolution": "Kiêg8 he2bung2 ze1 guê3lai7.",
-      "id": "eebd2dd59ff1",
+      "id": "0258e3623f5d",
       "priority": 2,
-      "group": "4a98cb7f7965"
+      "group": "c05b0b686c10"
     },
     {
       "type": "chips",
@@ -68,51 +72,54 @@
       "phrase": [
         {
           "word": "Kiêg8",
-          "definition": "bring, take (挈)"
+          "definition": "가져오다 (挈)"
         },
         {
           "word": "he2bung2",
-          "definition": "that (volume of) (許本)"
+          "definition": "저 (책 한 권) (許本)"
         },
         {
           "word": "ze1",
-          "definition": "book (書)"
+          "definition": "책 (書)"
         },
         {
           "word": "guê3lai7.",
-          "definition": "over here (過來)"
+          "definition": "이리로 (過來)"
         }
       ],
       "chips": [
-        "Bring",
-        "that",
-        "book",
-        "here",
-        "What",
-        "time",
-        "the"
+        "저",
+        "책을",
+        "이리",
+        "가져오세요",
+        "把那本书拿过来",
+        "세",
+        "몇",
+        "시",
+        "반"
       ],
       "solutions": [
         [
-          "Bring",
-          "that",
-          "book",
-          "here"
+          "저",
+          "책을",
+          "이리",
+          "가져오세요",
+          "把那本书拿过来"
         ]
       ],
-      "formattedSolution": "Bring that book here.",
-      "id": "eb9c7f99e92d",
+      "formattedSolution": "저 책을 이리 가져오세요. (把那本书拿过来。)",
+      "id": "f5bd379f58e7",
       "priority": 2,
-      "group": "4a98cb7f7965"
+      "group": "c05b0b686c10"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "zi2gai5 只個",
-      "meaningInSourceLanguage": "this (one)",
-      "id": "193b02eb0890",
+      "meaningInSourceLanguage": "이것 (这个)",
+      "id": "95c5fd8866b7",
       "priority": 0,
-      "group": "5ac1e0a9b392"
+      "group": "5a199a31fb97"
     },
     {
       "type": "shortInput",
@@ -122,35 +129,35 @@
       ],
       "phrase": [
         {
-          "word": "this",
-          "definition": "zi2"
+          "word": "이것",
+          "definition": "zi2gai5"
         },
         {
-          "word": "(one)",
-          "definition": "gai5\nzêg8\nzêg8 一"
+          "word": "(这个)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "62fc92b8e88d",
+      "id": "1ba46263148c",
       "priority": 1,
-      "group": "5ac1e0a9b392"
+      "group": "5a199a31fb97"
     },
     {
       "type": "listeningExercise",
       "answer": "zi2gai5 只個",
-      "meaning": "this (one)",
+      "meaning": "이것 (这个)",
       "audio": "25e404f83292f8721b0bd63a3af6a07d2a5dc08cdc836b5e4d1f43b8c3c96f8e",
-      "id": "cd49154ff4f7",
+      "id": "7f622eb056ae",
       "priority": 1,
-      "group": "5ac1e0a9b392"
+      "group": "5a199a31fb97"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "he2gai5 許個",
-      "meaningInSourceLanguage": "that (one)",
-      "id": "e840ac0522e6",
+      "meaningInSourceLanguage": "저것 (那个)",
+      "id": "d512e7ca0447",
       "priority": 0,
-      "group": "e0e2adafbbd4"
+      "group": "21fa20048bb4"
     },
     {
       "type": "shortInput",
@@ -160,35 +167,35 @@
       ],
       "phrase": [
         {
-          "word": "that",
-          "definition": "he2"
+          "word": "저것",
+          "definition": "he2gai5"
         },
         {
-          "word": "(one)",
-          "definition": "gai5\nzêg8\nzêg8 一"
+          "word": "(那个)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "916b3f123fb0",
+      "id": "fd6b00b0b9f3",
       "priority": 1,
-      "group": "e0e2adafbbd4"
+      "group": "21fa20048bb4"
     },
     {
       "type": "listeningExercise",
       "answer": "he2gai5 許個",
-      "meaning": "that (one)",
+      "meaning": "저것 (那个)",
       "audio": "bf9bcba838ee1a0dac116f57140698ed4201e72d6650002d70201d846706d2fb",
-      "id": "eb651e89a33c",
+      "id": "17fe09ac9595",
       "priority": 1,
-      "group": "e0e2adafbbd4"
+      "group": "21fa20048bb4"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "zi2coh4 只撮",
-      "meaningInSourceLanguage": "these",
-      "id": "68bc7b440862",
+      "meaningInSourceLanguage": "이것들 (这些)",
+      "id": "bb9fd723ba3d",
       "priority": 0,
-      "group": "dec1c940d67b"
+      "group": "04bf0a171121"
     },
     {
       "type": "shortInput",
@@ -198,31 +205,35 @@
       ],
       "phrase": [
         {
-          "word": "these",
-          "definition": "zi2coh4\nzi2coh4 只撮"
+          "word": "이것들",
+          "definition": "zi2coh4"
+        },
+        {
+          "word": "(这些)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "40b37f2c16e1",
+      "id": "3a44fed51133",
       "priority": 1,
-      "group": "dec1c940d67b"
+      "group": "04bf0a171121"
     },
     {
       "type": "listeningExercise",
       "answer": "zi2coh4 只撮",
-      "meaning": "these",
+      "meaning": "이것들 (这些)",
       "audio": "294678993471d81b64348c1d34c7ede6873a4b724031e2f6b8656f3032dd56bb",
-      "id": "840f309bd4d0",
+      "id": "142476337d07",
       "priority": 1,
-      "group": "dec1c940d67b"
+      "group": "04bf0a171121"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "he2coh4 許撮",
-      "meaningInSourceLanguage": "those",
-      "id": "3aa4fdc36e46",
+      "meaningInSourceLanguage": "저것들 (那些)",
+      "id": "524d84eb99ed",
       "priority": 0,
-      "group": "56c44dfffaa5"
+      "group": "6e3b6b7a2a9c"
     },
     {
       "type": "shortInput",
@@ -232,31 +243,35 @@
       ],
       "phrase": [
         {
-          "word": "those",
-          "definition": "he2coh4\nhe2coh4 許撮"
+          "word": "저것들",
+          "definition": "he2coh4"
+        },
+        {
+          "word": "(那些)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "d6ff0330ccd3",
+      "id": "d5b0b5a87844",
       "priority": 1,
-      "group": "56c44dfffaa5"
+      "group": "6e3b6b7a2a9c"
     },
     {
       "type": "listeningExercise",
       "answer": "he2coh4 許撮",
-      "meaning": "those",
+      "meaning": "저것들 (那些)",
       "audio": "b344108a7c7a9e0901dfc1c9a182a6689b6d1b21dc7297ca1c46915d0dbf6e75",
-      "id": "b07fd556c104",
+      "id": "090c2792e4dc",
       "priority": 1,
-      "group": "56c44dfffaa5"
+      "group": "6e3b6b7a2a9c"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "zi2go3 只塊",
-      "meaningInSourceLanguage": "here",
-      "id": "566c031b61cf",
+      "meaningInSourceLanguage": "여기 (这里)",
+      "id": "d0cf1399b658",
       "priority": 0,
-      "group": "c86c22afa165"
+      "group": "a3eef34ba8e5"
     },
     {
       "type": "shortInput",
@@ -266,31 +281,35 @@
       ],
       "phrase": [
         {
-          "word": "here",
-          "definition": "guê3lai7 (in this phrase)\nzi2go3 只塊"
+          "word": "여기",
+          "definition": "zi2go3"
+        },
+        {
+          "word": "(这里)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "d3776428f494",
+      "id": "456b758fa0b0",
       "priority": 1,
-      "group": "c86c22afa165"
+      "group": "a3eef34ba8e5"
     },
     {
       "type": "listeningExercise",
       "answer": "zi2go3 只塊",
-      "meaning": "here",
+      "meaning": "여기 (这里)",
       "audio": "d77bc71e9e8196dac1522f5e3e20f94011ee070d3dfc6a1742ab14bcb38dfe04",
-      "id": "67c83b077fcc",
+      "id": "2e450d86124d",
       "priority": 1,
-      "group": "c86c22afa165"
+      "group": "a3eef34ba8e5"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "he2go3 許塊",
-      "meaningInSourceLanguage": "there",
-      "id": "0ced207b2fc5",
+      "meaningInSourceLanguage": "저기 (那里)",
+      "id": "292c23598af2",
       "priority": 0,
-      "group": "1d8909faaac2"
+      "group": "a32bdc85a259"
     },
     {
       "type": "shortInput",
@@ -300,31 +319,35 @@
       ],
       "phrase": [
         {
-          "word": "there",
-          "definition": "he2go3\nhe2go3 許塊"
+          "word": "저기",
+          "definition": "he2go3"
+        },
+        {
+          "word": "(那里)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "d3ab1e86dd90",
+      "id": "9becb22a5cd1",
       "priority": 1,
-      "group": "1d8909faaac2"
+      "group": "a32bdc85a259"
     },
     {
       "type": "listeningExercise",
       "answer": "he2go3 許塊",
-      "meaning": "there",
+      "meaning": "저기 (那里)",
       "audio": "6c8aa022206c6f89a5fbae7381ee2e42ed7767486e1132ea74a32649429914bf",
-      "id": "e9115e919fe5",
+      "id": "86a6e97926b2",
       "priority": 1,
-      "group": "1d8909faaac2"
+      "group": "a32bdc85a259"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "ziê2sên1 照生",
-      "meaningInSourceLanguage": "in this manner",
-      "id": "387558164728",
+      "meaningInSourceLanguage": "이렇게 (这样)",
+      "id": "4f0de7065ec4",
       "priority": 0,
-      "group": "2d704b3f3d0a"
+      "group": "1952c93d0813"
     },
     {
       "type": "shortInput",
@@ -334,30 +357,26 @@
       ],
       "phrase": [
         {
-          "word": "in",
-          "definition": "(part of phrase)"
+          "word": "이렇게",
+          "definition": "ziê2sên1"
         },
         {
-          "word": "this",
-          "definition": "zi2"
-        },
-        {
-          "word": "manner",
-          "definition": "sên1"
+          "word": "(这样)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "14f3d154b171",
+      "id": "b3ac9d1fe36d",
       "priority": 1,
-      "group": "2d704b3f3d0a"
+      "group": "1952c93d0813"
     },
     {
       "type": "listeningExercise",
       "answer": "ziê2sên1 照生",
-      "meaning": "in this manner",
+      "meaning": "이렇게 (这样)",
       "audio": "f290936ae292b6703e7b1c59f6ec168c798943bf5bcd23ac168159e0f84bbd09",
-      "id": "e95e36d34478",
+      "id": "015e3d1dccfd",
       "priority": 1,
-      "group": "2d704b3f3d0a"
+      "group": "1952c93d0813"
     }
   ]
 }

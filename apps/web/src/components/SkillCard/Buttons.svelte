@@ -10,15 +10,15 @@
 <div class="container">
 	{#if completed}
 		<Button style="primary" href={practiceHref}>
-			<Translate key="course_page.button_practice">Practice</Translate>
+			<Translate key="course_page.button_practice">연습하기</Translate>
 		</Button>
 	{:else if started}
 		<Button style="primary" href={practiceHref}>
-			<Translate key="course_page.button_continue">Continue learning</Translate>
+			<Translate key="course_page.button_continue">이어서 학습</Translate>
 		</Button>
 	{:else}
 		<Button style="primary" href={practiceHref}>
-			<Translate key="course_page.button_learn">Learn</Translate>
+			<Translate key="course_page.button_learn">학습하기</Translate>
 		</Button>
 	{/if}
 </div>

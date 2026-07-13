@@ -68,8 +68,8 @@ localData/
 /apps/web/src/courses/*-*
 /courses/*-*
 # ... but keep the Teochew course + its exported JSON (and demo) in the repo
-!/courses/tc-from-en/
-!/apps/web/src/courses/tc-from-en/
+!/courses/tc-from-ko/
+!/apps/web/src/courses/tc-from-ko/
 !/apps/web/src/courses/test-2/
 
 

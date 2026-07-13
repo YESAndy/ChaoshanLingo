@@ -1,7 +1,7 @@
 {
   "languageName": "Teochew",
   "languageCode": "nan",
-  "uiLanguage": "en",
+  "uiLanguage": "ko",
   "specialCharacters": [
     "ê",
     "Ê"
@@ -16,7 +16,7 @@
   },
   "modules": [
     {
-      "title": "Basics",
+      "title": "기초 Basics",
       "skills": [
         {
           "summary": [
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "title": "Conversation",
+      "title": "회화 Conversation",
       "skills": [
         {
           "summary": [
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "title": "Daily Life",
+      "title": "일상 Daily Life",
       "skills": [
         {
           "summary": [

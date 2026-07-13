@@ -5,51 +5,43 @@
     {
       "type": "options",
       "formInTargetLanguage": "Cia2mung7 sing1sên1 gui3sên3?",
-      "meaningInSourceLanguage": "May I ask what is your name?",
-      "id": "b814dafd24d3",
+      "meaningInSourceLanguage": "실례지만 성함이 어떻게 되세요? (请问先生贵姓？)",
+      "id": "5a133aa50d39",
       "priority": 0,
-      "group": "cce1d1f0ba38"
+      "group": "321ae590999d"
     },
     {
       "type": "listeningExercise",
       "answer": "Cia2mung7 sing1sên1 gui3sên3?",
-      "meaning": "May I ask what is your name?",
+      "meaning": "실례지만 성함이 어떻게 되세요? (请问先生贵姓？)",
       "audio": "f2b34a44ea763d1b6292cf728a9f5efa6f5a49e214f7afee28e3ceb6ac3c97b4",
-      "id": "9e903934e481",
+      "id": "d7bb0c2463fb",
       "priority": 1,
-      "group": "cce1d1f0ba38"
+      "group": "321ae590999d"
     },
     {
       "type": "chips",
       "translatesToSourceLanguage": false,
       "phrase": [
         {
-          "word": "May",
-          "definition": "cia2"
+          "word": "실례지만",
+          "definition": "cia2mung7"
         },
         {
-          "word": "I",
-          "definition": "ua2\nua2 我"
+          "word": "성함이",
+          "definition": "gui3sên3"
         },
         {
-          "word": "ask",
-          "definition": "mung7"
+          "word": "어떻게",
+          "definition": "(의문)\nzo3ni5"
         },
         {
-          "word": "what",
-          "definition": "gui2 (in this phrase)"
+          "word": "되세요?",
+          "definition": "(존칭 표현)"
         },
         {
-          "word": "is",
-          "definition": "si6"
-        },
-        {
-          "word": "your",
-          "definition": "gui3 (honorific)"
-        },
-        {
-          "word": "name?",
-          "definition": "sên3 (surname)"
+          "word": "(请问先生贵姓？)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
       "chips": [
@@ -67,9 +59,9 @@
         ]
       ],
       "formattedSolution": "Cia2mung7 sing1sên1 gui3sên3?",
-      "id": "8462c433550f",
+      "id": "5fc4a2369fad",
       "priority": 2,
-      "group": "cce1d1f0ba38"
+      "group": "321ae590999d"
     },
     {
       "type": "chips",
@@ -77,56 +69,50 @@
       "phrase": [
         {
           "word": "Cia2mung7",
-          "definition": "may I ask (請問)"
+          "definition": "말씀 좀 묻겠습니다 (請問)"
         },
         {
           "word": "sing1sên1",
-          "definition": "mister, sir (先生)"
+          "definition": "선생님 (先生)"
         },
         {
           "word": "gui3sên3?",
-          "definition": "your honored surname (貴姓)"
+          "definition": "성함 (존칭) (貴姓)"
         }
       ],
       "chips": [
-        "May",
-        "I",
-        "ask",
-        "what",
-        "is",
-        "your",
-        "name",
-        "it",
-        "He",
-        "our",
-        "you",
-        "the",
-        "yet"
+        "실례지만",
+        "성함이",
+        "어떻게",
+        "되세요",
+        "请问先生贵姓",
+        "지금",
+        "시예요",
+        "세",
+        "병원이"
       ],
       "solutions": [
         [
-          "May",
-          "I",
-          "ask",
-          "what",
-          "is",
-          "your",
-          "name"
+          "실례지만",
+          "성함이",
+          "어떻게",
+          "되세요",
+          "请问先生贵姓"
         ]
       ],
-      "formattedSolution": "May I ask what is your name?",
-      "id": "c928659d499e",
+      "formattedSolution": "실례지만 성함이 어떻게 되세요? (请问先生贵姓？)",
+      "id": "2d773b2efcc0",
       "priority": 2,
-      "group": "cce1d1f0ba38"
+      "group": "321ae590999d"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "cia2mung7 請問",
-      "meaningInSourceLanguage": "may I ask",
-      "id": "f72f531dfa8d",
+      "meaningInSourceLanguage": "말씀 좀 묻겠습니다 (请问)",
+      "id": "75570f5ef00d",
       "priority": 0,
-      "group": "a7caaee48c8a"
+      "group": "2be85cf1f914"
     },
     {
       "type": "shortInput",
@@ -136,39 +122,43 @@
       ],
       "phrase": [
         {
-          "word": "may",
-          "definition": "cia2"
-        },
-        {
-          "word": "I",
-          "definition": "ua2\nua2 我"
-        },
-        {
-          "word": "ask",
+          "word": "말씀",
           "definition": "mung7"
+        },
+        {
+          "word": "좀",
+          "definition": "(완곡)"
+        },
+        {
+          "word": "묻겠습니다",
+          "definition": "mung7"
+        },
+        {
+          "word": "(请问)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "584cc6d04d92",
+      "id": "151dc9c24a54",
       "priority": 1,
-      "group": "a7caaee48c8a"
+      "group": "2be85cf1f914"
     },
     {
       "type": "listeningExercise",
       "answer": "cia2mung7 請問",
-      "meaning": "may I ask",
+      "meaning": "말씀 좀 묻겠습니다 (请问)",
       "audio": "480098b7f9ca526f9e09a6d35cb92dfa41412dc7dce8f254889a3653d6e8e835",
-      "id": "7a30a0e12d4a",
+      "id": "18541ed69352",
       "priority": 1,
-      "group": "a7caaee48c8a"
+      "group": "2be85cf1f914"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "sia7sia7 謝謝",
-      "meaningInSourceLanguage": "thanks",
-      "id": "72130888b5e6",
+      "meaningInSourceLanguage": "감사합니다 (谢谢)",
+      "id": "ab7f5ca087f6",
       "priority": 0,
-      "group": "5f9744f8f5c0"
+      "group": "d03f270e94f2"
     },
     {
       "type": "shortInput",
@@ -178,31 +168,35 @@
       ],
       "phrase": [
         {
-          "word": "thanks",
-          "definition": "sia7sia7\nsia7sia7 謝謝"
+          "word": "감사합니다",
+          "definition": "sia7sia7"
+        },
+        {
+          "word": "(谢谢)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "8834726fa64c",
+      "id": "c0e6511a7546",
       "priority": 1,
-      "group": "5f9744f8f5c0"
+      "group": "d03f270e94f2"
     },
     {
       "type": "listeningExercise",
       "answer": "sia7sia7 謝謝",
-      "meaning": "thanks",
+      "meaning": "감사합니다 (谢谢)",
       "audio": "5163748af95389b7127325a0222873367d78a36301b6cd793169d22397c266a4",
-      "id": "fbfb836692b4",
+      "id": "38a23a4097ba",
       "priority": 1,
-      "group": "5f9744f8f5c0"
+      "group": "d03f270e94f2"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "zoi7sia7 濟謝",
-      "meaningInSourceLanguage": "many thanks",
-      "id": "2a2cb3da275e",
+      "meaningInSourceLanguage": "대단히 감사합니다 (多谢)",
+      "id": "b578a02681fb",
       "priority": 0,
-      "group": "5033c7166dfb"
+      "group": "0730700f001a"
     },
     {
       "type": "shortInput",
@@ -212,35 +206,39 @@
       ],
       "phrase": [
         {
-          "word": "many",
+          "word": "대단히",
           "definition": "zoi7"
         },
         {
-          "word": "thanks",
-          "definition": "sia7sia7\nsia7sia7 謝謝"
+          "word": "감사합니다",
+          "definition": "sia7sia7"
+        },
+        {
+          "word": "(多谢)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "09f2ef4d64e5",
+      "id": "329af20c46f1",
       "priority": 1,
-      "group": "5033c7166dfb"
+      "group": "0730700f001a"
     },
     {
       "type": "listeningExercise",
       "answer": "zoi7sia7 濟謝",
-      "meaning": "many thanks",
+      "meaning": "대단히 감사합니다 (多谢)",
       "audio": "edd8def600683a2f40b211eb1fcbd2f2179a9eb5f9254d7c4ef9f173bcaa077b",
-      "id": "77f4a09b0377",
+      "id": "a965c6fa585a",
       "priority": 1,
-      "group": "5033c7166dfb"
+      "group": "0730700f001a"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "gam2sia7 感謝",
-      "meaningInSourceLanguage": "heartfelt thanks",
-      "id": "045b9ba3b778",
+      "meaningInSourceLanguage": "진심으로 감사합니다 (感谢)",
+      "id": "9af7f1dda823",
       "priority": 0,
-      "group": "a31aa441edc7"
+      "group": "5af524ad58f7"
     },
     {
       "type": "shortInput",
@@ -250,35 +248,39 @@
       ],
       "phrase": [
         {
-          "word": "heartfelt",
+          "word": "진심으로",
           "definition": "gam2"
         },
         {
-          "word": "thanks",
-          "definition": "sia7sia7\nsia7sia7 謝謝"
+          "word": "감사합니다",
+          "definition": "sia7sia7"
+        },
+        {
+          "word": "(感谢)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "607d5c34a668",
+      "id": "18ebc5c0ac5c",
       "priority": 1,
-      "group": "a31aa441edc7"
+      "group": "5af524ad58f7"
     },
     {
       "type": "listeningExercise",
       "answer": "gam2sia7 感謝",
-      "meaning": "heartfelt thanks",
+      "meaning": "진심으로 감사합니다 (感谢)",
       "audio": "b69c2f540059f37904a05e1122164978043f114d161e3a826b73c5f7a925eaf6",
-      "id": "df3203935047",
+      "id": "77d0a41bed7a",
       "priority": 1,
-      "group": "a31aa441edc7"
+      "group": "5af524ad58f7"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "miang2kêh4ki3 免客氣",
-      "meaningInSourceLanguage": "you are welcome",
-      "id": "9978b37bf345",
+      "meaningInSourceLanguage": "천만에요 (不客气)",
+      "id": "4ba90c59177c",
       "priority": 0,
-      "group": "59058c877760"
+      "group": "c536c156e952"
     },
     {
       "type": "shortInput",
@@ -288,39 +290,35 @@
       ],
       "phrase": [
         {
-          "word": "you",
-          "definition": "le2\nle2 (sg.) / ning2 (pl.)"
-        },
-        {
-          "word": "are",
-          "definition": "si6"
-        },
-        {
-          "word": "welcome",
+          "word": "천만에요",
           "definition": "miang2kêh4ki3"
+        },
+        {
+          "word": "(不客气)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "fe6135ea5dd8",
+      "id": "b81467d01f8c",
       "priority": 1,
-      "group": "59058c877760"
+      "group": "c536c156e952"
     },
     {
       "type": "listeningExercise",
       "answer": "miang2kêh4ki3 免客氣",
-      "meaning": "you are welcome",
+      "meaning": "천만에요 (不客气)",
       "audio": "6903b73c64584cfbb0d68ddb1e9f8b87883f99dd8fd339bc8a5447b33766ad61",
-      "id": "290640066fda",
+      "id": "d8e7547a2430",
       "priority": 1,
-      "group": "59058c877760"
+      "group": "c536c156e952"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "mo2i3se3 孬意思",
-      "meaningInSourceLanguage": "excuse me",
-      "id": "4b1f7a1de097",
+      "meaningInSourceLanguage": "실례합니다 (不好意思)",
+      "id": "bc79748726ba",
       "priority": 0,
-      "group": "2e20286d8dc5"
+      "group": "d892894a1c1c"
     },
     {
       "type": "shortInput",
@@ -330,35 +328,35 @@
       ],
       "phrase": [
         {
-          "word": "excuse",
+          "word": "실례합니다",
           "definition": "mo2i3se3"
         },
         {
-          "word": "me",
-          "definition": "ua2"
+          "word": "(不好意思)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "83d27b155f75",
+      "id": "8e8f0c852bf5",
       "priority": 1,
-      "group": "2e20286d8dc5"
+      "group": "d892894a1c1c"
     },
     {
       "type": "listeningExercise",
       "answer": "mo2i3se3 孬意思",
-      "meaning": "excuse me",
+      "meaning": "실례합니다 (不好意思)",
       "audio": "ccda10d1d0933974f5111d6dbf8bf54ea39ac684f97f0678cb174930ea0151e0",
-      "id": "e9ecd59415ad",
+      "id": "488412086100",
       "priority": 1,
-      "group": "2e20286d8dc5"
+      "group": "d892894a1c1c"
     },
     {
       "type": "cards",
       "pictures": null,
       "formInTargetLanguage": "dui3m6zu6 對唔住",
-      "meaningInSourceLanguage": "I am sorry",
-      "id": "71caab7c5e9b",
+      "meaningInSourceLanguage": "죄송합니다 (对不起)",
+      "id": "b187e8f84b64",
       "priority": 0,
-      "group": "c29cde4fe477"
+      "group": "70187639e49e"
     },
     {
       "type": "shortInput",
@@ -368,30 +366,26 @@
       ],
       "phrase": [
         {
-          "word": "I",
-          "definition": "ua2\nua2 我"
-        },
-        {
-          "word": "am",
-          "definition": "si6"
-        },
-        {
-          "word": "sorry",
+          "word": "죄송합니다",
           "definition": "dui3m6zu6"
+        },
+        {
+          "word": "(对不起)",
+          "definition": "중국어(보통화) 표현"
         }
       ],
-      "id": "724d0f8054f4",
+      "id": "f95bf74e74ec",
       "priority": 1,
-      "group": "c29cde4fe477"
+      "group": "70187639e49e"
     },
     {
       "type": "listeningExercise",
       "answer": "dui3m6zu6 對唔住",
-      "meaning": "I am sorry",
+      "meaning": "죄송합니다 (对不起)",
       "audio": "eae533fee1f76b829cc8ecbe346467ea828d3dcfb2234b3cfc0818dacfdb96f3",
-      "id": "7488a930e14e",
+      "id": "ba50e41d26db",
       "priority": 1,
-      "group": "c29cde4fe477"
+      "group": "70187639e49e"
     }
   ]
 }
