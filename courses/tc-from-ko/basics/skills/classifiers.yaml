@@ -1,0 +1,76 @@
+# Source: https://learnteochew.com/pages/classifiers.html
+Skill:
+  Name: Classifiers and Possession
+  Id: 9
+
+New words:
+  - Word: gai5 個
+    Translation: 개 (일반 분류사), ~의
+    Also accepted:
+      - gai5
+      - 個
+
+  - Word: bung2 本
+    Translation: 권 (책의 분류사)
+    Also accepted:
+      - bung2
+      - 本
+
+  - Word: ze1 書
+    Translation: 책
+    Also accepted:
+      - ze1
+      - 書
+
+  - Word: san1 三
+    Translation: 셋
+    Also accepted:
+      - san1
+      - 三
+
+  - Word: hian1di6 兄弟
+    Translation: 형제
+    Also accepted:
+      - hian1di6
+      - 兄弟
+
+  - Word: gui2 幾
+    Translation: 몇
+    Also accepted:
+      - gui2
+      - 幾
+
+Mini-dictionary:
+  Teochew:
+    - gai5: 일반 분류사, ~의 (個)
+    - bung2: 책의 분류사 (本)
+    - ze1: 책 (書)
+    - san1: 셋 (三)
+    - hian1di6: 형제 (兄弟)
+    - gui2: 몇 (幾)
+    - liab8: 알, 개수 세는 분류사 (粒)
+    - neng6: 달걀 (卵)
+  Korean:
+    - 개: gai5
+    - 권: bung2
+    - 책: ze1
+    - 셋: san1
+    - 형제: hian1di6
+    - 몇: gui2
+    - 알: neng6
+
+Phrases:
+  - Phrase: Ua2 gai5 ze1.
+    Translation: 내 책. (我的書。)
+    Also accepted:
+      - 我個書。
+
+  - Phrase: san1 gai5 hian1di6.
+    Translation: 형제 세 명. (三個兄弟。)
+    Also accepted:
+      - 三個兄弟。
+
+  - Phrase: gui2 liab8 neng6?
+    Translation: 달걀이 몇 개예요? (有幾粒卵？)
+    Also accepted:
+      - 有幾粒卵？

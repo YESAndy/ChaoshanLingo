@@ -1,0 +1,72 @@
+# Source: https://learnteochew.com/pages/directions.html
+Skill:
+  Name: Places and Movement
+  Id: 10
+
+New words:
+  - Word: do6 在
+    Translation: ~에 있다
+    Also accepted:
+      - do6
+      - 在
+
+  - Word: ke3 去
+    Translation: 가다
+    Also accepted:
+      - ke3
+      - 去
+
+  - Word: lai5 來
+    Translation: 오다
+    Also accepted:
+      - lai5
+      - 來
+
+  - Word: zi2go3 只塊
+    Translation: 여기
+    Also accepted:
+      - zi2go3
+      - 只塊
+
+  - Word: ghua7kao2 外口
+    Translation: 밖
+    Also accepted:
+      - ghua7kao2
+      - 外口
+
+  - Word: bin1tao5 邊頭
+    Translation: 옆, 곁
+    Also accepted:
+      - bin1tao5
+      - 邊頭
+
+Mini-dictionary:
+  Teochew:
+    - ua2: 나 (我)
+    - i1: 그, 그녀 (伊)
+    - do6: ~에 있다 (在)
+    - ke3: 가다 (去)
+    - lai5: 오다 (來)
+    - zi2go3: 여기 (只塊)
+    - ghua7kao2: 밖 (外口)
+    - bin1tao5: 옆 (邊頭)
+  Korean:
+    - 나: ua2
+    - 그: i1
+    - 있다: do6
+    - 가다: ke3
+    - 오다: lai5
+    - 여기: zi2go3
+    - 밖: ghua7kao2
+    - 옆: bin1tao5
+
+Phrases:
+  - Phrase: Ua2 do6 zi2go3.
+    Translation: 나는 여기 있어요. (我在這裡。)
+    Also accepted:
+      - 我在只塊。
+
+  - Phrase: I1 ke3 ghua7kao2.
+    Translation: 그는 밖에 가요. (他去外面。)
+    Also accepted:
+      - 伊去外口。

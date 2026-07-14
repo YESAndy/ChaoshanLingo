@@ -1,0 +1,50 @@
+# End-of-course checkpoint. Vocabulary is deliberately recycled from earlier skills.
+Skill:
+  Name: Beginner Checkpoint
+  Id: 13
+
+New words: []
+
+Mini-dictionary:
+  Teochew:
+    - leu2: 너 (汝)
+    - Le2: 너 (汝)
+    - ho2: 좋다, 안녕하다 (好)
+    - ua2: 나 (我)
+    - si6: 이다 (是)
+    - pêng5iu2: 친구 (朋友)
+    - cia2mung7: 실례지만, 여쭤보겠습니다 (請問)
+    - di7go3: 어디 (哋塊)
+    - do6: ~에 있다 (在)
+    - sia7sia7: 감사합니다 (謝謝)
+  Korean:
+    - 너: leu2
+    - 안녕하다: ho2
+    - 나: ua2
+    - 이다: si6
+    - 친구: pêng5iu2
+    - 실례지만: cia2mung7
+    - 어디: di7go3
+    - 있다: do6
+    - 감사합니다: sia7sia7
+
+Phrases:
+  - Phrase: Le2 ho2?
+    Translation: 잘 지내요? (你好嗎？)
+    Also accepted:
+      - 汝好？
+
+  - Phrase: Ua2 si6 le2 gai5 pêng5iu2.
+    Translation: 나는 네 친구예요. (我是你的朋友。)
+    Also accepted:
+      - 我是汝個朋友。
+
+  - Phrase: Cia2mung7 di7go3 do6?
+    Translation: 실례지만 어디에 있어요? (請問在哪裡？)
+    Also accepted:
+      - 請問哋塊在？
+
+  - Phrase: Sia7sia7.
+    Translation: 감사합니다. (謝謝。)
+    Also accepted:
+      - 謝謝。

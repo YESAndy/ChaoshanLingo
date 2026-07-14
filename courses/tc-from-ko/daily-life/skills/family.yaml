@@ -1,0 +1,86 @@
+# Source: https://learnteochew.com/pages/address.html
+Skill:
+  Name: Family and Address
+  Id: 12
+
+New words:
+  - Word: a1ma5 阿媽
+    Translation: 엄마
+    Also accepted:
+      - a1ma5
+      - 阿媽
+
+  - Word: a1ba1 阿爸
+    Translation: 아빠
+    Also accepted:
+      - a1ba1
+      - 阿爸
+
+  - Word: a1hian1 阿兄
+    Translation: 오빠, 형
+    Also accepted:
+      - a1hian1
+      - 阿兄
+
+  - Word: a1zê2 阿姐
+    Translation: 언니, 누나, 누이
+    Also accepted:
+      - a1zê2
+      - 阿姐
+
+  - Word: a1di6 阿弟
+    Translation: 남동생
+    Also accepted:
+      - a1di6
+      - 阿弟
+
+  - Word: a1muê6 阿妹
+    Translation: 여동생
+    Also accepted:
+      - a1muê6
+      - 阿妹
+
+  - Word: sing1sên1 先生
+    Translation: 선생님, Mr.
+    Also accepted:
+      - sing1sên1
+      - 先生
+
+Mini-dictionary:
+  Teochew:
+    - a1ma5: 엄마 (阿媽)
+    - a1ba1: 아빠 (阿爸)
+    - a1hian1: 오빠, 형 (阿兄)
+    - a1zê2: 언니, 누나 (阿姐)
+    - a1di6: 남동생 (阿弟)
+    - a1muê6: 여동생 (阿妹)
+    - sing1sên1: 선생님, Mr. (先生)
+    - ua2: 나 (我)
+    - gai5: ~의 (個)
+    - pêng5iu2: 친구 (朋友)
+    - cia2mung7: 실례지만, 여쭤보겠습니다 (請問)
+    - gui3sên3: 성함 (貴姓)
+    - A1ma5: 엄마 (阿媽)
+  Korean:
+    - 엄마: a1ma5
+    - 아빠: a1ba1
+    - 오빠: a1hian1
+    - 누나: a1zê2
+    - 남동생: a1di6
+    - 여동생: a1muê6
+    - 선생님: sing1sên1
+    - 나: ua2
+    - 친구: pêng5iu2
+    - 실례지만: cia2mung7
+    - 성함: gui3sên3
+
+Phrases:
+  - Phrase: A1ma5 si6 ua2 gai5 pêng5iu2.
+    Translation: 엄마는 내 친구예요. (媽媽是我的朋友。)
+    Also accepted:
+      - 阿媽是我個朋友。
+
+  - Phrase: Cia2mung7 sing1sên1 gui3sên3?
+    Translation: 실례지만 성함이 어떻게 되세요? (請問先生貴姓？)
+    Also accepted:
+      - 請問先生貴姓？

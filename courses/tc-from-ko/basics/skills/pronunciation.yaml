@@ -1,0 +1,70 @@
+# Jieyang pronunciation orientation.
+# Source: https://learnteochew.com/pages/pronunciation.html
+Skill:
+  Name: Pronunciation and Peng'im
+  Id: 7
+
+New words:
+  - Word: a1 阿
+    Translation: 아 (호칭 접두사)
+    Also accepted:
+      - a1
+      - 阿
+
+  - Word: m6 唔
+    Translation: 아니-, ~않다 (부정 접두사)
+    Also accepted:
+      - m6
+      - 唔
+
+  - Word: si6 是
+    Translation: 이다
+    Also accepted:
+      - si6
+      - 是
+
+  - Word: u6 有
+    Translation: 있다, 가지다
+    Also accepted:
+      - u6
+      - 有
+
+  - Word: bho5 無
+    Translation: 없다
+    Also accepted:
+      - bho5
+      - 無
+
+  - Word: ê6 下
+    Translation: 아래, 내려
+    Also accepted:
+      - ê6
+      - 下
+
+Mini-dictionary:
+  Teochew:
+    - m6: 아니-, ~않다 (唔)
+    - si6: 이다 (是)
+    - u6: 있다, 가지다 (有)
+    - bho5: 없다 (無)
+  Korean:
+    - 아니: m6
+    - 이다: si6
+    - 있다: u6
+    - 없다: bho5
+
+Phrases:
+  - Phrase: m6 si6.
+    Translation: 아니에요. (不是。)
+    Also accepted:
+      - 唔是。
+
+  - Phrase: u6.
+    Translation: 있어요. (有。)
+    Also accepted:
+      - 有。
+
+  - Phrase: bho5.
+    Translation: 없어요. (無。)
+    Also accepted:
+      - 無。

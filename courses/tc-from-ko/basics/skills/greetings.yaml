@@ -1,0 +1,67 @@
+# Source: https://learningteochew.com/category/basics
+Skill:
+  Name: Greetings
+  Id: 8
+
+New words:
+  - Word: leu2 ho2 汝好
+    Translation: 안녕하세요
+    Also accepted:
+      - leu2 ho2
+      - 汝好
+
+  - Word: dai7ge1 ho2 大家好
+    Translation: 여러분 안녕하세요
+    Also accepted:
+      - dai7ge1 ho2
+      - 大家好
+
+  - Word: sia7sia7 謝謝
+    Translation: 감사합니다
+    Also accepted:
+      - 고맙습니다
+      - sia7sia7
+      - 謝謝
+
+  - Word: dui3m6zu6 對唔住
+    Translation: 죄송합니다
+    Also accepted:
+      - dui3m6zu6
+      - 對唔住
+
+  - Word: bhoi7jo2ni5 袂做呢
+    Translation: 괜찮아요
+    Also accepted:
+      - bhoi7jo2ni5
+      - 袂做呢
+
+Mini-dictionary:
+  Teochew:
+    - leu2: 너 (汝)
+    - ho2: 좋다, 안녕하다 (好)
+    - dai7ge1: 모두, 여러분 (大家)
+    - sia7sia7: 감사합니다 (謝謝)
+    - dui3m6zu6: 죄송합니다 (對唔住)
+    - bhoi7jo2ni5: 괜찮아요 (袂做呢)
+  Korean:
+    - 안녕하세요: leu2 ho2
+    - 여러분: dai7ge1
+    - 감사합니다: sia7sia7
+    - 죄송합니다: dui3m6zu6
+    - 괜찮아요: bhoi7jo2ni5
+
+Phrases:
+  - Phrase: leu2 ho2.
+    Translation: 안녕하세요. (你好。)
+    Also accepted:
+      - 汝好。
+
+  - Phrase: sia7sia7.
+    Translation: 감사합니다. (謝謝。)
+    Also accepted:
+      - 謝謝。
+
+  - Phrase: dui3m6zu6.
+    Translation: 죄송합니다. (對唔住。)
+    Also accepted:
+      - 對唔住。

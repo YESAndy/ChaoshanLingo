@@ -1,0 +1,80 @@
+# Source: https://learnteochew.com/pages/negatives.html
+Skill:
+  Name: Negation
+  Id: 11
+
+New words:
+  - Word: m6si6 唔是
+    Translation: ~이/가 아니다
+    Also accepted:
+      - m6si6
+      - 唔是
+
+  - Word: m6 唔
+    Translation: ~않다
+    Also accepted:
+      - m6
+      - 唔
+
+  - Word: bho5 無
+    Translation: 없다
+    Also accepted:
+      - bho5
+      - 無
+
+  - Word: bhuê7 未
+    Translation: 아직 ~않다
+    Also accepted:
+      - bhuê7
+      - 未
+
+  - Word: zin5 錢
+    Translation: 돈
+    Also accepted:
+      - zin5
+      - 錢
+
+  - Word: rig8bung2nang5 日本人
+    Translation: 일본인
+    Also accepted:
+      - rig8bung2nang5
+      - 日本人
+
+Mini-dictionary:
+  Teochew:
+    - ua2: 나 (我)
+    - m6si6: ~이/가 아니다 (唔是)
+    - m6: ~않다 (唔)
+    - bho5: 없다 (無)
+    - bhuê7: 아직 ~않다 (未)
+    - zin5: 돈 (錢)
+    - rig8bung2nang5: 일본인 (日本人)
+    - ziah8ba2: 배불리 먹다 (食飽)
+    - lou7: 완료 조사 (𡀔)
+    - Bhuê7: 아직 ~않다 (未)
+  Korean:
+    - 나: ua2
+    - 아니다: m6si6
+    - 않다: m6
+    - 없다: bho5
+    - 아직: bhuê7
+    - 돈: zin5
+    - 일본인: rig8bung2nang5
+    - 배불리 먹다: ziah8ba2
+    - 완료: lou7
+
+Phrases:
+  - Phrase: Ua2 m6si6 rig8bung2nang5.
+    Translation: 나는 일본인이 아니에요. (我不是日本人。)
+    Also accepted:
+      - 我唔是日本人。
+
+  - Phrase: Ua2 bho5 zin5.
+    Translation: 나는 돈이 없어요. (我沒有錢。)
+    Also accepted:
+      - 我無錢。
+
+  - Phrase: Bhuê7 ziah8ba2 lou7.
+    Translation: 아직 배불리 먹지 않았어요. (還沒吃飽。)
+    Also accepted:
+      - 未食飽𡀔。
