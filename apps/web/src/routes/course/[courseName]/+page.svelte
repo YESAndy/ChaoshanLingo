@@ -1,22 +1,33 @@
 <script lang="ts">
 	import { locale } from 'svelte-i18n';
-	import SkillCard from 'components/SkillCard/SkillCard.svelte';
 	import NavBar from 'components/NavBar.svelte';
-
-	import Column from 'components/Column.svelte';
-	import Columns from 'components/Columns.svelte';
 	import Content from 'components/Content.svelte';
 	import Footer from 'components/Footer.svelte';
+	import Column from 'components/Column.svelte';
+	import Columns from 'components/Columns.svelte';
 	import type { ModulesType } from 'types/ModulesType';
 	import { page } from '$app/state';
 	import { base } from '$app/paths';
+	import { progress, displayStreak } from '$lib/gamification';
 
 	export const courseName = page.data.course.courseName;
 	export let modules: ModulesType = page.data.course.modules;
 	export let languageName = page.data.course.languageName;
 	export const repositoryURL = page.data.course.repositoryURL;
-	export let uiLanguage = 'es';
+	export let uiLanguage = 'ko';
 	locale.set(uiLanguage);
+
+	// Flatten skills across modules to determine the "current" (first uncompleted) skill
+	$: allSkills = modules.flatMap((m) => m.skills);
+	$: completedIds = new Set(
+		allSkills.filter((s) => ($progress.completedSkills[s.id] || 0) > 0).map((s) => s.id)
+	);
+	$: currentId = allSkills.find((s) => !completedIds.has(s.id))?.id;
+
+	const hrefFor = (skill) => `${base}/course/${courseName}/skill/${skill.practiceHref}`;
+
+	// snake offsets, Duolingo-style
+	const offsets = [0, 45, 75, 45, 0, -45, -75, -45];
 </script>
 
 <svelte:head>
@@ -26,26 +37,48 @@
 <main class="course-page app-page">
 	<NavBar hasAuth {repositoryURL} />
 
-	{#each modules as { title, skills }}
-		<section class="section surface-card surface-block">
-			<div class="container surface-container">
-				<div class="surface-section-heading">
-					<h2 class="is-size-2">{title}</h2>
-					<!-- Description removed per design request -->
-				</div>
-				<Columns multiline class="surface-grid">
-					{#each skills as skill}
-						<Column sizeDesktop="1/3" sizeTablet="1/2">
-							<SkillCard
-								{...{ ...skill }}
-								practiceHref={`${base}/course/${courseName}/skill/${skill.practiceHref}`}
-							/>
-						</Column>
+	<div class="stats-bar">
+		<span class="stat" title="연속 학습">🔥 {displayStreak($progress)}</span>
+		<span class="stat" title="XP">⚡ {$progress.xp} XP</span>
+	</div>
+
+	<div class="path-container">
+		{#each modules as module, mi}
+			<section class="unit">
+				<header class="unit-banner">
+					<div class="unit-banner__label">유닛 {mi + 1}</div>
+					<h2 class="unit-banner__title">{module.title}</h2>
+				</header>
+
+				<div class="path">
+					{#each module.skills as skill, si}
+						{@const done = completedIds.has(skill.id)}
+						{@const isCurrent = skill.id === currentId}
+						{@const locked = !done && !isCurrent}
+						<div class="node-row" style="transform: translateX({offsets[si % offsets.length]}px)">
+							{#if isCurrent}
+								<div class="start-bubble">시작</div>
+							{/if}
+							{#if locked}
+								<div class="node node--locked" aria-disabled="true" title="이전 레슨을 먼저 완료하세요">
+									<span class="node__icon">🔒</span>
+								</div>
+							{:else}
+								<a
+									class="node {done ? 'node--done' : 'node--active'}"
+									href={hrefFor(skill)}
+									data-test="skill node"
+								>
+									<span class="node__icon">{done ? '✓' : '★'}</span>
+								</a>
+							{/if}
+							<span class="node-label" class:node-label--locked={locked}>{skill.title}</span>
+						</div>
 					{/each}
-				</Columns>
-			</div>
-		</section>
-	{/each}
+				</div>
+			</section>
+		{/each}
+	</div>
 
 	<Footer>
 		<Content>
@@ -71,27 +104,150 @@
 </main>
 
 <style lang="scss">
-	:global(.surface-grid) {
-		display: flex !important;
-		flex-wrap: wrap;
+	.stats-bar {
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
+		max-width: 640px;
+		margin: 0.5rem auto 0;
+		padding: 0 1rem;
+	}
+
+	.stat {
+		font-weight: 700;
+		font-size: 1.1rem;
+		color: #4b4b4b;
+	}
+
+	.path-container {
+		max-width: 640px;
+		margin: 0 auto;
+		padding: 1rem 1rem 4rem;
+	}
+
+	.unit {
+		margin-bottom: 2rem;
+	}
+
+	.unit-banner {
+		background: var(--color-primary, #58cc02);
+		border-radius: 16px;
+		box-shadow: 0 4px 0 var(--color-primary-shadow, #58a700);
+		color: #fff;
+		padding: 1rem 1.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.unit-banner__label {
+		font-size: 0.85rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		opacity: 0.85;
+	}
+
+	.unit-banner__title {
+		font-size: 1.4rem;
+		font-weight: 800;
+		margin: 0;
+	}
+
+	.path {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1.6rem;
+	}
+
+	.node-row {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 120px;
+	}
+
+	.node {
+		display: flex;
+		align-items: center;
 		justify-content: center;
-		gap: 1.5rem;
+		width: 70px;
+		height: 64px;
+		border-radius: 50% / 46%;
+		font-size: 1.8rem;
+		color: #fff;
+		text-decoration: none;
+		user-select: none;
+		transition: transform 0.1s;
 	}
 
-	:global(.surface-grid .column) {
-		flex: 0 1 calc(33.333% - 1rem);
-		min-width: 250px;
+	.node--active {
+		background: var(--color-primary, #58cc02);
+		box-shadow: 0 8px 0 var(--color-primary-shadow, #58a700);
 	}
 
-	@media (max-width: 1024px) {
-		:global(.surface-grid .column) {
-			flex: 0 1 calc(50% - 1rem);
+	.node--done {
+		background: var(--color-gold, #ffc800);
+		box-shadow: 0 8px 0 #e6a800;
+	}
+
+	.node--locked {
+		background: var(--color-locked, #e5e5e5);
+		box-shadow: 0 8px 0 var(--color-locked-shadow, #afafaf);
+		cursor: not-allowed;
+	}
+
+	.node:active:not(.node--locked) {
+		transform: translateY(4px);
+		box-shadow: 0 4px 0 var(--color-primary-shadow, #58a700);
+	}
+
+	.node-label {
+		margin-top: 0.9rem;
+		font-weight: 700;
+		font-size: 0.9rem;
+		color: #4b4b4b;
+		text-align: center;
+	}
+
+	.node-label--locked {
+		color: #afafaf;
+	}
+
+	.start-bubble {
+		position: absolute;
+		top: -2.4rem;
+		background: #fff;
+		color: var(--color-primary, #58cc02);
+		border: 2px solid #e5e5e5;
+		border-radius: 10px;
+		font-weight: 800;
+		font-size: 0.85rem;
+		text-transform: uppercase;
+		padding: 0.25rem 0.7rem;
+		animation: bounce 1.2s ease-in-out infinite;
+		z-index: 1;
+
+		&::after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: -7px;
+			transform: translateX(-50%) rotate(45deg);
+			width: 12px;
+			height: 12px;
+			background: #fff;
+			border-right: 2px solid #e5e5e5;
+			border-bottom: 2px solid #e5e5e5;
 		}
 	}
 
-	@media (max-width: 640px) {
-		:global(.surface-grid .column) {
-			flex: 0 1 100%;
+	@keyframes bounce {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-6px);
 		}
 	}
 </style>

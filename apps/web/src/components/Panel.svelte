@@ -18,23 +18,33 @@
 		right: 0;
 		padding: var(--deprecated-spacing-medium);
 
+		border-top: 2px solid #e5e5e5;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
 		&[data-background='default'] {
 			background: var(--deprecated-panel-background);
 		}
 
 		&[data-background='success'] {
-			background: var(--deprecated-panel-background-success);
-			color: var(--deprecated-panel-background);
+			background: #d7ffb8;
+			color: #58a700;
+			border-top-color: #d7ffb8;
+			font-weight: 700;
 		}
 
 		&[data-background='failure'] {
-			background: var(--deprecated-panel-background-failure);
-			color: var(--deprecated-panel-background);
+			background: #ffdfe0;
+			color: #ea2b2b;
+			border-top-color: #ffdfe0;
+			font-weight: 700;
 		}
 
 		&[data-background='info'] {
-			background: var(--deprecated-panel-background-info);
-			color: var(--deprecated-panel-background);
+			background: #fff5d8;
+			color: #b8860b;
+			border-top-color: #fff5d8;
+			font-weight: 700;
 		}
 
 		.content {

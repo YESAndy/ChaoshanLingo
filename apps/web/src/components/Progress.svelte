@@ -12,23 +12,26 @@
     appearance: none;
     display: block;
     width: 100%;
-    height: 1rem;
-    border-radius: 6px;
+    height: 16px;
+    border-radius: 8px;
     overflow: hidden;
     border: none;
-    background-color: var(--deprecated-color-white);
+    background-color: #e5e5e5;
     padding: 0;
   }
 
   progress::-webkit-progress-bar {
-    background-color: var(--deprecated-color-white);
+    background-color: #e5e5e5;
   }
 
   progress::-webkit-progress-value {
-    background-color: var(--deprecated-color-blue);
+    background-color: var(--color-primary, #58cc02);
+    border-radius: 8px;
+    transition: width 0.3s ease;
   }
 
   progress::-moz-progress-bar {
-    background-color: var(--deprecated-color-blue);
+    background-color: var(--color-primary, #58cc02);
+    border-radius: 8px;
   }
 </style>

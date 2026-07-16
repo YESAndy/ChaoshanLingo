@@ -4,5 +4,5 @@ Module:
 Skills:
   - politeness.yaml
   - questions.yaml
-  - location.yaml
-  - negatives.yaml
+#  - location.yaml  # TODO: create skill
+#  - negatives.yaml  # TODO: create skill

@@ -6,9 +6,17 @@
 	const defaultTheme = {
 		// Colors
 		white: '#fff',
-		'color-primary': '#864dcb',
-		'color-dark': 'red',
-		'color-accent': 'hsl(36, 80%, 50%)',
+		// Duolingo-style palette
+		'color-primary': '#58CC02',
+		'color-primary-shadow': '#58A700',
+		'color-dark': '#4B4B4B',
+		'color-accent': '#1CB0F6',
+		'color-accent-shadow': '#1899D6',
+		'color-danger': '#FF4B4B',
+		'color-danger-shadow': '#EA2B2B',
+		'color-gold': '#FFC800',
+		'color-locked': '#E5E5E5',
+		'color-locked-shadow': '#AFAFAF',
 		'deprecatedp-color-blue': '#325f74', // deprecated
 
 		// Text colors
@@ -80,8 +88,8 @@
 		'deprecated-navbar-logo-height':
 			'calc(var(--deprecated-navbar-height) - 2 * var(--deprecated-spacing-small))',
 		'deprecated-panel-background': 'white',
-		'deprecated-panel-background-success': '#84b83f',
-		'deprecated-panel-background-failure': '#ab2149',
+		'deprecated-panel-background-success': '#d7ffb8',
+		'deprecated-panel-background-failure': '#ffdfe0',
 		'deprecated-panel-background-info': '#fcb141'
 	};
 	let theme;

@@ -2,9 +2,9 @@ Module:
   Name: "기초 Basics"
 
 Skills:
-  - pronunciation.yaml
-  - greetings.yaml
+#  - pronunciation.yaml  # TODO: create skill
+#  - greetings.yaml  # TODO: create skill
   - numbers.yaml
   - pronouns.yaml
   - demonstratives.yaml
-  - classifiers.yaml
+#  - classifiers.yaml  # TODO: create skill

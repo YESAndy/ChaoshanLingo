@@ -54,13 +54,23 @@
 		align-items: center;
 		display: inline-flex;
 		justify-content: center;
-		border-radius: 2.5rem;
+		border-radius: 16px;
 		padding: 0 1.5rem;
-		height: 2.5rem;
-		border: 1px solid;
+		height: 3rem;
+		border: 2px solid transparent;
+		border-bottom-width: 4px;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
 		white-space: nowrap;
 		cursor: pointer;
-		transition: all 0.15s;
+		transition: all 0.1s;
+	}
+
+	/* Duolingo-style 3D press effect */
+	:global([ref='lluis-button']:active:not([disabled])) {
+		transform: translateY(2px);
+		border-bottom-width: 2px;
 	}
 
 	/* Sizes */
@@ -83,8 +93,13 @@
 	/* Primary style */
 	:global([ref='lluis-button'][data-style='primary']) {
 		background-color: var(--button-color-primary);
-		border-color: var(--button-border-color-primary);
+		border-color: transparent;
+		border-bottom-color: var(--color-primary-shadow);
 		color: var(--text-color-inverted);
+	}
+
+	:global([ref='lluis-button'][data-style='secondary']) {
+		border-bottom-color: #d0d0d0 !important;
 	}
 
 	:global([ref='lluis-button'][data-selector='hover']) :global([ref='lluis-button']:hover) {

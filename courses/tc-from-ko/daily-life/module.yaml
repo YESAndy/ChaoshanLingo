@@ -3,5 +3,5 @@ Module:
 
 Skills:
   - time.yaml
-  - family.yaml
-  - review.yaml
+#  - family.yaml  # TODO: create skill
+#  - review.yaml  # TODO: create skill
