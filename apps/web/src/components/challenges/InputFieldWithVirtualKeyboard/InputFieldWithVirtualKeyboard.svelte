@@ -55,7 +55,7 @@
 	type="text"
 	class="input"
 	autofocus
-	placeholder="Type your answer…"
+	placeholder="답을 입력하세요…"
 	{disabled}
 	spellcheck="false"
 	autocapitalize="none"

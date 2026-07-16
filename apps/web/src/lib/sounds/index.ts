@@ -19,4 +19,16 @@ export const playAudio = (type, filename) => {
 	}).play();
 };
 
+/**
+ * Play the recorded voice for a target-language text. Audio files are named
+ * sha256("<language>|<text>") by the librelingo audio pipeline.
+ */
+export const playVoiceForText = async (text: string, languageName = 'teochew') => {
+	if (typeof crypto === 'undefined' || !crypto.subtle) return;
+	const data = new TextEncoder().encode(`${languageName.toLowerCase()}|${text}`);
+	const digest = await crypto.subtle.digest('SHA-256', data);
+	const hash = [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
+	playAudio('voice', hash);
+};
+
 export default sound;

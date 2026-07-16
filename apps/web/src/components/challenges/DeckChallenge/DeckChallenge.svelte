@@ -4,6 +4,7 @@
 	import OptionDeck from './OptionDeck.svelte';
 	import ChallengePanel from '../ChallengePanel.svelte';
 	import { prepareChallenge } from '$lib/generic';
+	import { playVoiceForText } from '$lib/sounds';
 
 	export let currentChallenge;
 	export let alternativeChallenges;
@@ -21,6 +22,11 @@
 		typeToSelect: 'cards',
 		hasFakeOption: true
 	});
+
+	// Audio hint: play the option's pronunciation when it is selected
+	$: if (selectedOption !== null && !submitted && options[selectedOption]) {
+		playVoiceForText(options[selectedOption].formInTargetLanguage);
+	}
 
 	$: finishChallenge = () => {
 		selectedOption = null;

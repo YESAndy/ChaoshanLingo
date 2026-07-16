@@ -8,6 +8,10 @@
 	export let number: number;
 	export let picture: string;
 	export let formInTargetLanguage: string;
+	export let meaningInSourceLanguage: string = '';
+
+	// Mandarin bridge, e.g. "하나 (一)" -> "一"
+	$: mandarin = (meaningInSourceLanguage?.match(/[（(]([^()（）]*[一-鿿][^()（）]*)[)）]/) || [])[1] || '';
 </script>
 
 <li class:active class:inactive>
@@ -16,12 +20,17 @@
 		data-test-correct={correct}
 	>
 		<div slot="media">
-			<img src={`/images/${picture}`} alt="" data-test={`card-img-${number}`} />
+			{#if picture}
+				<img src={`/images/${picture}`} alt="" data-test={`card-img-${number}`} />
+			{/if}
 		</div>
 		<div slot="footer">
 			<Stack justify="center">
-				<div data-test={`card-text-${number}`}>
-					{formInTargetLanguage}
+				<div class="card-text" data-test={`card-text-${number}`}>
+					<div class="card-text__form">{formInTargetLanguage}</div>
+					{#if mandarin}
+						<div class="card-text__mandarin">中: {mandarin}</div>
+					{/if}
 				</div>
 			</Stack>
 		</div>
@@ -43,15 +52,24 @@
 		transition: transform 0.1s;
 		background: white;
 		overflow: hidden;
+		border-radius: 16px;
 	}
 
-	.lluis-card-image img {
-		object-fit: cover;
-		border-radius: 0;
-		left: 8px;
-		right: 8px;
-		top: 8px;
-		width: calc(100% - 16px);
+	.card-text {
+		text-align: center;
+		padding: 1.2rem 0.5rem;
+	}
+
+	.card-text__form {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: #3c3c3c;
+	}
+
+	.card-text__mandarin {
+		margin-top: 0.4rem;
+		font-size: 0.95rem;
+		color: #999;
 	}
 
 	li.inactive {

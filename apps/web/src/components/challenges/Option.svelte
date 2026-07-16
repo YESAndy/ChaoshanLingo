@@ -3,6 +3,10 @@
 	export let inactive;
 	export let correct;
 	export let formInTargetLanguage;
+	export let meaningInSourceLanguage: string = '';
+
+	// Mandarin bridge, e.g. "세 시 반 (三点半)" -> "三点半"
+	$: mandarin = (meaningInSourceLanguage?.match(/[（(]([^()（）]*[一-鿿][^()（）]*)[)）]/) || [])[1] || '';
 </script>
 
 <li class:active class:inactive>
@@ -13,6 +17,9 @@
 	>
 		<div class="option-content">
 			<div class="is-size-5 is-size-6-mobile">{formInTargetLanguage}</div>
+			{#if mandarin}
+				<div class="option-mandarin">中: {mandarin}</div>
+			{/if}
 		</div>
 	</div>
 </li>
@@ -25,6 +32,12 @@
 			opacity 0.15s,
 			outline 0.2s;
 		cursor: pointer;
+	}
+
+	.option-mandarin {
+		margin-top: 0.2rem;
+		font-size: 0.9rem;
+		color: #999;
 	}
 
 	.inactive .option {

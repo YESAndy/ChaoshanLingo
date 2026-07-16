@@ -16,7 +16,7 @@
 </script>
 
 <ul class="options">
-	{#each options as { formInTargetLanguage, correct, fake }, i}
+	{#each options as { formInTargetLanguage, meaningInSourceLanguage, correct, fake }, i}
 		<label for={i.toString()} class:fake={fake && true}>
 			<input
 				type="radio"
@@ -32,6 +32,7 @@
 				active={selectedOption === i}
 				inactive={selectedOption !== null && selectedOption !== i}
 				{formInTargetLanguage}
+				{meaningInSourceLanguage}
 			/>
 		</label>
 	{/each}

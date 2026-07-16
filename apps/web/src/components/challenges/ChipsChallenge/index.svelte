@@ -7,6 +7,18 @@
 	import Phrase from '../Phrase.svelte';
 	import { createSortable } from './sortable';
 	import { getNodeType, getChipIndex } from './chips';
+	import { page } from '$app/state';
+
+	// Teochew character annotations per token (rendered via CSS ::after so
+	// drag-and-drop innerText comparison stays clean)
+	const annotationModules = import.meta.glob('../../../courses/*/annotations.json', {
+		eager: true
+	});
+	const annotations: Record<string, string> =
+		(annotationModules[`../../../courses/${page.params?.courseName}/annotations.json`] as any)
+			?.default ?? {};
+	const hanziFor = (chip: string) =>
+		annotations[chip] || annotations[chip.toLowerCase()] || '';
 
 	export let challenge;
 	export let registerResult;
@@ -131,7 +143,7 @@
 						on:click={handleChipClick}
 						on:keypress={handleChipClick}
 					>
-						<span class="tag is-medium">{chip}</span>
+						<span class="tag is-medium" data-hanzi={hanziFor(chip)}>{chip}</span>
 					</span>
 				{/each}
 			</div>
@@ -141,7 +153,7 @@
 		<div id="chips" class="chips" bind:this={chipsElement}>
 			{#each chipsToRender as chip, index}
 				<span class="chip" data-id={chip} on:click={handleChipClick} on:keypress={handleChipClick}>
-					<span class="tag is-medium">{chip}</span>
+					<span class="tag is-medium" data-hanzi={hanziFor(chip)}>{chip}</span>
 				</span>
 			{/each}
 		</div>
@@ -193,6 +205,22 @@
 		user-select: none;
 		margin: 0.5em 0.3em;
 		cursor: pointer;
+	}
+
+	/* Teochew character annotation under each chip (pseudo-element keeps it
+	   out of innerText, which the answer check relies on) */
+	.chip :global(.tag[data-hanzi]:not([data-hanzi=''])) {
+		flex-direction: column;
+		height: auto;
+		padding: 0.35rem 0.8rem;
+	}
+
+	.chip :global(.tag[data-hanzi]:not([data-hanzi='']))::after {
+		content: attr(data-hanzi);
+		display: block;
+		font-size: 0.85rem;
+		color: #999;
+		line-height: 1.2;
 	}
 
 	.solution {

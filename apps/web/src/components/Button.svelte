@@ -73,6 +73,15 @@
 		border-bottom-width: 2px;
 	}
 
+	/* Special-character keys must keep their case (ê vs Ê) */
+	:global([ref='lluis-button'][data-style='key']) {
+		text-transform: none;
+		background: #fff;
+		border: 2px solid #e5e5e5;
+		border-bottom-width: 4px;
+		color: #4b4b4b;
+	}
+
 	/* Sizes */
 	:global([ref='lluis-button'][data-style='accent'][data-size='medium']) {
 		font-size: var(--font-size-large);

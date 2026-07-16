@@ -24,7 +24,7 @@
 </script>
 
 <ul class="options">
-	{#each options as { pictures, formInTargetLanguage, correct, fake }, i}
+	{#each options as { pictures, formInTargetLanguage, meaningInSourceLanguage, correct, fake }, i}
 		<label for={i.toString()} class:fake={fake && true} class:real={!(fake && true)}>
 			<input
 				type="radio"
@@ -38,9 +38,10 @@
 				{correct}
 				active={selectedOption === i}
 				inactive={selectedOption !== null && selectedOption !== i}
-				picture={shuffle(pictures)[0]}
+				picture={shuffle(pictures || [])[0]}
 				number={i + 1 - (keymap[i] - i) + 1}
 				{formInTargetLanguage}
+				{meaningInSourceLanguage}
 			/>
 		</label>
 	{/each}

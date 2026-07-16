@@ -13,8 +13,19 @@ export const prepareChallenge = ({
     correct: true,
   }
 
-  const incorrectOptions = alternativeChallenges
-    .filter(({ type }) => type === typeToSelect)
+  // Candidates: prefer challenges of the same type, but fall back to any other
+  // challenge that has a displayable target-language form. This guarantees
+  // multiple options even in skills with few phrases.
+  const withForm = (alternativeChallenges || []).filter(
+    (c) => typeof c.formInTargetLanguage === "string" && c.formInTargetLanguage
+  )
+  const sameType = withForm.filter(({ type }) => type === typeToSelect)
+  const otherTypes = withForm.filter(({ type }) => type !== typeToSelect)
+
+  const incorrectOptions = uniqBy(
+    [...shuffle(sameType), ...shuffle(otherTypes)],
+    "formInTargetLanguage"
+  )
     .filter(
       ({ formInTargetLanguage }) =>
         formInTargetLanguage !== correctOption.formInTargetLanguage
@@ -24,12 +35,10 @@ export const prepareChallenge = ({
       correct: false,
     }))
 
-  const incorrectOptionsSample = shuffle(
-    uniqBy(incorrectOptions, "formInTargetLanguage")
-  ).slice(0, numberOfCards - 1)
+  const incorrectOptionsSample = incorrectOptions.slice(0, numberOfCards - 1)
 
   const incorrectOptionsWithFake =
-    incorrectOptions.length >= 2
+    hasFakeOption && incorrectOptionsSample.length > 0
       ? [
           {
             ...incorrectOptionsSample[0],
@@ -37,7 +46,7 @@ export const prepareChallenge = ({
           },
           ...incorrectOptionsSample.slice(1),
         ]
-      : []
+      : incorrectOptionsSample
 
   return shuffle([correctOption, ...incorrectOptionsWithFake])
 }
