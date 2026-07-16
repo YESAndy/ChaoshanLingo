@@ -26,6 +26,18 @@
 
 	const hrefFor = (skill) => `${base}/course/${courseName}/skill/${skill.practiceHref}`;
 
+	// Korean display names + topical icons per skill (URLs stay English)
+	const skillMeta: Record<string, { label: string; icon: string }> = {
+		Numbers: { label: '숫자', icon: '🔢' },
+		Pronouns: { label: '대명사', icon: '👤' },
+		'This and That': { label: '이것저것', icon: '👆' },
+		'Being Polite': { label: '예의 표현', icon: '🙏' },
+		'Question Words': { label: '의문사', icon: '❓' },
+		'Time and Days': { label: '시간과 날짜', icon: '🕒' }
+	};
+	const labelFor = (skill) => skillMeta[skill.title]?.label ?? skill.title;
+	const iconFor = (skill) => skillMeta[skill.title]?.icon ?? '★';
+
 	// snake offsets, Duolingo-style
 	const offsets = [0, 45, 75, 45, 0, -45, -75, -45];
 </script>
@@ -69,10 +81,10 @@
 									href={hrefFor(skill)}
 									data-test="skill node"
 								>
-									<span class="node__icon">{done ? '✓' : '★'}</span>
+									<span class="node__icon">{done ? '✓' : iconFor(skill)}</span>
 								</a>
 							{/if}
-							<span class="node-label" class:node-label--locked={locked}>{skill.title}</span>
+							<span class="node-label" class:node-label--locked={locked}>{labelFor(skill)}</span>
 						</div>
 					{/each}
 				</div>
@@ -238,6 +250,31 @@
 			background: #fff;
 			border-right: 2px solid #e5e5e5;
 			border-bottom: 2px solid #e5e5e5;
+		}
+	}
+
+	/* Mobile polish */
+	@media (max-width: 480px) {
+		.node {
+			width: 62px;
+			height: 56px;
+			font-size: 1.5rem;
+		}
+
+		.unit-banner {
+			padding: 0.8rem 1.1rem;
+		}
+
+		.unit-banner__title {
+			font-size: 1.15rem;
+		}
+
+		.node-row {
+			width: 100px;
+		}
+
+		.path {
+			gap: 1.2rem;
 		}
 	}
 

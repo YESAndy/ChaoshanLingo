@@ -4,8 +4,8 @@
 	export let shadow = true;
 	export let glow = false;
 
-	let imageURL =
-		shadow === true ? `${base}/images/mascot-jetpack.svg` : `${base}/images/mascot-jetpack-noshadow.svg`;
+	// Chaoshan mascot (shadow variant is built into the SVG)
+	let imageURL = `${base}/images/chaoshan-mascot.svg`;
 </script>
 
 <img

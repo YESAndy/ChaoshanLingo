@@ -14,6 +14,17 @@
 
 	let earnedXP = 0;
 
+	// CSS confetti
+	const colors = ['#58CC02', '#1CB0F6', '#FFC800', '#FF4B4B', '#CE82FF'];
+	const confetti = Array.from({ length: 40 }, (_, i) => ({
+		left: Math.random() * 100,
+		color: colors[i % colors.length],
+		delay: Math.random() * 1.2,
+		dur: 2.2 + Math.random() * 1.8,
+		size: 7 + Math.random() * 6,
+		spin: Math.random() > 0.5 ? 1 : -1
+	}));
+
 	$: accuracy =
 		stats.correct + stats.incorrect > 0
 			? Math.round((stats.correct / (stats.correct + stats.incorrect)) * 100)
@@ -31,6 +42,15 @@
 		});
 	});
 </script>
+
+<div class="confetti-layer" aria-hidden="true">
+	{#each confetti as c}
+		<span
+			class="confetti"
+			style="left:{c.left}%; background:{c.color}; animation-delay:{c.delay}s; animation-duration:{c.dur}s; width:{c.size}px; height:{c.size * 1.4}px; --spin:{c.spin}"
+		></span>
+	{/each}
+</div>
 
 <section class="finish">
 	<div in:scale>
@@ -61,6 +81,32 @@
 </section>
 
 <style lang="scss">
+	.confetti-layer {
+		position: fixed;
+		inset: 0;
+		pointer-events: none;
+		overflow: hidden;
+		z-index: 10;
+	}
+
+	.confetti {
+		position: absolute;
+		top: -20px;
+		border-radius: 2px;
+		opacity: 0.9;
+		animation-name: confetti-fall;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes confetti-fall {
+		to {
+			transform: translateY(110vh) rotate(calc(720deg * var(--spin)));
+			opacity: 0.6;
+		}
+	}
+
 	.finish {
 		display: flex;
 		align-items: center;

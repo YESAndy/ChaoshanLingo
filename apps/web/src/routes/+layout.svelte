@@ -132,6 +132,18 @@
 </main>
 
 <style>
+	:global(body),
+	:global(button),
+	:global(input) {
+		font-family:
+			'Noto Sans KR',
+			-apple-system,
+			BlinkMacSystemFont,
+			'Segoe UI',
+			'Malgun Gothic',
+			sans-serif;
+	}
+
 	:root {
 		--spacing-base: 3.5px;
 	}

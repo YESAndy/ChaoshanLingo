@@ -51,6 +51,8 @@
 			display: flex;
 			max-width: 960px;
 			margin: auto;
+			align-items: center;
+			gap: 0.5rem;
 
 			:global([slot='left']) {
 				flex-grow: 1;
@@ -58,6 +60,20 @@
 
 			:global([slot='right']) {
 				flex-grow: 0;
+			}
+		}
+
+		@media (max-width: 640px) {
+			.content {
+				flex-wrap: wrap;
+
+				:global([slot='right']) {
+					width: 100%;
+
+					:global([ref='lluis-button']) {
+						width: 100%;
+					}
+				}
 			}
 		}
 	}

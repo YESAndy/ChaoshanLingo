@@ -11,7 +11,10 @@
 
 <nav class="navbar" aria-label="main navigation">
   <div class="navbar__left">
-    <a class="brand" href={homepageLink}>Chaoshan</a>
+    <a class="brand" href={homepageLink}>
+      <img class="brand__mark" src="{base}/images/chaoshan-mascot.svg" alt="" />
+      Chaoshan
+    </a>
   </div>
 </nav>
 
@@ -33,11 +36,19 @@
   }
 
   .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     color: #fff;
     font-size: 1.5rem;
     font-weight: 800;
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 0.2rem 0.6rem;
+  }
+
+  .brand__mark {
+    width: 38px;
+    height: 38px;
   }
 </style>
