@@ -1,8 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { base } from '$app/paths';
-  import Logo from 'components/Logo.svelte';
-  import LinkOrButton from 'components/primitives/LinkOrButton.svelte';
 
   export let hasAuth = false;
   export let repositoryURL: string | null = null;
@@ -13,17 +11,7 @@
 
 <nav class="navbar" aria-label="main navigation">
   <div class="navbar__left">
-    <Logo src="{base}/images/logo.svg" alt="LibreLingo" link={homepageLink} />
-  </div>
-
-  <div class="navbar__middle" />
-
-  <div class="navbar__right">
-    {#if repositoryURL}
-      <LinkOrButton href={repositoryURL} target="_blank">Course Feedback</LinkOrButton>
-    {/if}
-    <LinkOrButton href="{base}/imprint">Imprint</LinkOrButton>
-    <LinkOrButton href="{base}/privacy">Privacy</LinkOrButton>
+    <a class="brand" href={homepageLink}>Chaoshan</a>
   </div>
 </nav>
 
@@ -31,28 +19,25 @@
   .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
     min-height: var(--deprecated-navbar-height);
     padding: var(--deprecated-navbar-padding-vertical) var(--deprecated-navbar-padding-horizontal);
-    background: var(--deprecated-navbar-background);
-    color: var(--deprecated-navbar-text-color);
+    background: var(--color-primary, #58cc02);
+    border-bottom: 4px solid var(--color-primary-shadow, #58a700);
   }
 
-  .navbar__middle {
-    flex: 1;
-  }
-
-  .navbar__right {
-    display: flex;
-    gap: var(--spacing-medium);
-    align-items: center;
-  }
-
-  .navbar__left,
-  .navbar__right {
+  .navbar__left {
     display: flex;
     align-items: center;
     height: 100%;
+  }
+
+  .brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding: 0.2rem 0.6rem;
   }
 </style>
