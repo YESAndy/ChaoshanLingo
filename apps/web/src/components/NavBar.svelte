@@ -16,12 +16,17 @@
       Chaoshan
     </a>
   </div>
+
+  <div class="navbar__right">
+    <a class="nav-btn" href="{base}/pengim">📖 발음표</a>
+  </div>
 </nav>
 
 <style>
   .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     min-height: var(--deprecated-navbar-height);
     padding: var(--deprecated-navbar-padding-vertical) var(--deprecated-navbar-padding-horizontal);
@@ -50,5 +55,23 @@
   .brand__mark {
     width: 38px;
     height: 38px;
+  }
+
+  .nav-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.18);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom-width: 4px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 0.35rem 0.9rem;
+    transition: all 0.1s;
+  }
+
+  .nav-btn:active {
+    transform: translateY(2px);
+    border-bottom-width: 2px;
   }
 </style>
