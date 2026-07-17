@@ -40,6 +40,27 @@ tokens, fetch `voice-bank/<syl>.mp3` per token, play sequentially with
 sandhi tone in parentheses — the player should prefer the parenthesized
 (spoken) tone when present.
 
+## 3. Extracting course audio from Teochew-Wild (online resource)
+
+`extract_from_teochew_wild.py` mines real native-speaker clips from the
+[Teochew-Wild corpus](https://huggingface.co/datasets/panlr/teochew_wild)
+(12,500 transcribed clips, 20 speakers) for course items:
+
+1. Log in at huggingface.co, open the dataset page, accept the access
+   conditions, then `huggingface-cli login` locally.
+2. `pip install huggingface_hub transformers torch torchaudio librosa soundfile`
+3. `python tools/audio/extract_from_teochew_wild.py`
+   - exact utterance matches are copied whole
+   - words inside longer clips are cut using word timestamps from
+     [whisper-finetune-teochew](https://huggingface.co/panlr/whisper-finetune-teochew)
+4. **Listen to everything in `tools/audio/extracted/`** — auto-cutting is
+   imperfect; delete bad clips (they fall back to placeholders).
+5. `bash tools/audio/ingest.sh tools/audio/extracted`
+
+License: Teochew-Wild is **CC BY-NC-4.0** — the app must remain
+non-commercial and credit the dataset. Treat these clips as a bridge;
+replace with own recordings over time.
+
 ## Status
 
 - [ ] Course audio: 0/115 recorded (Mandarin espeak placeholders in use)

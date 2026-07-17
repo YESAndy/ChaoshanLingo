@@ -24,29 +24,31 @@
 	let correct = null;
 	let spellingSuggestion = '';
 
+	const CJK_ONLY = /[㐀-鿿豈-﫿]/g;
+	const NON_CJK = /[^㐀-鿿豈-﫿]/g;
+	const normalize = (s: string) =>
+		s
+			.toLowerCase()
+			.replace(/[?？!！.,。，'’]/g, '')
+			.replace(/\s+/g, ' ')
+			.trim();
+
 	$: submitChallenge = () => {
 		if (!answer) return;
 		if (submitted) return;
 		const form = challenge.answer;
 		correct = false;
 
-		if (
-			leven(
-				answer
-					.toLowerCase()
-					.replace(/^\s+|\s+$/g, '')
-					.replace(/\s+/g, ' '),
-				form.toLowerCase()
-			) <= 1
-		) {
+		// Accept the full answer, the Peng'im-only part, or the hanzi-only part
+		// (the on-screen keyboard cannot type Chinese characters).
+		const accepted = [form, form.replace(CJK_ONLY, ''), form.replace(NON_CJK, '')]
+			.map(normalize)
+			.filter(Boolean);
+		const given = normalize(answer);
+
+		if (accepted.some((a) => leven(given, a) <= 1)) {
 			correct = true;
-			spellingSuggestion =
-				form
-					.replace(/^\s+|\s+$/g, '')
-					.replace(/\s+/g, ' ')
-					.toLowerCase() === answer.toLowerCase()
-					? ''
-					: `올바른 철자: ${form}`;
+			spellingSuggestion = accepted.includes(given) ? '' : `올바른 철자: ${form}`;
 		}
 
 		registerResult(correct);
