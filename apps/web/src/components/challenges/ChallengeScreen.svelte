@@ -2,7 +2,6 @@
 	import sound from '$lib/sounds';
 	import DeckChallenge from './DeckChallenge/DeckChallenge.svelte';
 	import OptionChallenge from './OptionChallenge/OptionChallenge.svelte';
-	import ShortInputChallenge from './ShortInputChallenge.svelte';
 	import ListeningChallenge from './ListeningChallenge.svelte';
 	import ChipsChallenge from './ChipsChallenge/index.svelte';
 	import FanfareScreen from '../FanfareScreen.svelte';
@@ -59,8 +58,10 @@
 		| ShortInputChallengeType
 		| ChipsChallengeType;
 
+	// shortInput (free typing) is disabled: without a physical keyboard the
+	// special-character input is impractical; the word-bank exercises cover it.
 	let challenges: Array<ChallengeType> = sortChallengeGroups(
-		shuffle(rawChallenges),
+		shuffle(rawChallenges.filter((c) => c.type !== 'shortInput')),
 		expectedNumberOfChallenges
 	);
 
@@ -202,18 +203,6 @@
 								{alternativeChallenges}
 								{resolveChallenge}
 								{registerResult}
-								{skipAllChallenges}
-							/>
-						{/if}
-						{#if challenge.type === 'shortInput'}
-							<ShortInputChallenge
-								{skipChallenge}
-								{languageName}
-								{languageCode}
-								{specialCharacters}
-								{registerResult}
-								{resolveChallenge}
-								{challenge}
 								{skipAllChallenges}
 							/>
 						{/if}
