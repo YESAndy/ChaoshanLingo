@@ -25,6 +25,7 @@ while IFS=, read -r nr syllable freq cov record_as target_file; do
   src=""
   for ext in m4a wav mp3 aac ogg flac; do
     [ -f "$RECDIR/$base.$ext" ] && src="$RECDIR/$base.$ext" && break
+    [ -f "$RECDIR/$syllable.$ext" ] && src="$RECDIR/$syllable.$ext" && break
   done
   [ -z "$src" ] && continue
   ffmpeg -y -loglevel error -i "$src" -ac 1 -ar 32000 -b:a 32k "$OUT/$target_file"
